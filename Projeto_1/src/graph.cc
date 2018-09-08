@@ -10,17 +10,16 @@ void Graph::bfs(int vertice) {
     bfsAux(vertice, visited);
 }
 
-void Graph::bfsAux(int vertice, vector<bool> visited) {
+void Graph::bfsAux(int vertice, vector<bool>& visited) {
     queue<int> queue;
     queue.push(vertice);
     visited[vertice] = true;
     
     while (queue.size()) {
         int u = queue.front();
-        // cout << "Grau do vertice " << u << ": " << getDegree(u) << "\n";
+        cout << "Grau do vertice " << u << ": " << getDegree(u) << "\n";
         queue.pop();
         for (auto element : graph[u]) {
-            // cout << "visitado[" << u << "] = " << visited[u] << "\n";
             if (!visited[element]) {
                 queue.push(element);
                 visited[element] = true;
@@ -29,12 +28,8 @@ void Graph::bfsAux(int vertice, vector<bool> visited) {
     }
 
     for (int i = 0; i < (int) visited.size(); i++) {
-        cout << visited[i] << " ";
-        if (!visited[i]) {
-            // cout << "vou visitar agora o v " << i << " -> visited = " << visited[i] << "\n";
-            cout << "nao visitado " << i << "\n";
+        if (visited[i] == false) {
             bfsAux(i, visited);
         }
     }
-
 }

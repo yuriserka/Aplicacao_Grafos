@@ -70,7 +70,7 @@ public:
         return graph[vertice].size();
     }
 private:
-    void bfsAux(int vertice, vector<bool> visited);
+    void bfsAux(int vertice, vector<bool>& visited);
     vector<vector<int>> graph;
 };
 
