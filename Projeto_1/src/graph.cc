@@ -17,7 +17,7 @@ void Graph::bfsAux(int vertice, vector<bool>& visited) {
     
     while (queue.size()) {
         int u = queue.front();
-        cout << "Grau do vertice " << u << ": " << getDegree(u) << "\n";
+        cout << "Grau do vertice " << u << " = " << getDegree(u) << "\n";
         queue.pop();
         for (auto element : graph[u]) {
             if (!visited[element]) {
@@ -27,7 +27,7 @@ void Graph::bfsAux(int vertice, vector<bool>& visited) {
         }
     }
 
-    for (int i = 0; i < (int) visited.size(); i++) {
+    for (int i = 1; i < (int) visited.size(); i++) {
         if (visited[i] == false) {
             bfsAux(i, visited);
         }
