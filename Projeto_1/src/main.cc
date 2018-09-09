@@ -8,6 +8,7 @@ int main() {
     parser->insertOnGraph(graph);
 
     graph.bfs(1);
+    graph.getCliques();
 
     delete parser;
     return 0;

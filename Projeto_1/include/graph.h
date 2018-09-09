@@ -24,12 +24,14 @@ public:
      * 
      */
     Graph() = default;
+    
     /**
      * @brief Construct a new Graph object
      * 
      * @param qtdNos 
      */
-    Graph(int qtdNos) : graph(qtdNos + 1) {}
+    Graph(int qtdOfNodes) : graph(qtdOfNodes + 1) {}
+
     /**
      * @brief Get the Size object
      * 
@@ -38,6 +40,7 @@ public:
     int getSize() {
         return graph.size();
     }
+
     /**
      * @brief 
      * 
@@ -45,33 +48,45 @@ public:
      * @param dest 
      */
     void addEdge(int src, int dest);
+
     /**
      * @brief Get the Adj Nodes object
      * 
-     * @param vertice 
+     * @param vertex 
      * @return vector<int> 
      */
-    vector<int> getAdjNodes(int vertice) {
-        return graph[vertice];
+    vector<int> getAdjNodes(int vertex) {
+        return graph[vertex];
     }
+
     /**
      * @brief 
      * 
-     * @param vertice 
+     * @param vertex 
      */
-    void bfs(int vertice);
+    void bfs(int vertex);
+
     /**
      * @brief Get the Degree object
      * 
-     * @param vertice 
+     * @param vertex 
      * @return int 
      */
-    int getDegree(int vertice) {
-        return graph[vertice].size();
+    int getDegree(int vertex) {
+        return graph[vertex].size();
     }
+
+    /**
+     * @brief Get the Cliques object
+     * 
+     * @param vertex 
+     */
+    void getCliques();
 private:
-    void bfsAux(int vertice, vector<bool>& visited);
+    void bfsAux(int vertex, vector<bool>& visited);
+    void bronKerbosh(vector<int> click, vector<int>& possible, vector<int>& excluded);
     vector<vector<int>> graph;
+    vector<vector<int>> cliques;
 };
 
 #endif // Graph_h_
