@@ -7,11 +7,11 @@ int main() {
 
     parser->insertOnGraph(graph);
 
-    // graph.bfs(1);
+    graph.bfs(1);
     // graph.getCliques();
-
+// 
     graph.getAllAglomeration();
-
+    // cout << graph.getAglomeration(32);
     delete parser;
     return 0;
 }

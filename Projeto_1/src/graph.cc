@@ -36,6 +36,7 @@ void Graph::bfsAux(int vertex, vector<bool>& visited) {
 }
 
 void Graph::getCliques() {
+    this->sortCliques();
     cout << "\n\tCliques: \n";
     for (int i = 0; i < (int) cliques.size(); i++) {
         cout << '[';
@@ -105,11 +106,12 @@ void Graph::bronKerbosh(vector<int> click, vector<int>& possible, vector<int>& e
         excluded = uni(excluded, {v});
     }
 }
-
-void Graph::getAglomeration(int vertex) {
+double Graph::getAglomeration(int vertex) {
     if (this->cliques.empty()) {
         this->sortCliques();
     }
+
+    vector<vector<int>> triangulos;
 
     for (auto clique : this->cliques) {
         if (clique.size() == 3) {
@@ -132,26 +134,36 @@ void Graph::getAglomeration(int vertex) {
     // }
 
     for (auto tri : triangulos) {
-        for (int i = 1; i < (int) tri.size(); i++) {
+        for (int i = 0; i < (int) tri.size(); i++) {
             if (tri[i] == vertex) {
                 qtdTriangulos++;
             }
         }
     }
 
-    // cout << "QTD TRi: " << qtdTriangulos / 3.0f << "\n";
+    double coef;
 
-    double totalV = getDegree(vertex);
+    if (getDegree(vertex) == 1) {
+        coef = 0.0f;
+    } else {
+        double totalV = getDegree(vertex);
+        coef = ( (double) (2.0f * qtdTriangulos) / (totalV * (totalV - 1)));
+    }
 
-    double coef = ( (double) (4.0f * qtdTriangulos) / (totalV * (totalV - 1)));
-
-    cout << "\n\nCoeficientes de Aglomeracao: \n";
-
-    cout << "vertice: " << vertex << ":    coeficiente: " << coef << "\n";
+    return coef;
 }
 
 void Graph::getAllAglomeration() {
-    for (int i = 1; i < (int) triangulos.size(); i++) {
-        this->getAglomeration(i);
+    cout << "\n\nCoeficientes de Aglomeracao: \n";
+    double media = 0;
+    for (int i = 1; i < (int) graph.size(); i++) {
+        double coef = this->getAglomeration(i);
+        cout << "vertice: " << i << ":    coeficiente: " << coef << "\n";
+        media += coef;
     }
+
+    media /= graph.size();
+
+    cout << "\nCoeficiente de aglomeracao media do grafo: " << media << "\n";
+
 }
