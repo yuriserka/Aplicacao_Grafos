@@ -82,11 +82,18 @@ public:
      * @param vertex 
      */
     void getCliques();
+
+    void getAllAglomeration();
+
+    void getMidAglomeration();
 private:
     void bfsAux(int vertex, vector<bool>& visited);
+    void sortCliques();
     void bronKerbosh(vector<int> click, vector<int>& possible, vector<int>& excluded);
+    void getAglomeration(int vertex);
     vector<vector<int>> graph;
     vector<vector<int>> cliques;
+    vector<vector<int>> triangulos;
 };
 
 #endif // Graph_h_

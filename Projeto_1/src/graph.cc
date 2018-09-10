@@ -35,36 +35,7 @@ void Graph::bfsAux(int vertex, vector<bool>& visited) {
     }
 }
 
-auto uni = [] (const vector<int>& x, const vector<int>& y) -> vector<int> {
-    vector<int> dest;
-    set_union(x.begin(), x.end(), y.begin(), y.end(), back_inserter(dest));
-    return dest;
-};
-auto inter = [] (const vector<int>& x, const vector<int>& y) -> vector<int> {
-    vector<int> dest;
-    set_intersection(x.begin(), x.end(), y.begin(), y.end(), back_inserter(dest));
-    return dest;
-};
-auto diff = [] (const vector<int>& x, const vector<int>& y) -> vector<int> {
-    vector<int> dest;
-    set_difference(x.begin(), x.end(), y.begin(), y.end(), back_inserter(dest));
-    return dest;
-};
-
 void Graph::getCliques() {
-    if (cliques.empty()) {
-        vector<int> r, p, x;
-        for (int i = 1; i < (int) graph.size(); i++) {
-            p.push_back(i);
-        }
-        this->bronKerbosh(r, p, x);
-    }
-
-    sort(cliques.begin(), cliques.end(), 
-        [](const vector<int>& x, const vector<int>& y) -> bool {
-            return x.size() > y.size();
-    });
-
     cout << "\n\tCliques: \n";
     for (int i = 0; i < (int) cliques.size(); i++) {
         cout << '[';
@@ -78,7 +49,38 @@ void Graph::getCliques() {
     }
 }
 
+void Graph::sortCliques() {
+    if (cliques.empty()) {
+        vector<int> r, p, x;
+        for (int i = 1; i < (int) graph.size(); i++) {
+            p.push_back(i);
+        }
+        this->bronKerbosh(r, p, x);
+    }
+
+    sort(cliques.begin(), cliques.end(), 
+        [](const vector<int>& x, const vector<int>& y) -> bool {
+            return x.size() > y.size();
+    });
+}
+
 void Graph::bronKerbosh(vector<int> click, vector<int>& possible, vector<int>& excluded) {
+    auto uni = [] (const vector<int>& x, const vector<int>& y) -> vector<int> {
+        vector<int> dest;
+        set_union(x.begin(), x.end(), y.begin(), y.end(), back_inserter(dest));
+        return dest;
+    };
+    auto inter = [] (const vector<int>& x, const vector<int>& y) -> vector<int> {
+        vector<int> dest;
+        set_intersection(x.begin(), x.end(), y.begin(), y.end(), back_inserter(dest));
+        return dest;
+    };
+    auto diff = [] (const vector<int>& x, const vector<int>& y) -> vector<int> {
+        vector<int> dest;
+        set_difference(x.begin(), x.end(), y.begin(), y.end(), back_inserter(dest));
+        return dest;
+    };
+
     if (uni(possible, excluded).empty()) {
         cliques.push_back(click);
     } else if (possible.empty() && !excluded.empty()) {
@@ -101,5 +103,55 @@ void Graph::bronKerbosh(vector<int> click, vector<int>& possible, vector<int>& e
             return;
         }
         excluded = uni(excluded, {v});
+    }
+}
+
+void Graph::getAglomeration(int vertex) {
+    if (this->cliques.empty()) {
+        this->sortCliques();
+    }
+
+    for (auto clique : this->cliques) {
+        if (clique.size() == 3) {
+            triangulos.push_back(clique);   
+        }
+    }
+
+    int qtdTriangulos = 0;
+
+    // cout << "\n\nTRIANGULOS: \n";
+    // for (int i = 0; i < (int) triangulos.size(); i++) {
+    //     cout << '[';
+    //     for (int j = 0; j < (int) triangulos[i].size(); j++) {
+    //         cout << triangulos[i][j];
+    //         if (j < (int) triangulos[i].size() - 1) {
+    //             cout << ' ';
+    //         }
+    //     }
+    //     cout << "]\n";
+    // }
+
+    for (auto tri : triangulos) {
+        for (int i = 1; i < (int) tri.size(); i++) {
+            if (tri[i] == vertex) {
+                qtdTriangulos++;
+            }
+        }
+    }
+
+    // cout << "QTD TRi: " << qtdTriangulos / 3.0f << "\n";
+
+    double totalV = getDegree(vertex);
+
+    double coef = ( (double) (4.0f * qtdTriangulos) / (totalV * (totalV - 1)));
+
+    cout << "\n\nCoeficientes de Aglomeracao: \n";
+
+    cout << "vertice: " << vertex << ":    coeficiente: " << coef << "\n";
+}
+
+void Graph::getAllAglomeration() {
+    for (int i = 1; i < (int) triangulos.size(); i++) {
+        this->getAglomeration(i);
     }
 }

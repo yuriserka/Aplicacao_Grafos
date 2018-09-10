@@ -7,8 +7,10 @@ int main() {
 
     parser->insertOnGraph(graph);
 
-    graph.bfs(1);
-    graph.getCliques();
+    // graph.bfs(1);
+    // graph.getCliques();
+
+    graph.getAllAglomeration();
 
     delete parser;
     return 0;
