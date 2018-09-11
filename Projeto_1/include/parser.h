@@ -12,19 +12,19 @@
 #include "../include/graph.h"
 
 /**
- * @brief 
+ * @brief Classe que tem a responsabilidade de ler o arquivo
  * 
  */
 class Parser {
     public:
         /**
-         * @brief Construct a new Parser object
+         * @brief Construtor padrao do parser
          * 
          */
         Parser() = default;
 
         /**
-         * @brief Construct a new Parser object
+         * @brief constroi o parser passando o nome do arquivo que contem as arestas
          * 
          * @param fileName 
          */
@@ -37,7 +37,7 @@ class Parser {
         }
 
         /**
-         * @brief Destroy the Parser object
+         * @brief Destrutor da classe que fecha o arquivo.
          * 
          */
         ~Parser() {
@@ -45,11 +45,16 @@ class Parser {
         }
 
         /**
-         * @brief 
+         * @brief Le do arquivo e insere os dados no grafo passado.
          * 
          */
         void insertOnGraph(Graph& graph);
     private:
+    
+        /**
+         * @brief Variavel para manipular o arquivo
+         * 
+         */
         fstream file;
 };
 

@@ -108,12 +108,27 @@ void Graph::bronKerbosh(vector<int> click, vector<int>& possible, vector<int>& e
 }
 
 double Graph::getAglomeration(int vertex) {
-    double coef;
     int qtdTriangulos = 0;
-    if (getDegree(vertex) < 2) {
+
+    auto adj = getAdjNodes(vertex);
+    vector<int> nextAdj;
+
+    for (int i = 0; i < (int) adj.size(); i++) {
+        for (int j = i + 1; j < (int) adj.size(); j++) {
+            nextAdj = getAdjNodes(adj[j]);
+            for (auto adjVertex : nextAdj) {
+                if (adj[i] == adjVertex) {
+                    qtdTriangulos++;
+                }
+            }
+        }
+    }
+
+    double coef;
+    double totalV = getDegree(vertex);
+    if (totalV < 2) {
         coef = 0.0f;
     } else {
-        double totalV = getDegree(vertex);
         coef = ( (double) (2.0f * qtdTriangulos)) / (totalV * (totalV - 1));
     }
 
@@ -121,7 +136,7 @@ double Graph::getAglomeration(int vertex) {
 }
 
 void Graph::getAllAglomeration() {
-    cout << "\n\nCoeficientes de Aglomeracao: \n";
+    cout << "\n\tCoeficientes de Aglomeracao: \n";
     double media = 0;
     for (int i = 1; i < (int) graph.size(); i++) {
         double coef = this->getAglomeration(i);
@@ -129,7 +144,7 @@ void Graph::getAllAglomeration() {
         media += coef;
     }
 
-    media /= (double) graph.size();
+    media /= (double) (graph.size() - 1);
 
     cout << "\nCoeficiente Medio de Aglomeracao do Grafo: " << media << "\n\n";
 

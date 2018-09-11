@@ -8,7 +8,7 @@ int main() {
     parser->insertOnGraph(graph);
 
     graph.bfs(1);
-    // graph.getCliques();
+    graph.getCliques();
 
     graph.getAllAglomeration();
     // cout << graph.getAglomeration(1);
