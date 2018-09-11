@@ -106,48 +106,15 @@ void Graph::bronKerbosh(vector<int> click, vector<int>& possible, vector<int>& e
         excluded = uni(excluded, {v});
     }
 }
+
 double Graph::getAglomeration(int vertex) {
-    if (this->cliques.empty()) {
-        this->sortCliques();
-    }
-
-    vector<vector<int>> triangulos;
-
-    for (auto clique : this->cliques) {
-        if (clique.size() == 3) {
-            triangulos.push_back(clique);   
-        }
-    }
-
-    int qtdTriangulos = 0;
-
-    // cout << "\n\nTRIANGULOS: \n";
-    // for (int i = 0; i < (int) triangulos.size(); i++) {
-    //     cout << '[';
-    //     for (int j = 0; j < (int) triangulos[i].size(); j++) {
-    //         cout << triangulos[i][j];
-    //         if (j < (int) triangulos[i].size() - 1) {
-    //             cout << ' ';
-    //         }
-    //     }
-    //     cout << "]\n";
-    // }
-
-    for (auto tri : triangulos) {
-        for (int i = 0; i < (int) tri.size(); i++) {
-            if (tri[i] == vertex) {
-                qtdTriangulos++;
-            }
-        }
-    }
-
     double coef;
-
-    if (getDegree(vertex) == 1) {
+    int qtdTriangulos = 0;
+    if (getDegree(vertex) < 2) {
         coef = 0.0f;
     } else {
         double totalV = getDegree(vertex);
-        coef = ( (double) (2.0f * qtdTriangulos) / (totalV * (totalV - 1)));
+        coef = ( (double) (2.0f * qtdTriangulos)) / (totalV * (totalV - 1));
     }
 
     return coef;
@@ -158,12 +125,12 @@ void Graph::getAllAglomeration() {
     double media = 0;
     for (int i = 1; i < (int) graph.size(); i++) {
         double coef = this->getAglomeration(i);
-        cout << "vertice: " << i << ":    coeficiente: " << coef << "\n";
+        cout << "vertice " << i << ":    coeficiente: " << coef << "\n";
         media += coef;
     }
 
-    media /= graph.size();
+    media /= (double) graph.size();
 
-    cout << "\nCoeficiente de aglomeracao media do grafo: " << media << "\n";
+    cout << "\nCoeficiente Medio de Aglomeracao do Grafo: " << media << "\n\n";
 
 }

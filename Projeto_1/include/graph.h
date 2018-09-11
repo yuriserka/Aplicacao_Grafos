@@ -19,6 +19,7 @@ using namespace std;
  */
 class Graph {
 public:
+
     /**
      * @brief Construct a new Graph object
      * 
@@ -83,12 +84,20 @@ public:
      */
     void getCliques();
 
+    /**
+     * @brief Get the All Aglomeration object
+     * 
+     */
     void getAllAglomeration();
-    
+
+    /**
+     * @brief Get the Aglomeration object
+     * 
+     * @param vertex 
+     * @return double 
+     */
     double getAglomeration(int vertex);
 
-
-    void getMidAglomeration();
 private:
     void bfsAux(int vertex, vector<bool>& visited);
     void sortCliques();

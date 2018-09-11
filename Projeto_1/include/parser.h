@@ -11,6 +11,10 @@
 
 #include "../include/graph.h"
 
+/**
+ * @brief 
+ * 
+ */
 class Parser {
     public:
         /**
@@ -18,6 +22,7 @@ class Parser {
          * 
          */
         Parser() = default;
+
         /**
          * @brief Construct a new Parser object
          * 
@@ -30,6 +35,7 @@ class Parser {
                 exit(-1);
             }
         }
+
         /**
          * @brief Destroy the Parser object
          * 
@@ -37,15 +43,12 @@ class Parser {
         ~Parser() {
             file.close();
         }
+
         /**
          * @brief 
          * 
          */
         void insertOnGraph(Graph& graph);
-        /**
-         * @brief 
-         * 
-         */
     private:
         fstream file;
 };
