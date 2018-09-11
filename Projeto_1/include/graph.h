@@ -14,26 +14,23 @@
 using namespace std;
 
 /**
- * @brief 
+ * @brief Classe que representa um grafo.
  * 
  */
 class Graph {
 public:
-    /**
-     * @brief Construct a new Graph object
-     * 
-     */
+
     Graph() = default;
     
     /**
-     * @brief Construct a new Graph object
+     * @brief O construtor recebe a quantidade de vértices e passa para o vetor graph essa quantidade.
      * 
      * @param qtdNos 
      */
     Graph(int qtdOfNodes) : graph(qtdOfNodes + 1) {}
 
     /**
-     * @brief Get the Size object
+     * @brief getSize retorna o tamanho do vetor graph.
      * 
      * @return int 
      */
@@ -42,7 +39,7 @@ public:
     }
 
     /**
-     * @brief 
+     * @brief addEdge adiciona uma aresta ao grafo.
      * 
      * @param src 
      * @param dest 
@@ -50,7 +47,7 @@ public:
     void addEdge(int src, int dest);
 
     /**
-     * @brief Get the Adj Nodes object
+     * @brief getAdjNodes retorna uma lista com os vértices adjacentes ao vértice passado como argumento.
      * 
      * @param vertex 
      * @return vector<int> 
@@ -60,14 +57,14 @@ public:
     }
 
     /**
-     * @brief 
+     * @brief bfs realiza um percorrimento em largura pelo grafo imprimindo o grau dos vértices.
      * 
      * @param vertex 
      */
     void bfs(int vertex);
 
     /**
-     * @brief Get the Degree object
+     * @brief getDegree retorna o grau do vértice.
      * 
      * @param vertex 
      * @return int 
@@ -77,22 +74,64 @@ public:
     }
 
     /**
-     * @brief Get the Cliques object
-     * 
-     * @param vertex 
+     * @brief getCliques imprime os cliques do vetor de cliques.
      */
     void getCliques();
 
+    /**
+     * @brief getAllAglomeration imprime todos os coeficientes de aglomeração dos vértices do grafo.
+     */
+
     void getAllAglomeration();
 
+    /**
+     * @brief getMidAglomeration imprime o coeficiente de aglomeração do grafo.
+     */
+
     void getMidAglomeration();
+
 private:
+
+    /**
+     * @brief bsfAux realiza uma busca em largura no grafo imprimindo o grau dos vértices.
+     * 
+     * @param vertex
+     * @param vector<bool>& visited
+     */
+
     void bfsAux(int vertex, vector<bool>& visited);
+
+    /**
+     * @brief sortCliques preenche o vetor cliques com os cliques do grafo.
+     */
+
     void sortCliques();
+
     void bronKerbosh(vector<int> click, vector<int>& possible, vector<int>& excluded);
+
+    /**
+     * @brief getAglomeration encontra o coeficiente de aglomeração do vértice.
+     * @param vertex
+     */
+
     void getAglomeration(int vertex);
+
+    /**
+     * @brief representação de um grafo utilizando vector de vectors.
+     */
+
     vector<vector<int>> graph;
+
+    /**
+     * @brief vector que possui os cliques do grafo.
+     */
+
     vector<vector<int>> cliques;
+
+    /**
+     * @brief vector que possui os cliques de tamanho 3 do grafo.
+     */
+
     vector<vector<int>> triangulos;
 };
 
