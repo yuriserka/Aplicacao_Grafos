@@ -4,5 +4,9 @@ Instruções para Compilação:
     Se estiver no windows basta executar "mingw32-make.exe" e depois ".\exec.exe";
     Se estiver no Linux bastar executar "make" e depois "./exec".
 
-    Obs.: Caso nao tenha o mingw32-make.exe instalado:
-        
+Obs.: Caso nao tenha o mingw32-make.exe instalado faça:
+    g++ -c src/*.cc
+    g++ -o exec *.o -Wall -pedantic -g
+    .\exec.exe
+
+A documentação foi feita no doxygen e encontra-se na pasta html.
