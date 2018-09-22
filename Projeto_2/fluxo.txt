@@ -1,0 +1,265 @@
+// target = null indica que a matéria não possui pré-requisitos
+
+PERIODO	1:
+edge 
+[
+    creditos 6
+    dificuldade 2
+    target null
+    source CALCULO 1
+]
+edge 
+[
+    creditos 4
+    dificuldade 3
+    target null
+    source INTROD SISTEMAS COMPUTACIONAIS
+]
+edge 
+[
+    creditos 4
+    dificuldade 2
+    target null
+    source FUNDAMENTOS TEOR DA COMPUTACAO
+]
+edge
+[
+    creditos 4
+    dificuldade 2
+    target null
+    source ALGORITMOS PROGR COMPUTADORES
+]
+edge
+[
+    creditos 2
+    dificuldade 1
+    target null
+    source INFORMATICA E SOCIEDADE
+]
+
+PERIODO	2:
+edge
+[
+    creditos 6
+    dificuldade 2
+    target null
+    source CIRCUITOS DIGITAIS
+]
+edge
+[
+    creditos 4
+    dificuldade 2
+    target ESTRUTURAS DE DADOS
+    source ALGORITMOS PROGR COMPUTADORES
+]
+edge
+[
+    creditos 6
+    dificuldade 3
+    target CALCULO 2
+    source CALCULO 1
+]
+edge
+[
+    creditos 4
+    dificuldade 3
+    target null
+    source INTRODUCAO A ALGEBRA LINEAR
+]
+
+PERIODO	3:
+edge
+[
+    creditos 4
+    dificuldade 3
+    target ORGANIZACAO E ARQUITETURA DE COMPUTADORES
+    source CIRCUITOS DIGITAIS
+]
+edge
+[
+    creditos 4
+    dificuldade 1
+    target TECNICAS DE PROGRAMACAO 1
+    source ESTRUTURAS DE DADOS
+]
+edge
+[
+    creditos 4
+    dificuldade 3
+    target null
+    source ALGEBRA 1
+]
+edge
+[
+    creditos 4
+    dificuldade 2
+    target CALCULO NUMERICO
+    source CALCULO 2
+]
+edge
+[
+    creditos 4
+    dificuldade 3
+    target PROBABILIDADE E ESTATISTICA
+    source CALCULO 1
+]
+PERIODO 4:
+edge
+[
+    creditos 4
+    dificuldade 3
+    target LOGICA COMPUTACIONAL 1
+    source FUNDAMENTOS TEOR DA COMPUTACAO
+]
+edge
+[
+    creditos 4
+    dificuldade 2
+    target TECNICAS DE PROGRAMACAO 2
+    source TECNICAS DE PROGRAMACAO 1
+]
+edge
+[
+    creditos 4
+    dificuldade 3
+    target ORGANIZACAO DE ARQUIVOS
+    source PROBABILIDADE E ESTATISTICA
+    source ESTRUTURAS DE DADOS
+]
+edge
+[
+    creditos 4
+    dificuldade 2
+    target TEORIA E APLICACAO DE GRAFOS
+    source ESTRUTURAS DE DADOS
+]
+edge
+[
+    creditos 4
+    dificuldade 3
+    target REDES DE COMPUTADORES
+    source CALCULO 2
+    source PROBABILIDADE E ESTATISTICA
+    source ESTRUTURAS DE DADOS
+]
+
+PERIODO 5:
+edge
+[
+    creditos 4
+    dificuldade 2
+    target LINGUAGENS DE PROGRAMACAO
+    source ESTRUTURAS DE DADOS
+]
+edge
+[
+    creditos 4
+    dificuldade 3
+    target PROGRAMACAO CONCORRENTE
+    source TECNICAS DE PROGRAMACAO 2
+    source ORGANIZACAO E ARQUITETURA DE COMPUTADORES
+]
+edge
+[
+    creditos 4
+    dificuldade 2
+    target ENGENHARIA DE SOFTWARE
+    source TECNICAS DE PROGRAMACAO 1
+]
+edge
+[
+    creditos 4
+    dificuldade 2
+    target BANCOS DE DADOS
+    source ORGANIZACAO DE ARQUIVOS
+]
+edge
+[
+    creditos 4
+    dificuldade 1
+    target INTRODUCAO A INTELIGENCIA ARTIFICIAL
+    source ESTRUTURAS DE DADOS
+]
+
+PERIODO 6:
+edge
+[
+    creditos 4
+    dificuldade 3
+    target SOFTWARE BASICO
+    source ESTRUTURAS DE DADOS
+    source ORGANIZACAO E ARQUITETURA DE COMPUTADORES
+]
+edge
+[
+    creditos 4
+    dificuldade 3
+    target FUNDAMENTOS DE SISTEMAS OPERACIONAIS
+    source PROGRAMACAO CONCORRENTE
+]
+edge
+[
+    creditos 6
+    dificuldade 3
+    target AUTOMATOS E COMPUTABILIDADE
+    source ALGEBRA 1
+]
+edge
+[
+    creditos 4
+    dificuldade 2
+    target SISTEMAS DE INFORMACAO
+    source BANCOS DE DADOS
+]
+edge
+[
+    creditos 4
+    dificuldade 2
+    target COMPUTAÇÃO EXPERIMENTAL
+    source PROBABILIDADE E ESTATISTICA
+    source ESTRUTURAS DE DADOS
+]
+
+PERIODO 7:
+edge
+[
+    creditos 4
+    dificuldade 3
+    target PROJETO E ANALISE DE ALGORITMOS
+    source CALCULO 1 
+    source TECNICAS DE PROGRAMACAO 1
+]
+edge
+[
+    creditos 4
+    dificuldade 3
+    target COMPILADORES
+    source LINGUAGENS DE PROGRAMACAO
+    source SOFTWARE BASICO
+    source AUTOMATOS E COMPUTABILIDADE
+]
+edge
+[
+    creditos 4
+    dificuldade 3
+    target SEGURANCA COMPUTACIONAL
+    source REDES DE COMPUTADORES
+]
+
+PERIODO 8:
+edge
+[
+    creditos 2
+    dificuldade 2
+    target null
+    source METODOLOGIA CIENTIFICA
+]
+
+PERIODO 9:
+edge
+[
+    creditos 6
+    dificuldade 3
+    target null
+    source TOPICOS AVANCADOS EM COMPUTADORES
+]
