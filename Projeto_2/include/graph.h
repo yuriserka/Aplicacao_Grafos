@@ -9,11 +9,14 @@ class Graph {
     public:
         Graph() = default;
         void addVertice(string materia, int weight);
-        void showGraph();
+        void writeGraph();
+        void showTopSort();
         void addEdge(string src, pair<string, int> dest);
     private:
-        map<string, int> grausDeEntrada;
+        void dfs(string vertice, map<string, bool>& visited);
+        map<string, int> inputDegree;
         map<string, vector<pair<string, int>>> graph;
+        vector<string> topologicSorted;
 };
 
 #endif // Graph_h_

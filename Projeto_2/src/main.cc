@@ -6,8 +6,9 @@ int main() {
     Parser *parser = new Parser("fluxo.txt");
     parser->insertOnGraph(graph);
 
-    graph.showGraph();
-    
+    graph.writeGraph();
+    graph.showTopSort();
+
     delete parser;
     return 0;
 }

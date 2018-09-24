@@ -18,10 +18,13 @@ void Parser::insertOnGraph(Graph& graph) {
 
             while(file >> line && line != "target");
             getline(file, target);
+            target.erase(target.begin(), target.begin() + 1);
 
             while (file >> line && line == "source") {
                 getline(file, source);
-                if (target == " null") {
+                source.erase(source.begin(), source.begin() + 1);
+                
+                if (target == "null") {
                     graph.addVertice(source, dificulty * credits);
                 } else {
                     graph.addEdge(source, make_pair(target, dificulty * credits));
