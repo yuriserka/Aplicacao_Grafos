@@ -12,6 +12,7 @@ class Graph {
         void showGraph();
         void addEdge(string src, pair<string, int> dest);
     private:
+        map<string, int> grausDeEntrada;
         map<string, vector<pair<string, int>>> graph;
 };
 

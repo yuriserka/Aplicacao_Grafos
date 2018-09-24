@@ -7,4 +7,7 @@ int main() {
     parser->insertOnGraph(graph);
 
     graph.showGraph();
+    
+    delete parser;
+    return 0;
 }

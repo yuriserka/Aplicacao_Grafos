@@ -226,7 +226,7 @@ edge
     creditos 4
     dificuldade 3
     target PROJETO E ANALISE DE ALGORITMOS
-    source CALCULO 1 
+    source CALCULO 1
     source TECNICAS DE PROGRAMACAO 1
 ]
 edge

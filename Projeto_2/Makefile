@@ -11,7 +11,7 @@ CPPFLAGS = -std=c++11
 CFLAGS = -g -Wall -pedantic
 INC_PATH = -I$(INC_DIR)
 LIB_PATH = -L$(LIB_DIR)
-LINK_FLAGS = -lmingw32
+LINK_FLAGS = 
 
 .PHONY: all clean
 
