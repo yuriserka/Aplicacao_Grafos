@@ -32,18 +32,25 @@ void Graph::addEdge(string src, pair<string, int> dest) {
 }
 
 void Graph::showTopSort() {
+    if (topologicSorted.empty()) {
+        this->TopSort();
+    }
+
+    cout << "\tOrdenacao Topologica: \n";
+
+    for (auto el : topologicSorted) {
+        cout << el << "\n";
+    }
+}
+
+void Graph::TopSort() {
     map<string, bool> visited;
     for (auto node : graph) {
         if (inputDegree[node.first] == 0) {
             dfs(node.first, visited);
         }
     }
-
-    cout << "\tOrdenacao Topologica: \n";
-
-    for (auto it = topologicSorted.rbegin(); it != topologicSorted.rend(); it++) {
-        cout << *it << '\n';
-    }
+    reverse(topologicSorted.begin(), topologicSorted.end());
 }
 
 void Graph::dfs(string vertex, map<string, bool>& visited) {
@@ -56,4 +63,37 @@ void Graph::dfs(string vertex, map<string, bool>& visited) {
     }
 
     topologicSorted.push_back(vertex);
+}
+
+// void Graph::showCriticalPath() {
+//     if (criticalPath.empty()) {
+//         this->computeCriticalPath();
+//     }
+
+//     cout << "\tCaminho Critico: \n";
+
+//     for (auto subject : criticalPath) {
+//         cout << subject << " -> ";
+//     }
+// }
+
+void Graph::computeCriticalPath() {
+    if (topologicSorted.empty()) {
+        this->TopSort();
+    }
+
+    map<string, int> pesoAcumulado;
+    vector<pair<pair<string, string>, int>> paresDeMaterias;
+
+    for (auto v : topologicSorted) {
+        for (auto adj : graph[v]) {
+            pesoAcumulado[adj.first] = max(pesoAcumulado[v], pesoAcumulado[v] + adj.second);
+            paresDeMaterias.push_back(make_pair(make_pair(v, adj.first), pesoAcumulado[adj.first]));
+        }
+    }
+
+    for (auto par : paresDeMaterias) {
+        cout << par.first.first << " -> " << par.first.second << ": " << par.second;
+        cout << '\n';
+    }
 }
