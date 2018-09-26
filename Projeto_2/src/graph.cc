@@ -86,13 +86,34 @@ void Graph::showCriticalPath() {
         computeCriticalPath(starter, visited, pesos, pesosAntigos);
     }
 
-    // for (auto caminho : caminhos) {
-    //     for (auto x : caminho.first) {
-    //         cout << x << "->";
-    //     }
-    //     cout << "Peso Total = " << caminho.second << "\n";
-    // }
+    ofstream allPaths;
+    allPaths.open("caminhos.txt");
+    if (!allPaths.is_open()) {
+        cout << "nao foi possivel abrir o arquivo dos caminhos.\n";
+        exit(-2);
+    }
 
+    caminhos.sort( 
+        [] (const pair<vector<string>, int>& x, const pair<vector<string>, int>& y) {
+            return (x.second < y.second);
+        }
+    );
+
+    // como dei sort, entao o maior caminho está em ultimo
+    vector<string> maior_caminho = caminhos.back().first;
+    int maiorPeso = caminhos.back().second;
+
+    for (auto caminho: caminhos) {
+        for (auto x : caminho.first) {
+            allPaths << x << "->";
+        }
+        allPaths << " | Peso Total = " << caminho.second << "\n";
+    }
+
+    for (auto x : maior_caminho) {
+        cout << x << "->";
+    }
+    cout << " | Peso Total = " << maiorPeso << "\n";
 }
 
 void Graph::computeCriticalPath(string partida, map<string, bool>& visited, map<string, int>& pesos, map<string, int>& pesosAntigos) {
@@ -111,19 +132,20 @@ void Graph::computeCriticalPath(string partida, map<string, bool>& visited, map<
     }
 
     if (outDegree[partida] == 0) {
-        cout << "\tCaminhos: \n";
-        for (auto x : criticalPath) {
-            cout << x << " -> ";
-        }
-        cout << " | peso do caminho: " << pesosAntigos[partida] << "\n\n";
+    //     cout << "\tCaminhos: \n";
+    //     for (auto x : criticalPath) {
+    //         cout << x << " -> ";
+    //     }
+    //     cout << " | peso do caminho: " << pesosAntigos[partida] << "\n\n";
 
 
 
         //////// ACHO Q ESSA É A SOLUÇÃO, MAS PRECISA DE MAIS CRITERIA PRA INSERIR PQ TA DANDO BAD ALLOC
-        // pair<vector<string>, int> toPush;
-        // toPush.first = criticalPath;
-        // toPush.second = pesosAntigos[partida];
-        // caminhos.push_back(toPush);
+        /////// MAS NO LINUX FUNCIONA
+        pair<vector<string>, int> toPush;
+        toPush.first = criticalPath;
+        toPush.second = pesosAntigos[partida];
+        caminhos.push_back(toPush);
     }
     visited.clear();    
     criticalPath.pop_back();
