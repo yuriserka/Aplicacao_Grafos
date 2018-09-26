@@ -85,6 +85,14 @@ void Graph::showCriticalPath() {
         }
         computeCriticalPath(starter, visited, pesos, pesosAntigos);
     }
+
+    // for (auto caminho : caminhos) {
+    //     for (auto x : caminho.first) {
+    //         cout << x << "->";
+    //     }
+    //     cout << "Peso Total = " << caminho.second << "\n";
+    // }
+
 }
 
 void Graph::computeCriticalPath(string partida, map<string, bool>& visited, map<string, int>& pesos, map<string, int>& pesosAntigos) {
@@ -108,6 +116,14 @@ void Graph::computeCriticalPath(string partida, map<string, bool>& visited, map<
             cout << x << " -> ";
         }
         cout << " | peso do caminho: " << pesosAntigos[partida] << "\n\n";
+
+
+
+        //////// ACHO Q ESSA É A SOLUÇÃO, MAS PRECISA DE MAIS CRITERIA PRA INSERIR PQ TA DANDO BAD ALLOC
+        // pair<vector<string>, int> toPush;
+        // toPush.first = criticalPath;
+        // toPush.second = pesosAntigos[partida];
+        // caminhos.push_back(toPush);
     }
     visited.clear();    
     criticalPath.pop_back();

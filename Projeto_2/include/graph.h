@@ -19,13 +19,10 @@ class Graph {
         void dfs(string vertice, map<string, bool>& visited);
         map<string, int> inputDegree;
         map<string, int> outDegree;
-        map<int, pair<vector<string>,int>> sla;
         map<string, vector<pair<string, int>>> graph;
         vector<string> topologicSorted;
         vector<string> criticalPath;
-        vector<string> teste;
-        int cont = 0;
-
+        list<pair<vector<string>, int>> caminhos;
 };
 
 #endif // Graph_h_
