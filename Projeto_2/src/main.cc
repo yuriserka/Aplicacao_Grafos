@@ -6,24 +6,21 @@ int main() {
     Parser *parser = new Parser("fluxo.txt");
     parser->insertOnGraph(graph);
 
-    // graph.writeGraph();
-    // graph.showTopSort();
+    
+    // graph.addEdge("a", make_pair("b", 2));
+    // graph.addEdge("b", make_pair("c", 6));
+    // graph.addEdge("b", make_pair("d", 4));
+    // graph.addEdge("c", make_pair("e", 10));
+    // graph.addEdge("c", make_pair("h", 12));
+    // graph.addEdge("d", make_pair("c", 8));
+    // graph.addEdge("f", make_pair("c", 5));
+    // graph.addEdge("f", make_pair("g", 7));
+    // graph.addEdge("g", make_pair("c", 9));
 
-    // graph.addEdge("a", make_pair("b", 1));
-    // graph.addEdge("b", make_pair("c", 7));
-    // graph.addEdge("b", make_pair("d", 2));
-    // graph.addEdge("c", make_pair("g", 8));
-    // graph.addEdge("c", make_pair("h", 9));
-    // graph.addEdge("d", make_pair("e", 4));
-    // graph.addEdge("d", make_pair("f", 3));
-    // graph.addEdge("e", make_pair("g", 6));
-    // graph.addEdge("e", make_pair("h", 5));
-    // graph.addEdge("f", make_pair("i", 10));
-    // graph.addEdge("h", make_pair("i", 11));
-    // graph.showTopSort();
+    graph.writeGraph();
 
-
-    graph.computeCriticalPath();
+    graph.showTopSort();
+    graph.showCriticalPath();
 
     delete parser;
     return 0;

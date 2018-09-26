@@ -12,9 +12,11 @@ void Graph::writeGraph() {
         cout << "Nao foi possivel abrir o arquivo de output\n";
         exit(-2);
     }
-    out << "// G(e) é o grau de entrada de cada matéria, ou seja, quantos pré-requisitos ela tem.\n\n";
+    out << "// G(e) é o grau de entrada de cada matéria, ou seja, quantos pré-requisitos ela tem.\n";
+    out << "// G(o) é o grau de saida de cada matéria, ou seja, de quantas materias ela é pré-requisito.\n\n";
     for (auto node : graph) {
-        out << "G(e)=[" << inputDegree[node.first] << "] | ";
+        out << "G(e)=[" << inputDegree[node.first] << "], ";
+        out << "G(o)=[" << outDegree[node.first] << "] | ";
         out << node.first << ": ";
         for (auto par : node.second) {
             out << par.first << ", " << par.second << "; ";
@@ -28,6 +30,7 @@ void Graph::addEdge(string src, pair<string, int> dest) {
         this->addVertice(dest.first, dest.second);
     }
     inputDegree[dest.first]++;
+    outDegree[src]++;
     graph[src].push_back(dest);
 }
 
@@ -65,35 +68,47 @@ void Graph::dfs(string vertex, map<string, bool>& visited) {
     topologicSorted.push_back(vertex);
 }
 
-// void Graph::showCriticalPath() {
-//     if (criticalPath.empty()) {
-//         this->computeCriticalPath();
-//     }
-
-//     cout << "\tCaminho Critico: \n";
-
-//     for (auto subject : criticalPath) {
-//         cout << subject << " -> ";
-//     }
-// }
-
-void Graph::computeCriticalPath() {
+void Graph::showCriticalPath() {
     if (topologicSorted.empty()) {
         this->TopSort();
     }
 
-    map<string, int> pesoAcumulado;
-    vector<pair<pair<string, string>, int>> paresDeMaterias;
+    cout << "\tCaminho Critico: \n";
 
-    for (auto v : topologicSorted) {
-        for (auto adj : graph[v]) {
-            pesoAcumulado[adj.first] = max(pesoAcumulado[v], pesoAcumulado[v] + adj.second);
-            paresDeMaterias.push_back(make_pair(make_pair(v, adj.first), pesoAcumulado[adj.first]));
+    map<string, bool> visited;
+    map<string,int> pesos;
+    map<string,int> pesosAntigos;
+
+    for (auto starter : topologicSorted) {
+        if (inputDegree[starter] != 0) {
+            continue;
+        }
+        computeCriticalPath(starter, visited, pesos, pesosAntigos);
+    }
+}
+
+void Graph::computeCriticalPath(string partida, map<string, bool>& visited, map<string, int>& pesos, map<string, int>& pesosAntigos) {
+    
+    visited[partida] = true;
+    criticalPath.push_back(partida);
+
+    for (auto adj : graph[partida]) {
+        if (pesosAntigos[adj.first] != 0) {
+            pesos[adj.first] = max(pesos[adj.first], pesosAntigos[adj.first]);
+        }
+        pesosAntigos[adj.first] = max(pesosAntigos[partida], pesosAntigos[partida] + adj.second);
+        if (!visited[adj.first]) {
+            this->computeCriticalPath(adj.first, visited, pesos, pesosAntigos);
         }
     }
 
-    for (auto par : paresDeMaterias) {
-        cout << par.first.first << " -> " << par.first.second << ": " << par.second;
-        cout << '\n';
+    if (outDegree[partida] == 0) {
+        cout << "\tCaminhos: \n";
+        for (auto x : criticalPath) {
+            cout << x << " -> ";
+        }
+        cout << " | peso do caminho: " << pesosAntigos[partida] << "\n\n";
     }
+    visited.clear();    
+    criticalPath.pop_back();
 }

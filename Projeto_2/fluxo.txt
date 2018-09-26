@@ -215,7 +215,7 @@ edge
 [
     creditos 4
     dificuldade 2
-    target COMPUTAÇÃO EXPERIMENTAL
+    target COMPUTACAO EXPERIMENTAL
     source PROBABILIDADE E ESTATISTICA
     source ESTRUTURAS DE DADOS
 ]
