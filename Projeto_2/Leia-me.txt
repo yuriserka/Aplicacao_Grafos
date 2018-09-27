@@ -1,6 +1,9 @@
 Instruções para Compilação:
 
     Entre na pasta em que a pasta deste trabalho se encontra, usando o comando "cd";
+
+    Antes de tudo no windows execute o comando "mingw32-make.exe clean" e no linux "make clean".
+
     Se estiver no windows basta executar "mingw32-make.exe" e depois ".\exec.exe";
     Se estiver no Linux bastar executar "make" e depois "./exec".
 
