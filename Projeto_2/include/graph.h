@@ -1,20 +1,72 @@
 #ifndef Graph_h_
 #define Graph_h_
 
+/**
+ * @brief 
+ * 
+ * @file graph.h
+ * @author Yuri Serka e Henrique Mendes
+ * @date 2018-09-26
+ */
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
+/**
+ * @brief 
+ * 
+ */
 class Graph {
     public:
+        /**
+         * @brief Construct a new Graph object
+         * 
+         */
         Graph() = default;
+
+        /**
+         * @brief 
+         * 
+         * @param materia 
+         * @param weight 
+         */
         void addVertice(string materia, int weight);
-        void writeGraph();
-        void showTopSort();
+
+        /**
+         * @brief 
+         * 
+         * @param src 
+         * @param dest 
+         */
         void addEdge(string src, pair<string, int> dest);
-        void showCriticalPath();
-        void computeCriticalPath(string partida, map<string, bool>& visited, map<string, int>& pesos, map<string, int>& pesosAntigos);
+
+        /**
+         * @brief 
+         * 
+         */
+        void writeGraph();
+
+        /**
+         * @brief 
+         * 
+         */
+        void writeAllPaths();
+
+        /**
+         * @brief 
+         * 
+         */
+        void showTopSort();
+
+        /**
+         * @brief 
+         * 
+         */
+        void showCriticalPath();        
     private:
+        void computeAllPaths(string partida, map<string, bool>& visited, map<string, int>& pesos);
+        void computeCriticalPath();
         void TopSort();
         void dfs(string vertice, map<string, bool>& visited);
         map<string, int> inputDegree;
@@ -22,7 +74,7 @@ class Graph {
         map<string, vector<pair<string, int>>> graph;
         vector<string> topologicSorted;
         vector<string> criticalPath;
-        list<pair<vector<string>, int>> caminhos;
+        list<pair<vector<string>, int>> allPaths;
 };
 
 #endif // Graph_h_

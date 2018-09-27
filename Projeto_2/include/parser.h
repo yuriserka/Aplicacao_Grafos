@@ -1,12 +1,33 @@
 #ifndef Parser_h_
 #define Parser_h_
 
+/**
+ * @brief 
+ * 
+ * @file parser.h
+ * @author Yuri Serka e Henrique Mendes
+ * @date 2018-09-26
+ */
+
 #include "graph.h"
 
+/**
+ * @brief 
+ * 
+ */
 class Parser {
     public:
+        /**
+         * @brief Construct a new Parser object
+         * 
+         */
         Parser() = default;
 
+        /**
+         * @brief Construct a new Parser object
+         * 
+         * @param fileName 
+         */
         Parser(string fileName) {
             this->file.open(fileName);
             if (!file.is_open()) {
@@ -15,10 +36,19 @@ class Parser {
             }
         }
 
+        /**
+         * @brief Destroy the Parser object
+         * 
+         */
         ~Parser() {
             file.close();
         }
 
+        /**
+         * @brief 
+         * 
+         * @param graph 
+         */
         void insertOnGraph(Graph& graph);
     private:
         fstream file;

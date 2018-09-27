@@ -1,0 +1,18 @@
+Instruções para Compilação:
+
+    Entre na pasta em que a pasta deste trabalho se encontra, usando o comando "cd";
+    Se estiver no windows basta executar "mingw32-make.exe" e depois ".\exec.exe";
+    Se estiver no Linux bastar executar "make" e depois "./exec".
+
+Obs.: Para compilar manualmente basta fazer:
+    g++ -c src/*.cc
+    g++ -o exec *.o -Wall -pedantic -g
+    Para windows: .\exec.exe
+    Para Linux: ./exec
+
+Há alguns arquivos de texto auxiliares que fornecem informações úteis, 
+como o arquivo "caminhos.txt" que fornece todos os caminhos e seus respectivos pesos.
+O arquivo "output.txt" fornece todas as matérias e quais são as suas listas de adjacencia.
+O arquivo "fluxo.txt" descreve as relações que as matérias possuem, dificuldade e a quantidade de créditos dela.
+
+A documentação foi feita no doxygen e encontra-se na pasta html.

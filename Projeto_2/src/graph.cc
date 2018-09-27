@@ -5,8 +5,17 @@ void Graph::addVertice(string subject, int weight) {
     graph[subject] = vazio;
 }
 
+void Graph::addEdge(string src, pair<string, int> dest) {
+    if (graph.find(dest.first) == graph.end()) {
+        this->addVertice(dest.first, dest.second);
+    }
+    inputDegree[dest.first]++;
+    outDegree[src]++;
+    graph[src].push_back(dest);
+}
+
 void Graph::writeGraph() {
-    fstream out;
+    ofstream out;
     out.open("output.txt");
     if(!out.is_open()) {
         cout << "Nao foi possivel abrir o arquivo de output\n";
@@ -25,13 +34,23 @@ void Graph::writeGraph() {
     }
 }
 
-void Graph::addEdge(string src, pair<string, int> dest) {
-    if (graph.find(dest.first) == graph.end()) {
-        this->addVertice(dest.first, dest.second);
+void Graph::writeAllPaths() {
+    if (allPaths.empty()) {
+        this->computeCriticalPath();
     }
-    inputDegree[dest.first]++;
-    outDegree[src]++;
-    graph[src].push_back(dest);
+    ofstream out;
+    out.open("caminhos.txt");
+    if (!out.is_open()) {
+        cout << "nao foi possivel abrir o arquivo dos caminhos.\n";
+        exit(-2);
+    }
+
+    for (auto caminho: allPaths) {
+        for (auto x : caminho.first) {
+            out << x << " -> ";
+        }
+        out << " | Peso Total = " << caminho.second << "\n";
+    }
 }
 
 void Graph::showTopSort() {
@@ -69,83 +88,59 @@ void Graph::dfs(string vertex, map<string, bool>& visited) {
 }
 
 void Graph::showCriticalPath() {
+    if (allPaths.empty()) {
+        this->computeCriticalPath();
+    }
+    cout << "\tCaminho Critico: \n";
+    
+    vector<string> maior_caminho = allPaths.back().first;
+    int maiorPeso = allPaths.back().second;
+
+    for (auto x : maior_caminho) {
+        cout << x << " -> ";
+    }
+    cout << "\n| Peso Total = " << maiorPeso << "\n";
+}
+
+void Graph::computeCriticalPath() {
     if (topologicSorted.empty()) {
         this->TopSort();
     }
 
-    cout << "\tCaminho Critico: \n";
-
     map<string, bool> visited;
     map<string,int> pesos;
-    map<string,int> pesosAntigos;
 
     for (auto starter : topologicSorted) {
         if (inputDegree[starter] != 0) {
             continue;
         }
-        computeCriticalPath(starter, visited, pesos, pesosAntigos);
+        computeAllPaths(starter, visited, pesos);
     }
 
-    ofstream allPaths;
-    allPaths.open("caminhos.txt");
-    if (!allPaths.is_open()) {
-        cout << "nao foi possivel abrir o arquivo dos caminhos.\n";
-        exit(-2);
-    }
-
-    caminhos.sort( 
+    allPaths.sort( 
         [] (const pair<vector<string>, int>& x, const pair<vector<string>, int>& y) {
             return (x.second < y.second);
         }
     );
 
-    // como dei sort, entao o maior caminho está em ultimo
-    vector<string> maior_caminho = caminhos.back().first;
-    int maiorPeso = caminhos.back().second;
-
-    for (auto caminho: caminhos) {
-        for (auto x : caminho.first) {
-            allPaths << x << "->";
-        }
-        allPaths << " | Peso Total = " << caminho.second << "\n";
-    }
-
-    for (auto x : maior_caminho) {
-        cout << x << "->";
-    }
-    cout << " | Peso Total = " << maiorPeso << "\n";
 }
 
-void Graph::computeCriticalPath(string partida, map<string, bool>& visited, map<string, int>& pesos, map<string, int>& pesosAntigos) {
-    
-    visited[partida] = true;
-    criticalPath.push_back(partida);
+void Graph::computeAllPaths(string materiaDePartida, map<string, bool>& visited, map<string, int>& pesos) {
+    visited[materiaDePartida] = true;
+    criticalPath.push_back(materiaDePartida);
 
-    for (auto adj : graph[partida]) {
-        if (pesosAntigos[adj.first] != 0) {
-            pesos[adj.first] = max(pesos[adj.first], pesosAntigos[adj.first]);
-        }
-        pesosAntigos[adj.first] = max(pesosAntigos[partida], pesosAntigos[partida] + adj.second);
+    for (auto adj : graph[materiaDePartida]) {
+        pesos[adj.first] = max(pesos[materiaDePartida], pesos[materiaDePartida] + adj.second);
         if (!visited[adj.first]) {
-            this->computeCriticalPath(adj.first, visited, pesos, pesosAntigos);
+            this->computeAllPaths(adj.first, visited, pesos);
         }
     }
 
-    if (outDegree[partida] == 0) {
-    //     cout << "\tCaminhos: \n";
-    //     for (auto x : criticalPath) {
-    //         cout << x << " -> ";
-    //     }
-    //     cout << " | peso do caminho: " << pesosAntigos[partida] << "\n\n";
-
-
-
-        //////// ACHO Q ESSA É A SOLUÇÃO, MAS PRECISA DE MAIS CRITERIA PRA INSERIR PQ TA DANDO BAD ALLOC
-        /////// MAS NO LINUX FUNCIONA
+    if (outDegree[materiaDePartida] == 0) {
         pair<vector<string>, int> toPush;
         toPush.first = criticalPath;
-        toPush.second = pesosAntigos[partida];
-        caminhos.push_back(toPush);
+        toPush.second = pesos[materiaDePartida];
+        allPaths.push_back(toPush);
     }
     visited.clear();    
     criticalPath.pop_back();
