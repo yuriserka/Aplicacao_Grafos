@@ -9,9 +9,7 @@
  * @date 2018-09-26
  */
 
-#include <bits/stdc++.h>
-
-using namespace std;
+#include "node.h"
 
 /**
  * @brief 
@@ -68,13 +66,19 @@ class Graph {
         void computeAllPaths(string partida, map<string, bool>& visited, map<string, int>& pesos);
         void computeCriticalPath();
         void TopSort();
-        void dfs(string vertice, map<string, bool>& visited);
+        void dfs(Node v, map<string, bool>& visited);
         map<string, int> inputDegree;
         map<string, int> outDegree;
-        map<string, vector<pair<string, int>>> graph;
+        //map<string, vector<pair<string, int>>> graph;
         vector<string> topologicSorted;
         vector<string> criticalPath;
         list<pair<vector<string>, int>> allPaths;
+
+
+
+        ///////////////////////TETSTES F=ZODE
+        vector<Node> graph;
+        
 };
 
 #endif // Graph_h_
