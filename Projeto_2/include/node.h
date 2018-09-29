@@ -68,8 +68,8 @@ class Node {
          * 
          * @param adj 
          */
-        void addAdjacent(Node& adj) {
-            this->adjacents.push_back(adj);
+        void addAdjacente(Node& adj) {
+            this->adjacentes.push_back(adj);
         }
 
         /**
@@ -95,13 +95,13 @@ class Node {
          * 
          * @return vector<Node> 
          */
-        vector<Node> getAdjacents() const {
-            return this->adjacents;
+        vector<Node> getAdjacentes() const {
+            return this->adjacentes;
         }
     private:
         string nome;
         int peso;
-        vector<Node> adjacents;
+        vector<Node> adjacentes;
 };
 
 #endif //Node_h_

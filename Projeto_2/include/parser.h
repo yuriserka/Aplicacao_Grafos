@@ -28,8 +28,8 @@ class Parser {
          * 
          * @param fileName 
          */
-        Parser(string fileName) {
-            this->file.open(fileName);
+        Parser(string nomeDoArquivo) {
+            this->file.open(nomeDoArquivo);
             if (!file.is_open()) {
                 cout << "O arquivo nao foi aberto\n";
                 exit(-1);
@@ -49,7 +49,7 @@ class Parser {
          * 
          * @param graph 
          */
-        void insertOnGraph(Graph& graph);
+        void preencherGrafo(Graph& grafo);
     private:
         fstream file;
 };

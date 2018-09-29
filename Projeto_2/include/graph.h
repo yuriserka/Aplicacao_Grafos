@@ -27,58 +27,58 @@ class Graph {
          * @brief 
          * 
          * @param materia 
-         * @param weight 
+         * @param peso 
          */
-        void addVertice(string materia, int weight);
+        void addVertice(string materia, int peso);
 
         /**
          * @brief 
          * 
-         * @param src 
-         * @param dest 
+         * @param origem 
+         * @param destino 
          */
-        void addEdge(string src, pair<string, int> dest);
-
-        /**
-         * @brief 
-         * 
-         */
-        void writeGraph();
+        void addAresta(string origem, pair<string, int> destino);
 
         /**
          * @brief 
          * 
          */
-        void writeAllPaths();
+        void EscreveGrafo();
 
         /**
          * @brief 
          * 
          */
-        void showTopSort();
-
-        /**
-         * @brief 
-         * 
-         */
-        void showCriticalPath();        
-    private:
-        void computeAllPaths(string partida, map<string, bool>& visited, map<string, int>& pesos);
-        void computeCriticalPath();
-        void TopSort();
-        void dfs(Node v, map<string, bool>& visited);
-        map<string, int> inputDegree;
-        map<string, int> outDegree;
-        //map<string, vector<pair<string, int>>> graph;
-        vector<string> topologicSorted;
-        vector<string> criticalPath;
-        list<pair<vector<string>, int>> allPaths;
-
-
-
-        ///////////////////////TETSTES F=ZODE
-        vector<Node> graph;
+        void EscreveTodosCaminhos();
         
+        /**
+         * @brief 
+         * 
+         */
+        void imprimeGrafo();
+
+        /**
+         * @brief 
+         * 
+         */
+        void imprimeTopSort();
+
+        /**
+         * @brief 
+         * 
+         */
+        void imprimeCaminhoCritico();        
+    private:
+        void computaTodosCaminhos(string partida, map<string, bool>& visitados, map<string, int>& pesos);
+        void computaCaminhoCritico();
+        void TopSort();
+        void dfs(Node v, map<string, bool>& visitados);
+        map<string, int> grausDeEntrada;
+        map<string, int> grausDeSaida;
+        vector<Node> grafo;
+        vector<string> listaTopSort;
+        vector<string> caminho;
+        list<pair<vector<string>, int>> todosCaminhos;  
 };
 
 #endif // Graph_h_

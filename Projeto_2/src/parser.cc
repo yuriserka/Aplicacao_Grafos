@@ -1,6 +1,6 @@
 #include "../include/parser.h"
 
-void Parser::insertOnGraph(Graph& graph) {
+void Parser::preencherGrafo(Graph& grafo) {
     string line, source, target;
     int dificulty, credits;
 
@@ -25,9 +25,9 @@ void Parser::insertOnGraph(Graph& graph) {
                 source.erase(source.begin(), source.begin() + 1);
                 
                 if (target == "null") {
-                    graph.addVertice(source, dificulty * credits);
+                    grafo.addVertice(source, dificulty * credits);
                 } else {
-                    graph.addEdge(source, make_pair(target, dificulty * credits));
+                    grafo.addAresta(source, make_pair(target, dificulty * credits));
                 }
             }
         }

@@ -2,15 +2,16 @@
 #include "../include/parser.h"
 
 int main() {
-    Graph graph = Graph();
+    Graph grafo = Graph();
     Parser *parser = new Parser("fluxo.txt");
-    parser->insertOnGraph(graph);
+    parser->preencherGrafo(grafo);
 
-    graph.writeGraph();
-    graph.writeAllPaths();
+    grafo.EscreveGrafo();
+    grafo.EscreveTodosCaminhos();
 
-    graph.showTopSort();
-    graph.showCriticalPath();
+    grafo.imprimeGrafo();
+    grafo.imprimeTopSort();
+    grafo.imprimeCaminhoCritico();
 
     delete parser;
     return 0;

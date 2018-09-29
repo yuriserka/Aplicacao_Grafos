@@ -55,7 +55,7 @@ edge
 edge
 [
     creditos 6
-    dificuldade 3
+    dificuldade 2
     target CALCULO 2
     source CALCULO 1
 ]
@@ -99,7 +99,7 @@ edge
 edge
 [
     creditos 4
-    dificuldade 3
+    dificuldade 2
     target PROBABILIDADE E ESTATISTICA
     source CALCULO 1
 ]

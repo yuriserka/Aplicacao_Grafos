@@ -1,32 +1,32 @@
 #include "../include/graph.h"
 
-void Graph::addVertice(string subject, int weight) {
-    Node noh = Node(subject, weight);
-    graph.push_back(noh);
+void Graph::addVertice(string nomeDaMateria, int pesoDaMateria) {
+    Node noh = Node(nomeDaMateria, pesoDaMateria);
+    grafo.push_back(noh);
 }
 
-void Graph::addEdge(string src, pair<string, int> dest) {
+void Graph::addAresta(string origem, pair<string, int> dest) {
     Node destino = Node(dest.first, dest.second);
 
-    auto i = find_if(graph.begin(), graph.end(), [&destino] (const Node& procurado) {
+    auto i = find_if(grafo.begin(), grafo.end(), [&destino] (const Node& procurado) {
         return (procurado.getNome() == destino.getNome());
     });
 
-    if (i == graph.end()) {
+    if (i == grafo.end()) {
         this->addVertice(dest.first, dest.second);
     }
 
-    for (int i = 0; i < (int) graph.size(); i++) {
-        if (graph[i].getNome() == src) {
-            graph[i].addAdjacent(destino);
+    for (int i = 0; i < (int) grafo.size(); i++) {
+        if (grafo[i].getNome() == origem) {
+            grafo[i].addAdjacente(destino);
         }
     }
 
-    inputDegree[dest.first]++;
-    outDegree[src]++;
+    grausDeEntrada[dest.first]++;
+    grausDeSaida[origem]++;
 }
 
-void Graph::writeGraph() {
+void Graph::EscreveGrafo() {
     ofstream out;
     out.open("output.txt");
     if(!out.is_open()) {
@@ -36,26 +36,23 @@ void Graph::writeGraph() {
     out << "// G(e) é o grau de entrada de cada matéria, ou seja, quantos pré-requisitos ela tem.\n";
     out << "// G(s) é o grau de saida de cada matéria, ou seja, de quantas materias ela é pré-requisito.\n\n";
 
-    sort(graph.begin(), graph.end(), [] (const Node& x, const Node& y) {
+    sort(grafo.begin(), grafo.end(), [] (const Node& x, const Node& y) {
         return (x.getNome() < y.getNome());
     });
 
-    for (auto node : graph) {
-        cout << node.getNome() << ": ";
-        out << "G(e) = " << inputDegree[node.getNome()] << ", G(s) = " << outDegree[node.getNome()] << " | ";
+    for (auto node : grafo) {
+        out << "G(e) = " << grausDeEntrada[node.getNome()] << ", G(s) = " << grausDeSaida[node.getNome()] << " | ";
         out << node.getNome() << ": ";
-        for (auto adj : node.getAdjacents()) {
-            cout << adj.getNome() << ", peso = " << adj.getPeso() << "; ";
+        for (auto adj : node.getAdjacentes()) {
             out << adj.getNome() << ", " << adj.getPeso() << "; ";
         }
-        cout << "\n";
         out << '\n';
     }
 }
 
-void Graph::writeAllPaths() {
-    if (allPaths.empty()) {
-        this->computeCriticalPath();
+void Graph::EscreveTodosCaminhos() {
+    if (todosCaminhos.empty()) {
+        this->computaCaminhoCritico();
     }
     ofstream out;
     out.open("caminhos.txt");
@@ -64,121 +61,137 @@ void Graph::writeAllPaths() {
         exit(-2);
     }
 
-    for (auto caminho: allPaths) {
-        for (auto x : caminho.first) {
-            out << x << " -> ";
+    for (auto caminho: todosCaminhos) {
+        for (auto materia : caminho.first) {
+            out << materia << " -> ";
         }
         out << " | Peso Total = " << caminho.second << "\n";
     }
 }
 
-void Graph::showTopSort() {
-    if (topologicSorted.empty()) {
+void Graph::imprimeGrafo() {
+    cout << "\tGrafo: \n";
+
+    sort(grafo.begin(), grafo.end(), [] (const Node& x, const Node& y) {
+        return (x.getNome() < y.getNome());
+    });
+
+    for (auto node : grafo) {
+        cout << node.getNome() << ", peso = " << node.getPeso() << ": ";
+        for (auto adj : node.getAdjacentes()) {
+            cout << adj.getNome() << ", peso = " << adj.getPeso() << "; ";
+        }
+        cout << "\n";
+    }
+}
+
+void Graph::imprimeTopSort() {
+    if (listaTopSort.empty()) {
         this->TopSort();
     }
 
     cout << "\tOrdenacao Topologica: \n";
 
-    for (auto el : topologicSorted) {
-        cout << el << "\n";
+    for (auto materia : listaTopSort) {
+        cout << materia << "\n";
     }
 }
 
 void Graph::TopSort() {
     map<string, bool> visited;
-    for (auto node : graph) {
-        if (inputDegree[node.getNome()] == 0) {
+    for (auto node : grafo) {
+        if (grausDeEntrada[node.getNome()] == 0) {
             dfs(node, visited);
         }
     }
 
-    reverse(topologicSorted.begin(), topologicSorted.end());
+    reverse(listaTopSort.begin(), listaTopSort.end());
 }
 
-void Graph::dfs(Node v, map<string, bool>& visited) {
-    visited[v.getNome()] = true;
+void Graph::dfs(Node v, map<string, bool>& visitados) {
+    visitados[v.getNome()] = true;
 
     // O C++ n deixou eu usar o find normal pq tem que ter o opertator== na classe, mas assim tambem funciona
-    auto index = find_if(graph.begin(), graph.end(), [&v] (const Node& procurado) {
+    auto index = find_if(grafo.begin(), grafo.end(), [&v] (const Node& procurado) {
         return (procurado.getNome() == v.getNome());
     });
 
-    int pos = index - graph.begin();
+    int pos = index - grafo.begin();
 
-    for (auto adj : graph[pos].getAdjacents()) {
-        if (!visited[adj.getNome()]) {
-            dfs(adj.getNome(), visited);
+    for (auto adj : grafo[pos].getAdjacentes()) {
+        if (!visitados[adj.getNome()]) {
+            dfs(adj.getNome(), visitados);
         }
     }
 
-    topologicSorted.push_back(v.getNome());
+    listaTopSort.push_back(v.getNome());
 }
 
-void Graph::showCriticalPath() {
-    if (allPaths.empty()) {
-        this->computeCriticalPath();
+void Graph::imprimeCaminhoCritico() {
+    if (todosCaminhos.empty()) {
+        this->computaCaminhoCritico();
     }
     cout << "\tCaminho Critico: \n";
     
-    vector<string> maior_caminho = allPaths.back().first;
-    int maiorPeso = allPaths.back().second;
+    vector<string> maior_caminho = todosCaminhos.back().first;
+    int maiorPeso = todosCaminhos.back().second;
 
-    for (auto x : maior_caminho) {
-        cout << x << " -> ";
+    for (auto materia : maior_caminho) {
+        cout << materia << " -> ";
     }
     cout << "\n| Peso Total = " << maiorPeso << "\n";
 }
 
-void Graph::computeCriticalPath() {
-    if (topologicSorted.empty()) {
+void Graph::computaCaminhoCritico() {
+    if (listaTopSort.empty()) {
         this->TopSort();
     }
 
     map<string, bool> visited;
     map<string,int> pesos;
 
-    for (int i = 0; i < (int) graph.size(); i++) {
-        pesos[graph[i].getNome()] = graph[i].getPeso();
+    for (int i = 0; i < (int) grafo.size(); i++) {
+        pesos[grafo[i].getNome()] = grafo[i].getPeso();
     }
 
-    for (auto starter : topologicSorted) {
-        if (inputDegree[starter] != 0) {
+    for (auto starter : listaTopSort) {
+        if (grausDeEntrada[starter] != 0) {
             continue;
         }
-        computeAllPaths(starter, visited, pesos);
+        computaTodosCaminhos(starter, visited, pesos);
     }
 
-    allPaths.sort( 
+    todosCaminhos.sort( 
         [] (const pair<vector<string>, int>& x, const pair<vector<string>, int>& y) {
             return (x.second < y.second);
         }
     );
 }
 
-void Graph::computeAllPaths(string materiaDePartida, map<string, bool>& visited, map<string, int>& pesos) {
-    visited[materiaDePartida] = true;
-    criticalPath.push_back(materiaDePartida);
+void Graph::computaTodosCaminhos(string materiaDePartida, map<string, bool>& visitados, map<string, int>& pesos) {
+    visitados[materiaDePartida] = true;
+    caminho.push_back(materiaDePartida);
 
-    auto index = find_if(graph.begin(), graph.end(), [&materiaDePartida] (const Node& procurado) {
+    auto index = find_if(grafo.begin(), grafo.end(), [&materiaDePartida] (const Node& procurado) {
         return (procurado.getNome() == materiaDePartida);
     });
 
-    int pos = index - graph.begin();
+    int pos = index - grafo.begin();
 
-    for (auto adj : graph[pos].getAdjacents()) {
+    for (auto adj : grafo[pos].getAdjacentes()) {
         pesos[adj.getNome()] = max(pesos[materiaDePartida], pesos[materiaDePartida] + adj.getPeso());
-        if (!visited[adj.getNome()]) {
-            this->computeAllPaths(adj.getNome(), visited, pesos);
+        if (!visitados[adj.getNome()]) {
+            this->computaTodosCaminhos(adj.getNome(), visitados, pesos);
         }
     }
 
-    if (outDegree[materiaDePartida] == 0) {
+    if (grausDeSaida[materiaDePartida] == 0) {
         pair<vector<string>, int> toPush;
-        toPush.first = criticalPath;
+        toPush.first = caminho;
         toPush.second = pesos[materiaDePartida];
-        allPaths.push_back(toPush);
+        todosCaminhos.push_back(toPush);
     }
 
-    visited.clear();    
-    criticalPath.pop_back();
+    visitados.clear();    
+    caminho.pop_back();
 }
