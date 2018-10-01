@@ -66,44 +66,34 @@ void Graph::sortCliques() {
 }
 
 void Graph::bronKerbosh(vector<int> click, vector<int>& possible, vector<int>& excluded) {
-    auto uni = [] (const vector<int>& x, const vector<int>& y) -> vector<int> {
-        vector<int> dest;
-        set_union(x.begin(), x.end(), y.begin(), y.end(), back_inserter(dest));
-        return dest;
-    };
     auto inter = [] (const vector<int>& x, const vector<int>& y) -> vector<int> {
         vector<int> dest;
-        set_intersection(x.begin(), x.end(), y.begin(), y.end(), back_inserter(dest));
-        return dest;
-    };
-    auto diff = [] (const vector<int>& x, const vector<int>& y) -> vector<int> {
-        vector<int> dest;
-        set_difference(x.begin(), x.end(), y.begin(), y.end(), back_inserter(dest));
+        for (int a : y) {
+            if (find(x.begin(), x.end(), a) != x.end()) {
+                dest.push_back(a);
+            }
+        }
         return dest;
     };
 
-    if (uni(possible, excluded).empty()) {
+    if (possible.empty() && excluded.empty()) {
+        sort(click.begin(), click.end());
         cliques.push_back(click);
-    } else if (possible.empty() && !excluded.empty()) {
         return;
     }
 
-    vector<int> aux = possible;
+    for(int i = 0; possible.size() > 0; i++) {
+        int v = possible[0];
+        vector<int> newR = click, newP = possible, newX = excluded;  
 
-    for (auto v : inter(possible, aux)) {
-        vector<int> newR, newP, newX;  
-
-        newR = uni(click, {v});
+        newR.push_back(v);
         newP = inter(possible, this->getAdjNodes(v));
         newX = inter(excluded, this->getAdjNodes(v));   
 
-        this->bronKerbosh(newR, newP, newX);
+        bronKerbosh(newR, newP, newX);
 
-        possible = diff(possible, {v});
-        if (possible.empty()) {
-            return;
-        }
-        excluded = uni(excluded, {v});
+        possible.erase(possible.begin() + 0);
+        excluded.push_back(v);
     }
 }
 
