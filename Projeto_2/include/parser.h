@@ -12,7 +12,8 @@
 #include "graph.h"
 
 /**
- * @brief Classe Parser.
+ * @brief esta classe é responsável por tratar o arquivo que irá conter o fluxo do curso, ou seja, fará a conversão do 
+ * que está em texto e irá inserir no grafo para que possamos usar os dados.
  * 
  */
 class Parser {

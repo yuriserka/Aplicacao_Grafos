@@ -12,30 +12,34 @@
 #include "node.h"
 
 /**
- * @brief Classe grafo.
+ * @brief Classe que representa um Grafo do fluxo de Ciencia da Computaçao na UnB.
  * 
  */
 class Graph {
     public:
         /**
-         * @brief Construct a new Graph object.
+         * @brief usa o construtor padrão para criar um grafo.
          * 
          */
         Graph() = default;
 
         /**
-         * @brief addVertice cria um vértice com seu peso.
+         * @brief adiciona um vértice ao grafo que contem nome, dificuldade e creditos.
          * 
          * @param materia 
-         * @param peso 
+         * @param dificuldade dificuldade para passar na materia
+         * @param creditos quantidade de creditos da materia
          */
         void addVertice(string materia, int dificuldade, int creditos);
 
         /**
-         * @brief addAresta cria uma aresta entre os vértices.
+         * @brief adiciona uma ligação entre os vertices de origem e destino com um peso
+         * que é calculado pela (dificuldade * creditos)
          * 
-         * @param origem 
-         * @param destino 
+         * @param origem matéria que é pré-requisito da dest
+         * @param dest nova matéria
+         * @param dificuldade dificuldade da dest
+         * @param creditos créditos da dest
          */
         void addAresta(string origem, string dest, int dificuldade, int creditos);
 
