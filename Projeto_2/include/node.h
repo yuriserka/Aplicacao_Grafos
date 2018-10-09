@@ -14,48 +14,53 @@
 using namespace std;
 
 /**
- * @brief Classe Node.
+ * @brief Está classe representará os nós que irão compor o grafo, o objetivo em fazer esta classe foi 
+ * para reduzir a quantidade de estruturas de dados utilizadas para fazer um grafo. É bem conveninte 
+ * fazer uma classe para a representação do nó, pois desse modo pode-se ter mais flexibilidade do que
+ * usar um vector<int> por exemplo.
  * 
  */
 class Node {
     public:
         /**
-         * @brief Construct a new Node object.
+         * @brief usa o construtor padrão do C++ para criar um Nó.
          * 
          */
         Node() = default;
 
         /**
-         * @brief Construct a new Node object.
+         * @brief Constrói um Nó com nome, creditos, dificuldade e o peso necessário para atingi-lo.
          * 
-         * @param nome 
-         * @param peso 
+         * @param nome é o nome da matéria.
+         * @param peso é calculado por (creditos * dificuldade)
          */
-        Node(string nome, int peso) {
+        Node(string nome, int dificuldade, int creditos) {
             this->setNome(nome);
-            this->setPeso(peso);
+            this->setDificuldade(dificuldade);
+            this->setCreditos(creditos);
+            this->setPeso(dificuldade * creditos);
         }
 
         /**
-         * @brief Construct a new Node object.
+         * @brief Constrói um Nó com nome apenas.
          * 
-         * @param nome 
+         * @param nome é o nome da matéria.
          */
         Node(string nome) {
             this->setNome(nome);
         }
 
         /**
-         * @brief Set the Nome object.
+         * @brief Seta o atributo privado nome.
          * 
-         * @param nome 
+         * @param nome nome da matéria.
          */
         void setNome(string nome) {
             this->nome = nome;
         }
 
         /**
-         * @brief Set the Peso object.
+         * @brief Seta o atributo privado peso.
          * 
          * @param peso 
          */
@@ -64,16 +69,34 @@ class Node {
         }
 
         /**
+         * @brief Seta o atributo privado dificuldade.
+         * 
+         * @param dificuldade escolha arbitraria baseado no que sabemos da matéria
+         */
+        void setDificuldade(int dificuldade) {
+            this->dificuldade = dificuldade;
+        }
+
+        /**
+         * @brief Seta o atributo privado creditos.
+         * 
+         * @param creditos quantidade de créditos que a máteria em questão vale.
+         */
+        void setCreditos(int creditos) {
+            this->creditos = creditos;
+        }
+
+        /**
          * @brief Adciona um nó a lista de adjacentes dele.
          * 
-         * @param adj 
+         * @param adj é um Nó, ou seja, outra matéria.
          */
         void addAdjacente(Node& adj) {
             this->adjacentes.push_back(adj);
         }
 
         /**
-         * @brief Get the Nome object.
+         * @brief retorna o noma do nó
          * 
          * @return string 
          */
@@ -82,7 +105,7 @@ class Node {
         }
 
         /**
-         * @brief Get the Peso object.
+         * @brief retorna o peso do nó
          * 
          * @return int 
          */
@@ -91,7 +114,25 @@ class Node {
         }
 
         /**
-         * @brief Get the Adjacents object.
+         * @brief retorna a dificuldade da matéria
+         * 
+         * @return int 
+         */
+        int getDificuldade() const {
+            return this->dificuldade;
+        }
+
+        /**
+         * @brief retorna a quantidade de créditos da matéria.
+         * 
+         * @return int 
+         */
+        int getCreditos() const {
+            return this->creditos;
+        }
+
+        /**
+         * @brief retorna a lista de adjacência do nó
          * 
          * @return vector<Node> 
          */
@@ -100,6 +141,8 @@ class Node {
         }
     private:
         string nome;
+        int dificuldade;
+        int creditos;
         int peso;
         vector<Node> adjacentes;
 };

@@ -29,7 +29,7 @@ class Graph {
          * @param materia 
          * @param peso 
          */
-        void addVertice(string materia, int peso);
+        void addVertice(string materia, int dificuldade, int creditos);
 
         /**
          * @brief addAresta cria uma aresta entre os vértices.
@@ -37,7 +37,7 @@ class Graph {
          * @param origem 
          * @param destino 
          */
-        void addAresta(string origem, pair<string, int> destino);
+        void addAresta(string origem, string dest, int dificuldade, int creditos);
 
         /**
          * @brief Escreve em um arquivo txt os graus de entrada e sada de cada vértice, ou seja, 

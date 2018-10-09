@@ -25,9 +25,9 @@ void Parser::preencherGrafo(Graph& grafo) {
                 source.erase(source.begin(), source.begin() + 1);
                 
                 if (target == "null") {
-                    grafo.addVertice(source, dificulty * credits);
+                    grafo.addVertice(source, dificulty, credits);
                 } else {
-                    grafo.addAresta(source, make_pair(target, dificulty * credits));
+                    grafo.addAresta(source, target, dificulty, credits);
                 }
             }
         }

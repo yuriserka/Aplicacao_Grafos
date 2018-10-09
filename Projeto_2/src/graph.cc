@@ -1,19 +1,19 @@
 #include "../include/graph.h"
 
-void Graph::addVertice(string nomeDaMateria, int pesoDaMateria) {
-    Node noh = Node(nomeDaMateria, pesoDaMateria);
+void Graph::addVertice(string nomeDaMateria, int dificuldade, int creditos) {
+    Node noh = Node(nomeDaMateria, dificuldade, creditos);
     grafo.push_back(noh);
 }
 
-void Graph::addAresta(string origem, pair<string, int> dest) {
-    Node destino = Node(dest.first, dest.second);
+void Graph::addAresta(string origem, string dest, int dificuldade, int creditos) {
+    Node destino = Node(dest, dificuldade, creditos);
 
     auto i = find_if(grafo.begin(), grafo.end(), [&destino] (const Node& procurado) {
         return (procurado.getNome() == destino.getNome());
     });
 
     if (i == grafo.end()) {
-        this->addVertice(dest.first, dest.second);
+        this->addVertice(dest, dificuldade, creditos);
     }
 
     for (int i = 0; i < (int) grafo.size(); i++) {
@@ -22,7 +22,7 @@ void Graph::addAresta(string origem, pair<string, int> dest) {
         }
     }
 
-    grausDeEntrada[dest.first]++;
+    grausDeEntrada[dest]++;
     grausDeSaida[origem]++;
 }
 
