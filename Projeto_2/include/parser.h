@@ -18,15 +18,15 @@
 class Parser {
     public:
         /**
-         * @brief Construct a new Parser object.
+         * @brief Construtor default da classe Parser.
          * 
          */
         Parser() = default;
 
         /**
-         * @brief Construct a new Parser object.
+         * @brief Construtor da classe Parser, onde a partir do nome do arquivo, o arquivo é aberto.
          * 
-         * @param fileName 
+         * @param nomeDoArquivo 
          */
         Parser(string nomeDoArquivo) {
             this->file.open(nomeDoArquivo);
@@ -37,7 +37,7 @@ class Parser {
         }
 
         /**
-         * @brief Destroy the Parser object.
+         * @brief Destrutor da classe Parser, no qual o arquivo é fechado antes do objeto ser destruído.
          * 
          */
         ~Parser() {
@@ -47,7 +47,7 @@ class Parser {
         /**
          * @brief preencherGrafo pega do arquivo todos os nós, pesos e arestas e constrói o grafo em memória primária.
          * 
-         * @param graph 
+         * @param recebe um grafo do tipo Graph
          */
         void preencherGrafo(Graph& grafo);
     private:
