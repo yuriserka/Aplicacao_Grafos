@@ -6,25 +6,25 @@
  * 
  * @file graph.h
  * @author Yuri Serka e Henrique Mendes
- * @date 2018-09-26
+ * @date 2018-10-08
  */
 
 #include "node.h"
 
 /**
- * @brief 
+ * @brief Classe grafo.
  * 
  */
 class Graph {
     public:
         /**
-         * @brief Construct a new Graph object
+         * @brief Construct a new Graph object.
          * 
          */
         Graph() = default;
 
         /**
-         * @brief 
+         * @brief addVertice cria um vértice com seu peso.
          * 
          * @param materia 
          * @param peso 
@@ -32,7 +32,7 @@ class Graph {
         void addVertice(string materia, int peso);
 
         /**
-         * @brief 
+         * @brief addAresta cria uma aresta entre os vértices.
          * 
          * @param origem 
          * @param destino 
@@ -40,31 +40,32 @@ class Graph {
         void addAresta(string origem, pair<string, int> destino);
 
         /**
-         * @brief 
+         * @brief Escreve em um arquivo txt os graus de entrada e sada de cada vértice, ou seja, 
+         * quantos pré-requisitos a materia tem e quantas materias ela é pré-requisito.
          * 
          */
         void EscreveGrafo();
 
         /**
-         * @brief 
+         * @brief Escreve em um arquivo txt todos os caminhos do grafo.
          * 
          */
         void EscreveTodosCaminhos();
         
         /**
-         * @brief 
+         * @brief imprime todos os vertices e seus adjacentes do grafo.
          * 
          */
         void imprimeGrafo();
 
         /**
-         * @brief 
+         * @brief Imprime a ordenação topologica.
          * 
          */
         void imprimeTopSort();
 
         /**
-         * @brief 
+         * @brief Imprime o caminho crítico e seu peso total.
          * 
          */
         void imprimeCaminhoCritico();        

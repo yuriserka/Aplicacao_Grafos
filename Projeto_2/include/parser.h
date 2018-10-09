@@ -6,25 +6,25 @@
  * 
  * @file parser.h
  * @author Yuri Serka e Henrique Mendes
- * @date 2018-09-26
+ * @date 2018-10-08
  */
 
 #include "graph.h"
 
 /**
- * @brief 
+ * @brief Classe Parser.
  * 
  */
 class Parser {
     public:
         /**
-         * @brief Construct a new Parser object
+         * @brief Construct a new Parser object.
          * 
          */
         Parser() = default;
 
         /**
-         * @brief Construct a new Parser object
+         * @brief Construct a new Parser object.
          * 
          * @param fileName 
          */
@@ -37,7 +37,7 @@ class Parser {
         }
 
         /**
-         * @brief Destroy the Parser object
+         * @brief Destroy the Parser object.
          * 
          */
         ~Parser() {
@@ -45,7 +45,7 @@ class Parser {
         }
 
         /**
-         * @brief 
+         * @brief preencherGrafo pega do arquivo todos os nós, pesos e arestas e constrói o grafo em memória primária.
          * 
          * @param graph 
          */

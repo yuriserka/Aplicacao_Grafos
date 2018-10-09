@@ -6,7 +6,7 @@
  * 
  * @file node.h
  * @author Yuri Serka e Henrique Mendes
- * @date 2018-09-29
+ * @date 2018-10-08
  */
 
 #include <bits/stdc++.h>
@@ -14,19 +14,19 @@
 using namespace std;
 
 /**
- * @brief 
+ * @brief Classe Node.
  * 
  */
 class Node {
     public:
         /**
-         * @brief Construct a new Node object
+         * @brief Construct a new Node object.
          * 
          */
         Node() = default;
 
         /**
-         * @brief Construct a new Node object
+         * @brief Construct a new Node object.
          * 
          * @param nome 
          * @param peso 
@@ -37,7 +37,7 @@ class Node {
         }
 
         /**
-         * @brief Construct a new Node object
+         * @brief Construct a new Node object.
          * 
          * @param nome 
          */
@@ -46,7 +46,7 @@ class Node {
         }
 
         /**
-         * @brief Set the Nome object
+         * @brief Set the Nome object.
          * 
          * @param nome 
          */
@@ -55,7 +55,7 @@ class Node {
         }
 
         /**
-         * @brief Set the Peso object
+         * @brief Set the Peso object.
          * 
          * @param peso 
          */
@@ -64,7 +64,7 @@ class Node {
         }
 
         /**
-         * @brief 
+         * @brief Adciona um nó a lista de adjacentes dele.
          * 
          * @param adj 
          */
@@ -73,7 +73,7 @@ class Node {
         }
 
         /**
-         * @brief Get the Nome object
+         * @brief Get the Nome object.
          * 
          * @return string 
          */
@@ -82,7 +82,7 @@ class Node {
         }
 
         /**
-         * @brief Get the Peso object
+         * @brief Get the Peso object.
          * 
          * @return int 
          */
@@ -91,7 +91,7 @@ class Node {
         }
 
         /**
-         * @brief Get the Adjacents object
+         * @brief Get the Adjacents object.
          * 
          * @return vector<Node> 
          */
