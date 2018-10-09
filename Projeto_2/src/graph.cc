@@ -42,9 +42,9 @@ void Graph::EscreveGrafo() {
 
     for (auto node : grafo) {
         out << "G(e) = " << grausDeEntrada[node.getNome()] << ", G(s) = " << grausDeSaida[node.getNome()] << " | ";
-        out << node.getNome() << ": ";
+        out << node.getNome() << " (" << node.getPeso() << "): ";
         for (auto adj : node.getAdjacentes()) {
-            out << adj.getNome() << ", " << adj.getPeso() << "; ";
+            out << adj.getNome() << " (" << adj.getPeso() << "); ";
         }
         out << '\n';
     }
@@ -70,16 +70,16 @@ void Graph::EscreveTodosCaminhos() {
 }
 
 void Graph::imprimeGrafo() {
-    cout << "\tGrafo: \n";
+    cout << "\tDAG: \n";
 
     sort(grafo.begin(), grafo.end(), [] (const Node& x, const Node& y) {
         return (x.getNome() < y.getNome());
     });
 
     for (auto node : grafo) {
-        cout << node.getNome() << ", peso = " << node.getPeso() << ": ";
+        cout << node.getNome() << " (" << node.getPeso() << "): ";
         for (auto adj : node.getAdjacentes()) {
-            cout << adj.getNome() << ", peso = " << adj.getPeso() << "; ";
+            cout << adj.getNome() << " (" << adj.getPeso() << "); ";
         }
         cout << "\n";
     }
@@ -90,7 +90,7 @@ void Graph::imprimeTopSort() {
         this->TopSort();
     }
 
-    cout << "\tOrdenacao Topologica: \n";
+    cout << "\n\tOrdenacao Topologica: \n";
 
     for (auto materia : listaTopSort) {
         cout << materia << "\n";
@@ -131,7 +131,7 @@ void Graph::imprimeCaminhoCritico() {
     if (todosCaminhos.empty()) {
         this->computaCaminhoCritico();
     }
-    cout << "\tCaminho Critico: \n";
+    cout << "\n\tCaminho Critico: \n";
     
     vector<string> maior_caminho = todosCaminhos.back().first;
     int maiorPeso = todosCaminhos.back().second;
@@ -139,7 +139,7 @@ void Graph::imprimeCaminhoCritico() {
     for (auto materia : maior_caminho) {
         cout << materia << " -> ";
     }
-    cout << "\n| Peso Total = " << maiorPeso << "\n";
+    cout << "| Peso Total = " << maiorPeso << "\n";
 }
 
 void Graph::computaCaminhoCritico() {
