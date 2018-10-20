@@ -1,0 +1,303 @@
+ESCOLAS
+[
+    vertice
+    [
+        nome E1
+        habilidades_Requeridas 0
+        vagas 2
+    ]
+    vertice
+    [
+        nome E2
+        habilidades_Requeridas 0
+        vagas 2
+    ]
+    vertice
+    [
+        nome E3
+        habilidades_Requeridas 0
+        vagas 3
+    ]
+    vertice
+    [
+        nome E4
+        habilidades_Requeridas 0
+        vagas 2
+    ]
+    vertice
+    [
+        nome E5
+        habilidades_Requeridas 0
+        vagas 2
+    ]
+    vertice
+    [
+        nome E6
+        habilidades_Requeridas 0
+        vagas 2
+    ]
+    vertice
+    [
+        nome E7
+        habilidades_Requeridas 0
+        vagas 3
+    ]
+    vertice
+    [
+        nome E8
+        habilidades_Requeridas 0
+        vagas 3
+    ]
+    vertice
+    [
+        nome E9
+        habilidades_Requeridas 0
+        vagas 2
+    ]
+    vertice
+    [
+        nome E10
+        habilidades_Requeridas 1
+        vagas 2
+    ]
+    vertice
+    [
+        nome E11
+        habilidades_Requeridas 3
+        vagas 3
+    ]
+    vertice
+    [
+        nome E12
+        habilidades_Requeridas 3
+        vagas 3
+    ]
+    vertice
+    [
+        nome E13
+        habilidades_Requeridas 3
+        vagas 3
+    ]
+    vertice
+    [
+        nome E14
+        habilidades_Requeridas 3
+        vagas 2
+    ]
+    vertice
+    [
+        nome E15
+        habilidades_Requeridas 3
+        vagas 1
+    ]
+    vertice
+    [
+        nome E16
+        habilidades_Requeridas 3
+        vagas 1
+    ]
+    vertice
+    [
+        nome E17
+        habilidades_Requeridas 3
+        vagas 1
+    ]
+    vertice
+    [
+        nome E18
+        habilidades_Requeridas 3
+        vagas 1
+    ]
+    vertice
+    [
+        nome E19
+        habilidades_Requeridas 3
+        vagas 2
+    ]
+    vertice
+    [
+        nome E20
+        habilidades_Requeridas 3
+        vagas 2
+    ]
+    vertice
+    [
+        nome E21
+        habilidades_Requeridas 3
+        vagas 2
+    ]
+    vertice
+    [
+        nome E22
+        habilidades_Requeridas 3
+        vagas 1
+    ]
+    vertice
+    [
+        nome E23
+        habilidades_Requeridas 3
+        vagas 2
+    ]
+    vertice
+    [
+        nome E24
+        habilidades_Requeridas 3
+        vagas 1
+    ]
+    vertice
+    [
+        nome E25
+        habilidades_Requeridas 3
+        vagas 2
+    ]
+    vertice
+    [
+        nome E26
+        habilidades_Requeridas 2
+        vagas 1
+    ]
+    vertice
+    [
+        nome E27
+        habilidades_Requeridas 2
+        vagas 2
+    ]
+    vertice
+    [
+        nome E28
+        habilidades_Requeridas 2
+        vagas 1
+    ]
+    vertice
+    [
+        nome E29
+        habilidades_Requeridas 2
+        vagas 2
+    ]
+    vertice
+    [
+        nome E30
+        habilidades_Requeridas 2
+        vagas 2
+    ]
+    vertice
+    [
+        nome E31
+        habilidades_Requeridas 2
+        vagas 2
+    ]
+    vertice
+    [
+        nome E32
+        habilidades_Requeridas 2
+        vagas 2
+    ]
+    vertice
+    [
+        nome E33
+        habilidades_Requeridas 2
+        vagas 2
+    ]
+    vertice
+    [
+        nome E34
+        habilidades_Requeridas 2
+        vagas 2
+    ]
+    vertice
+    [
+        nome E35
+        habilidades_Requeridas 2
+        vagas 1
+    ]
+    vertice
+    [
+        nome E36
+        habilidades_Requeridas 2
+        vagas 1
+    ]
+    vertice
+    [
+        nome E37
+        habilidades_Requeridas 2
+        vagas 1
+    ]
+    vertice
+    [
+        nome E38
+        habilidades_Requeridas 2
+        vagas 1
+    ]
+    vertice
+    [
+        nome E39
+        habilidades_Requeridas 2
+        vagas 1
+    ]
+    vertice
+    [
+        nome E40
+        habilidades_Requeridas 2
+        vagas 1
+    ]
+    vertice
+    [
+        nome E41
+        habilidades_Requeridas 2
+        vagas 2
+    ]
+    vertice
+    [
+        nome E42
+        habilidades_Requeridas 2
+        vagas 3
+    ]
+    vertice
+    [
+        nome E43
+        habilidades_Requeridas 3
+        vagas 2
+    ]
+    vertice
+    [
+        nome E44
+        habilidades_Requeridas 2
+        vagas 3
+    ]
+    vertice
+    [
+        nome E45
+        habilidades_Requeridas 2
+        vagas 3
+    ]
+    vertice
+    [
+        nome E46
+        habilidades_Requeridas 2
+        vagas 3
+    ]
+    vertice
+    [
+        nome E47
+        habilidades_Requeridas 2
+        vagas 3
+    ]
+    vertice
+    [
+        nome E48
+        habilidades_Requeridas 2
+        vagas 3
+    ]
+    vertice
+    [
+        nome E49
+        habilidades_Requeridas 2
+        vagas 1
+    ]
+    vertice
+    [
+        nome E50
+        habilidades_Requeridas 2
+        vagas 1
+    ]
+]fim

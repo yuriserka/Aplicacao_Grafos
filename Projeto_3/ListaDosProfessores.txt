@@ -1,0 +1,603 @@
+PROFESSORES
+[
+    vertice
+    [
+        nome P1
+        habilitacoes 3
+        interesse E10, E20, E1, E27, E3
+    ]
+    vertice
+    [
+        nome P2
+        habilitacoes 2
+        interesse E10, E20, E2, E27, E5
+    ]
+    vertice
+    [
+        nome P3
+        habilitacoes 2
+        interesse E10, E20, E3, E27, E7
+    ]
+    vertice
+    [
+        nome P4
+        habilitacoes 2
+        interesse E10, E20, E4, E27, E9
+    ]
+    vertice
+    [
+        nome P5
+        habilitacoes 3
+        interesse E10, E20, E5, E27, E11
+    ]
+    vertice
+    [
+        nome P6
+        habilitacoes 2
+        interesse E10, E5, E6, E27, E13
+    ]
+    vertice
+    [
+        nome P7
+        habilitacoes 2
+        interesse E10, E5, E7, E37, E15
+    ]
+    vertice
+    [
+        nome P8
+        habilitacoes 2
+        interesse E10, E5, E8, E35, E17
+    ]
+    vertice
+    [
+        nome P9
+        habilitacoes 2
+        interesse E10, E5, E9, E35, E21
+    ]
+    vertice
+    [
+        nome P10
+        habilitacoes 3
+        interesse E10, E5, E7, E35, E23
+    ]
+    vertice
+    [
+        nome P11
+        habilitacoes 2
+        interesse E20, E30, E11, E35, E25
+    ]
+    vertice
+    [
+        nome P12
+        habilitacoes 2
+        interesse E20, E30, E12, E35, E27
+    ]
+    vertice
+    [
+        nome P13
+        habilitacoes 2
+        interesse E20, E30, E13, E35, E29
+    ]
+    vertice
+    [
+        nome P14
+        habilitacoes 2
+        interesse E20, E30, E14, E48, E31
+    ]
+    vertice
+    [
+        nome P15
+        habilitacoes 3
+        interesse E20, E30, E15, E48, E33
+    ]
+    vertice
+    [
+        nome P16
+        habilitacoes 2
+        interesse E20, E35, E16, E48, E35
+    ]
+    vertice
+    [
+        nome P17
+        habilitacoes 2
+        interesse E20, E35, E17, E48, E37
+    ]
+    vertice
+    [
+        nome P18
+        habilitacoes 2
+        interesse E20, E35, E18, E48, E39
+    ]
+    vertice
+    [
+        nome P19
+        habilitacoes 2
+        interesse E20, E35, E19, E10, E41
+    ]
+    vertice
+    [
+        nome P20
+        habilitacoes 3
+        interesse E20, E35, E30, E10, E43
+    ]
+    vertice
+    [
+        nome P21
+        habilitacoes 1
+        interesse E30, E40, E21, E10, E45
+    ]
+    vertice
+    [
+        nome P22
+        habilitacoes 2
+        interesse E30, E40, E22, E10, E47
+    ]
+    vertice
+    [
+        nome P23
+        habilitacoes 2
+        interesse E30, E40, E23, E10, E49
+    ]
+    vertice
+    [
+        nome P24
+        habilitacoes 2
+        interesse E30, E40, E24, E10, E2
+    ]
+    vertice
+    [
+        nome P25
+        habilitacoes 3
+        interesse E30, E40, E25, E10, E4
+    ]
+    vertice
+    [
+        nome P26
+        habilitacoes 2
+        interesse E30, E45, E26, E23, E6
+    ]
+    vertice
+    [
+        nome P27
+        habilitacoes 2
+        interesse E30, E45, E27, E23, E8
+    ]
+    vertice
+    [
+        nome P28
+        habilitacoes 2
+        interesse E30, E45, E28, E23, E12
+    ]
+    vertice
+    [
+        nome P29
+        habilitacoes 2
+        interesse E30, E45, E29, E23, E14
+    ]
+    vertice
+    [
+        nome P30
+        habilitacoes 3
+        interesse E30, E45, E3, E31, E16
+    ]
+    vertice
+    [
+        nome P31
+        habilitacoes 1
+        interesse E40, E50, E31, E41, E18
+    ]
+    vertice
+    [
+        nome P32
+        habilitacoes 2
+        interesse E40, E50, E32, E31, E19
+    ]
+    vertice
+    [
+        nome P33
+        habilitacoes 2
+        interesse E40, E50, E33, E31, E22
+    ]
+    vertice
+    [
+        nome P34
+        habilitacoes 2
+        interesse E40, E50, E34, E31, E24
+    ]
+    vertice
+    [
+        nome P35
+        habilitacoes 3
+        interesse E40, E50, E35, E31, E26
+    ]
+    vertice
+    [
+        nome P36
+        habilitacoes 2
+        interesse E40, E50, E36, E21, E28
+    ]
+    vertice
+    [
+        nome P37
+        habilitacoes 2
+        interesse E40, E2, E37, E21, E32
+    ]
+    vertice
+    [
+        nome P38
+        habilitacoes 2
+        interesse E40, E2, E38, E21, E34
+    ]
+    vertice
+    [
+        nome P39
+        habilitacoes 2
+        interesse E40, E2, E39, E21, E36
+    ]
+    vertice
+    [
+        nome P40
+        habilitacoes 3
+        interesse E40, E2, E4, E11, E38
+    ]
+    vertice
+    [
+        nome P41
+        habilitacoes 1
+        interesse E40, E2, E41, E11, E42
+    ]
+    vertice
+    [
+        nome P42
+        habilitacoes 2
+        interesse E40, E4, E42, E11, E44
+    ]
+    vertice
+    [
+        nome P43
+        habilitacoes 2
+        interesse E40, E4, E43, E11, E46
+    ]
+    vertice
+    [
+        nome P44
+        habilitacoes 2
+        interesse E40, E4, E44, E11, E48
+    ]
+    vertice
+    [
+        nome P45
+        habilitacoes 3
+        interesse E40, E4, E45, E11, E5
+    ]
+    vertice
+    [
+        nome P46
+        habilitacoes 2
+        interesse E40, E4, E46, E11, E45
+    ]
+    vertice
+    [
+        nome P47
+        habilitacoes 2
+        interesse E40, E6, E47, E1, E45
+    ]
+    vertice
+    [
+        nome P48
+        habilitacoes 2
+        interesse E40, E6, E48, E1, E45
+    ]
+    vertice
+    [
+        nome P49
+        habilitacoes 2
+        interesse E40, E6, E49, E1, E45
+    ]
+    vertice
+    [
+        nome P50
+        habilitacoes 3
+        interesse E40, E6, E50, E1, E45
+    ]
+    vertice
+    [
+        nome P51
+        habilitacoes 1
+        interesse E50, E6, E49, E1, E45
+    ]
+    vertice
+    [
+        nome P52
+        habilitacoes 2
+        interesse E49, E8, E48, E1, E45
+    ]
+    vertice
+    [
+        nome P53
+        habilitacoes 2
+        interesse E48, E8, E47, E1, E45
+    ]
+    vertice
+    [
+        nome P54
+        habilitacoes 2
+        interesse E47, E8, E46, E1, E45
+    ]
+    vertice
+    [
+        nome P55
+        habilitacoes 3
+        interesse E46, E8, E45, E1, E45
+    ]
+    vertice
+    [
+        nome P56
+        habilitacoes 2
+        interesse E45, E8, E44, E2, E25
+    ]
+    vertice
+    [
+        nome P57
+        habilitacoes 2
+        interesse E44, E8, E43, E3, E25
+    ]
+    vertice
+    [
+        nome P58
+        habilitacoes 2
+        interesse E43, E8, E42, E4, E25
+    ]
+    vertice
+    [
+        nome P59
+        habilitacoes 2
+        interesse E42, E8, E41, E5, E25
+    ]
+    vertice
+    [
+        nome P60
+        habilitacoes 3
+        interesse E41, E8, E40, E6, E25
+    ]
+    vertice
+    [
+        nome P61
+        habilitacoes 1
+        interesse E40, E8, E4, E7, E15
+    ]
+    vertice
+    [
+        nome P62
+        habilitacoes 2
+        interesse E39, E12, E14, E9, E15
+    ]
+    vertice
+    [
+        nome P63
+        habilitacoes 2
+        interesse E38, E12, E24, E10, E15
+    ]
+    vertice
+    [
+        nome P64
+        habilitacoes 2
+        interesse E37, E12, E34, E11, E15
+    ]
+    vertice
+    [
+        nome P65
+        habilitacoes 3
+        interesse E36, E12, E14, E13, E15
+    ]
+    vertice
+    [
+        nome P66
+        habilitacoes 2
+        interesse E35, E12, E4, E14, E15
+    ]
+    vertice
+    [
+        nome P67
+        habilitacoes 2
+        interesse E34, E12, E24, E16, E15
+    ]
+    vertice
+    [
+        nome P68
+        habilitacoes 2
+        interesse E33, E12, E34, E17, E15
+    ]
+    vertice
+    [
+        nome P69
+        habilitacoes 2
+        interesse E32, E12, E44, E18, E15
+    ]
+    vertice
+    [
+        nome P70
+        habilitacoes 3
+        interesse E31, E12, E1, E19, E15
+    ]
+    vertice
+    [
+        nome P71
+        habilitacoes 1
+        interesse E30, E12, E1, E20, E35
+    ]
+    vertice
+    [
+        nome P72
+        habilitacoes 2
+        interesse E29, E12, E1, E21, E35
+    ]
+    vertice
+    [
+        nome P73
+        habilitacoes 2
+        interesse E28, E13, E7, E22, E35
+    ]
+    vertice
+    [
+        nome P74
+        habilitacoes 2
+        interesse E27, E13, E7, E23, E35
+    ]
+    vertice
+    [
+        nome P75
+        habilitacoes 3
+        interesse E26, E13, E7, E24, E35
+    ]
+    vertice
+    [
+        nome P76
+        habilitacoes 2
+        interesse E25, E13, E7, E2, E35
+    ]
+    vertice
+    [
+        nome P77
+        habilitacoes 2
+        interesse E24, E13, E7, E26, E35
+    ]
+    vertice
+    [
+        nome P78
+        habilitacoes 2
+        interesse E23, E13, E47, E27, E35
+    ]
+    vertice
+    [
+        nome P79
+        habilitacoes 2
+        interesse E22, E27, E47, E28, E35
+    ]
+    vertice
+    [
+        nome P80
+        habilitacoes 3
+        interesse E21, E27, E47, E29, E35
+    ]
+    vertice
+    [
+        nome P81
+        habilitacoes 1
+        interesse E20, E27, E34, E30, E11
+    ]
+    vertice
+    [
+        nome P82
+        habilitacoes 2
+        interesse E19, E27, E34, E31, E20
+    ]
+    vertice
+    [
+        nome P83
+        habilitacoes 2
+        interesse E18, E27, E3, E32, E20
+    ]
+    vertice
+    [
+        nome P84
+        habilitacoes 2
+        interesse E17, E44, E3, E33, E20
+    ]
+    vertice
+    [
+        nome P85
+        habilitacoes 3
+        interesse E16, E44, E3, E34, E20
+    ]
+    vertice
+    [
+        nome P86
+        habilitacoes 2
+        interesse E15, E44, E3, E35, E20
+    ]
+    vertice
+    [
+        nome P87
+        habilitacoes 2
+        interesse E14, E44, E4, E36, E20
+    ]
+    vertice
+    [
+        nome P88
+        habilitacoes 2
+        interesse E13, E44, E4, E37, E20
+    ]
+    vertice
+    [
+        nome P89
+        habilitacoes 2
+        interesse E12, E44, E4, E38, E20
+    ]
+    vertice
+    [
+        nome P90
+        habilitacoes 3
+        interesse E11, E44, E4, E39, E20
+    ]
+    vertice
+    [
+        nome P91
+        habilitacoes 1
+        interesse E10, E47, E4, E40, E1
+    ]
+    vertice
+    [
+        nome P92
+        habilitacoes 2
+        interesse E9, E47, E4, E41, E1
+    ]
+    vertice
+    [
+        nome P93
+        habilitacoes 2
+        interesse E8, E47, E4, E42, E1
+    ]
+    vertice
+    [
+        nome P94
+        habilitacoes 2
+        interesse E7, E47, E4, E43, E1
+    ]
+    vertice
+    [
+        nome P95
+        habilitacoes 3
+        interesse E6, E47, E4, E44, E1
+    ]
+    vertice
+    [
+        nome P96
+        habilitacoes 2
+        interesse E5, E47, E4, E45, E1
+    ]
+    vertice
+    [
+        nome P97
+        habilitacoes 2
+        interesse E4, E47, E14, E46, E1
+    ]
+    vertice
+    [
+        nome P98
+        habilitacoes 2
+        interesse E3, E47, E4, E48, E1
+    ]
+    vertice
+    [
+        nome P99
+        habilitacoes 2
+        interesse E2, E47, E4, E49, E1
+    ]
+    vertice
+    [
+        nome P100
+        habilitacoes 3
+        interesse E1, E47, E4, E50, E10
+    ]
+]fim
