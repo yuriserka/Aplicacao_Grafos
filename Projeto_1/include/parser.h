@@ -50,7 +50,6 @@ class Parser {
          */
         void insertOnGraph(Graph& graph);
     private:
-    
         /**
          * @brief Variavel para manipular o arquivo
          * 
