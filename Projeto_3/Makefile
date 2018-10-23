@@ -1,7 +1,6 @@
 EXE = exec
 OBJ_DIR = bin
 SRC_DIR = src
-# Note que essa pasta Dev_libs deve existir no seu computador e possuir a biblioteca externa que vc usará
 INC_DIR = 
 LIB_DIR = 
 SRC = $(wildcard $(SRC_DIR)/*.cc)
@@ -21,6 +20,7 @@ $(EXE): $(OBJ)
 	$(CXX) $^ $(INC_PATH) $(LIB_PATH) $(CPPFLAGS) $(CFLAGS) $(LINK_FLAGS) -o $@
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cc
+	@mkdir -p $(OBJ_DIR)
 	$(CXX) -c $< $(INC_PATH) $(LIB_PATH) $(CPPFLAGS) $(CFLAGS) $(LINK_FLAGS) -o $@
 
 clean:

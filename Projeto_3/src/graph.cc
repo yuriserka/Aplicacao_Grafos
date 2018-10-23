@@ -10,7 +10,11 @@ void Graph::addEscola(string nome, int habilitacoes, int vagas) {
 
 void Graph::escreveProfs() {
     ofstream x;
-    x.open("t.txt");
+    x.open("ProfessoresGeradosPorMim.txt");
+    if (!x.is_open()) {
+        cout << "O arquivo ProfessoresGeradosPorMim nao foi aberto\n";
+        exit(-1);
+    }
 
     x << "// lista de professores e preferencias\n// formato (codigo professor, habilitacoes): (Escolas em ordem decrescente de prioridade)\n\n";
 
@@ -28,15 +32,17 @@ void Graph::escreveProfs() {
 
 void Graph::escreveEscs() {
     ofstream x;
-    x.open("te.txt");
+    x.open("EscolasGeradasPorMim.txt");
+    if (!x.is_open()) {
+        cout << "O arquivo EscolasGeradasPorMim nao foi aberto\n";
+        exit(-1);
+    }
 
     x << "//escolas e preferencias em termos de habilitacoes\n// formato (codigo escola):(habilitacoes pretendidas):(vagas)\n";
 
     for (auto node : escolas) {
         x << "(" << node.getNome() << "):";
-        if (node.getHabilidades() != 0) {
-            x << "(" << node.getHabilidades() << "):";
-        }
+        x << "(" << node.getHabilidades() << "):";
         x << "(" << node.getVagas() << ")\n"; 
     }
 }
