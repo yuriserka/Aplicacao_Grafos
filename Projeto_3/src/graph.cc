@@ -46,3 +46,19 @@ void Graph::escreveEscs() {
         x << "(" << node.getVagas() << ")\n"; 
     }
 }
+
+void Graph::printEscs(){
+    for(auto e : escolas){
+        cout << endl << "Escola: " << e.getNome() << " Habilitacoes: " << e.getHabilidades() << " Vagas: " << e.getVagas();
+    }
+}
+
+void Graph::printProfs(){
+    for(auto p : professores){
+        cout << endl << "Professor: " << p.getNome() << " Habilidade: " << p.getHabilitacoes() << " Escolas: (";
+        for(auto v : p.getEscolas()){
+            cout << " " << v << " ";
+        }
+        cout << ")";
+    }
+}
