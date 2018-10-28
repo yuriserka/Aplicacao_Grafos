@@ -21,7 +21,7 @@ class Graph {
     private:
         list<Professor> grafo;
         vector<Escola> escolas;
-        void galeShapley();
+        void galeShapley(Escola& escolaNula);
         // list<Professor> professores;
         // list<Escola> escolas;
 };

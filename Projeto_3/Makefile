@@ -7,7 +7,7 @@ SRC = $(wildcard $(SRC_DIR)/*.cc)
 OBJ = $(SRC:$(SRC_DIR)/%.cc=$(OBJ_DIR)/%.o)
 CXX = g++
 CPPFLAGS = -std=c++11
-CFLAGS = -g -Wall -pedantic
+CFLAGS = -g -Wall -pedantic -O1
 INC_PATH = -I$(INC_DIR)
 LIB_PATH = -L$(LIB_DIR)
 LINK_FLAGS = 

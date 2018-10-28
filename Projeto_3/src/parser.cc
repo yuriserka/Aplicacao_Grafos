@@ -33,6 +33,7 @@ void Parser::lerProfessores(Graph& grafo) {
                         }
                         es.push_back(this->lerEscola(s, "ListaDasEscolas.txt"));
                     }
+                    // reverse(es.begin(), es.end());
                     p.setEscolasDeInteresse(es);
                     grafo.addProfessor(p);
                 }
