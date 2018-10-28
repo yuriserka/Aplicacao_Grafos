@@ -7,16 +7,23 @@ class Graph {
     public:
         Graph() = default;
 
-        void addProfessor(string nome, int habilitacoes, vector<string> escolas);
+        void addAresta(Professor& p, Escola& e);
 
-        void addEscola(string nome, int habilitacoes, int vagas);
+        void addProfessor(Professor& p);
+
+        // void addEscola(string nome, int habilitacoes, int vagas);
 
         void escreveProfs();
         
-        void escreveEscs();       
+        void escreveEscs();
+
+        void Emparelhamentos();       
     private:
-        list<Professor> professores;
-        list<Escola> escolas;
+        list<Professor> grafo;
+        vector<Escola> escolas;
+        void galeShapley();
+        // list<Professor> professores;
+        // list<Escola> escolas;
 };
 
 #endif // Graph_h_
