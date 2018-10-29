@@ -115,9 +115,9 @@ void Graph::galeShapley(Escola& e) {
     while (empregados < 67) {
         for (auto k = grafo.begin(); k != grafo.end(); k++) {
             auto& p = *k;
-            if (p.getEscolaIdeal()->getNome() != "null") {
-                continue;
-            }
+            // if (p.getEscolaIdeal()->getNome() != "null") {
+            //     continue;
+            // }
             x << "Avaliando possibilidades para o prof " << p.getNome() << ": \n";
             for (int i = 0; i < 5; i++) {
 
@@ -201,10 +201,20 @@ void Graph::galeShapley(Escola& e) {
 
                 if (pos != escolas.end()) {
                     Escola& escolaQpossuiHabIgual_e_MaisDeUmProf = escolas[pos - escolas.begin()];
-                    x.removeProfessorIdeal(x.getProfessoresIdeais().front());
-                    x.addProfessorIdeal(pos->getProfessoresIdeais().front());
-                    pos->getProfessoresIdeais().front().setEscolaIdeal(&x);
-                    escolaQpossuiHabIgual_e_MaisDeUmProf.removeProfessorIdeal(pos->getProfessoresIdeais().front());
+                    // nao faço ideia se funciona
+                    for (auto& prof : escolaQpossuiHabIgual_e_MaisDeUmProf.getProfessoresIdeais()) {
+                        auto& procuraEscolaIdealQueTemVaga = find_if(prof.getEscolasDeInteresse().begin(), prof.getEscolasDeInteresse().end(), [&x] (Escola& e) {
+                            return (x.getNome() == e.getNome());
+                        });
+                        if (procuraEscolaIdealQueTemVaga != prof.getEscolasDeInteresse().end()) {
+                            x.removeProfessorIdeal(x.getProfessoresIdeais().front());
+                            x.addProfessorIdeal(prof);
+                            // procuraEscolaIdealQueTemVaga->addProfessorIdeal(prof);        
+                            pos->getProfessoresIdeais().front().setEscolaIdeal(&x);
+                            escolaQpossuiHabIgual_e_MaisDeUmProf.removeProfessorIdeal(prof);
+                            // escolaQpossuiHabIgual_e_MaisDeUmProf.removeProfessorIdeal(pos->getProfessoresIdeais().front());
+                        }
+                    }
                 }
             }
         }

@@ -1463,6 +1463,443 @@ vagas (depois do if) da E10 = 0
 escola ideal para P100 = null
 
 
+Avaliando possibilidades para o prof P1: 
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E1 = P48, 
+vagas (antes do if) da E1 = 0
+vagas (depois do if) da E1 = 0
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+profs ideais (antes do if) da E3 = P30, 
+vagas (antes do if) da E3 = 0
+vagas (depois do if) da E3 = 0
+escola ideal para P1 = E20
+
+
+Avaliando possibilidades para o prof P2: 
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E2 = P2, 
+vagas (antes do if) da E2 = 0
+vagas (depois do if) da E2 = 0
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+profs ideais (antes do if) da E5 = P6, 
+vagas (antes do if) da E5 = 0
+vagas (depois do if) da E5 = 0
+escola ideal para P2 = E2
+
+
+Avaliando possibilidades para o prof P3: 
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E3 = P30, 
+vagas (antes do if) da E3 = 0
+vagas (depois do if) da E3 = 0
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+profs ideais (antes do if) da E7 = P10, 
+vagas (antes do if) da E7 = 0
+vagas (depois do if) da E7 = 0
+escola ideal para P3 = E27
+
+
+Avaliando possibilidades para o prof P4: 
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E4 = P4, 
+vagas (antes do if) da E4 = 0
+vagas (depois do if) da E4 = 0
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+profs ideais (antes do if) da E9 = P9, 
+vagas (antes do if) da E9 = 0
+vagas (depois do if) da E9 = 0
+escola ideal para P4 = E4
+
+
+Avaliando possibilidades para o prof P5: 
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E5 = P6, 
+vagas (antes do if) da E5 = 0
+vagas (depois do if) da E5 = 0
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+profs ideais (antes do if) da E11 = P90, 
+vagas (antes do if) da E11 = 0
+vagas (depois do if) da E11 = 0
+escola ideal para P5 = E20
+
+
+Avaliando possibilidades para o prof P6: 
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E5 = P6, 
+vagas (antes do if) da E5 = 0
+vagas (depois do if) da E5 = 0
+profs ideais (antes do if) da E6 = P47, 
+vagas (antes do if) da E6 = 0
+vagas (depois do if) da E6 = 0
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+profs ideais (antes do if) da E13 = P75, 
+vagas (antes do if) da E13 = 2
+vagas (depois do if) da E13 = 2
+escola ideal para P6 = E5
+
+
+Avaliando possibilidades para o prof P7: 
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E5 = P6, 
+vagas (antes do if) da E5 = 0
+vagas (depois do if) da E5 = 0
+profs ideais (antes do if) da E7 = P10, 
+vagas (antes do if) da E7 = 0
+vagas (depois do if) da E7 = 0
+profs ideais (antes do if) da E37 = P7, 
+vagas (antes do if) da E37 = 0
+vagas (depois do if) da E37 = 0
+profs ideais (antes do if) da E15 = P15, 
+vagas (antes do if) da E15 = 0
+vagas (depois do if) da E15 = 0
+escola ideal para P7 = E37
+
+
+Avaliando possibilidades para o prof P8: 
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E5 = P6, 
+vagas (antes do if) da E5 = 0
+vagas (depois do if) da E5 = 0
+profs ideais (antes do if) da E8 = null, 
+vagas (antes do if) da E8 = 1
+vagas (depois do if) da E8 = 1
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E17 = P45, 
+vagas (antes do if) da E17 = 1
+vagas (depois do if) da E17 = 1
+escola ideal para P8 = E35
+
+
+Avaliando possibilidades para o prof P9: 
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E5 = P6, 
+vagas (antes do if) da E5 = 0
+vagas (depois do if) da E5 = 0
+profs ideais (antes do if) da E9 = P9, 
+vagas (antes do if) da E9 = 0
+vagas (depois do if) da E9 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E21 = P80, 
+vagas (antes do if) da E21 = 1
+vagas (depois do if) da E21 = 1
+escola ideal para P9 = E9
+
+
+Avaliando possibilidades para o prof P10: 
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E5 = P6, 
+vagas (antes do if) da E5 = 0
+vagas (depois do if) da E5 = 0
+profs ideais (antes do if) da E7 = P10, 
+vagas (antes do if) da E7 = 0
+vagas (depois do if) da E7 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E23 = null, 
+vagas (antes do if) da E23 = 2
+profs ideal (null && p.H == e.H) da E23 = P10, 
+escola ideal para P10 = E23
+
+
+Avaliando possibilidades para o prof P11: 
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E11 = P90, 
+vagas (antes do if) da E11 = 0
+vagas (depois do if) da E11 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E25 = P25, 
+vagas (antes do if) da E25 = 1
+vagas (depois do if) da E25 = 1
+escola ideal para P11 = E30
+
+
+Avaliando possibilidades para o prof P12: 
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E12 = P70, 
+vagas (antes do if) da E12 = 1
+vagas (depois do if) da E12 = 1
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+escola ideal para P12 = E30
+
+
+Avaliando possibilidades para o prof P13: 
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E13 = P75, 
+vagas (antes do if) da E13 = 2
+vagas (depois do if) da E13 = 2
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E29 = P13, P29, 
+vagas (antes do if) da E29 = 0
+vagas (depois do if) da E29 = 0
+escola ideal para P13 = E29
+
+
+Avaliando possibilidades para o prof P14: 
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E14 = P40, 
+vagas (antes do if) da E14 = 2
+vagas (depois do if) da E14 = 2
+profs ideais (antes do if) da E48 = P14, P16, P17, 
+vagas (antes do if) da E48 = 0
+vagas (depois do if) da E48 = 0
+profs ideais (antes do if) da E31 = P82, 
+vagas (antes do if) da E31 = 1
+profs ideal (!null && e.V > 0 && p.H >= e.H) da E31 = P82, P14, 
+escola ideal para P14 = E31
+
+
+Avaliando possibilidades para o prof P15: 
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E15 = P15, 
+vagas (antes do if) da E15 = 0
+vagas (depois do if) da E15 = 0
+profs ideais (antes do if) da E48 = P14, P16, P17, 
+vagas (antes do if) da E48 = 0
+vagas (depois do if) da E48 = 0
+profs ideais (antes do if) da E33 = P33, P68, 
+vagas (antes do if) da E33 = 0
+vagas (depois do if) da E33 = 0
+escola ideal para P15 = E15
+
+
+Avaliando possibilidades para o prof P16: 
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E16 = P85, 
+vagas (antes do if) da E16 = 0
+vagas (depois do if) da E16 = 0
+profs ideais (antes do if) da E48 = P14, P16, P17, 
+vagas (antes do if) da E48 = 0
+vagas (depois do if) da E48 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+escola ideal para P16 = E48
+
+
+Avaliando possibilidades para o prof P17: 
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E17 = P45, 
+vagas (antes do if) da E17 = 1
+vagas (depois do if) da E17 = 1
+profs ideais (antes do if) da E48 = P14, P16, P17, 
+vagas (antes do if) da E48 = 0
+vagas (depois do if) da E48 = 0
+profs ideais (antes do if) da E37 = P7, 
+vagas (antes do if) da E37 = 0
+vagas (depois do if) da E37 = 0
+escola ideal para P17 = E48
+
+
+Avaliando possibilidades para o prof P18: 
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E18 = P65, 
+vagas (antes do if) da E18 = 1
+vagas (depois do if) da E18 = 1
+profs ideais (antes do if) da E48 = P14, P16, P17, 
+vagas (antes do if) da E48 = 0
+vagas (depois do if) da E48 = 0
+profs ideais (antes do if) da E39 = P18, 
+vagas (antes do if) da E39 = 0
+vagas (depois do if) da E39 = 0
+escola ideal para P18 = E39
+
+
+Avaliando possibilidades para o prof P19: 
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E19 = P1, 
+vagas (antes do if) da E19 = 2
+vagas (depois do if) da E19 = 2
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E41 = P19, P60, 
+vagas (antes do if) da E41 = 0
+vagas (depois do if) da E41 = 0
+escola ideal para P19 = E41
+
+
+Avaliando possibilidades para o prof P20: 
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E43 = P20, 
+vagas (antes do if) da E43 = 1
+profs ideal (!null && e.V > 0 && p.H >= e.H) da E43 = P20, P20, 
+escola ideal para P20 = E43
+
+
+Avaliando possibilidades para o prof P21: 
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E21 = P80, 
+vagas (antes do if) da E21 = 1
+vagas (depois do if) da E21 = 1
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+escola ideal para P21 = E10
+
+
+Avaliando possibilidades para o prof P22: 
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E22 = null, 
+vagas (antes do if) da E22 = 1
+vagas (depois do if) da E22 = 1
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E47 = P53, P54, P78, 
+vagas (antes do if) da E47 = 0
+vagas (depois do if) da E47 = 0
+escola ideal para P22 = E40
+
+
+Avaliando possibilidades para o prof P23: 
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E23 = P10, 
+vagas (antes do if) da E23 = 1
+vagas (depois do if) da E23 = 1
+profs ideais (antes do if) da E10 = P21, P23, 
+vagas (antes do if) da E10 = 0
+vagas (depois do if) da E10 = 0
+profs ideais (antes do if) da E49 = P49, 
+vagas (antes do if) da E49 = 0
+vagas (depois do if) da E49 = 0
+escola ideal para P23 = E10
+
+
 Avaliando possibilidades para o prof P24: 
 profs ideais (antes do if) da E30 = P11, P12, 
 vagas (antes do if) da E30 = 0
@@ -1482,6 +1919,114 @@ vagas (depois do if) da E2 = 0
 escola ideal para P24 = null
 
 
+Avaliando possibilidades para o prof P25: 
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E25 = P25, 
+vagas (antes do if) da E25 = 1
+profs ideal (!null && e.V > 0 && p.H >= e.H) da E25 = P25, P25, 
+escola ideal para P25 = E25
+
+
+Avaliando possibilidades para o prof P26: 
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+profs ideais (antes do if) da E26 = P77, 
+vagas (antes do if) da E26 = 0
+vagas (depois do if) da E26 = 0
+profs ideais (antes do if) da E23 = P10, 
+vagas (antes do if) da E23 = 1
+vagas (depois do if) da E23 = 1
+profs ideais (antes do if) da E6 = P47, 
+vagas (antes do if) da E6 = 0
+vagas (depois do if) da E6 = 0
+escola ideal para P26 = E45
+
+
+Avaliando possibilidades para o prof P27: 
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+profs ideais (antes do if) da E23 = P10, 
+vagas (antes do if) da E23 = 1
+vagas (depois do if) da E23 = 1
+profs ideais (antes do if) da E8 = null, 
+vagas (antes do if) da E8 = 1
+vagas (depois do if) da E8 = 1
+escola ideal para P27 = E45
+
+
+Avaliando possibilidades para o prof P28: 
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+profs ideais (antes do if) da E28 = P73, 
+vagas (antes do if) da E28 = 0
+vagas (depois do if) da E28 = 0
+profs ideais (antes do if) da E23 = P10, 
+vagas (antes do if) da E23 = 1
+vagas (depois do if) da E23 = 1
+profs ideais (antes do if) da E12 = P70, 
+vagas (antes do if) da E12 = 1
+vagas (depois do if) da E12 = 1
+escola ideal para P28 = E45
+
+
+Avaliando possibilidades para o prof P29: 
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+profs ideais (antes do if) da E29 = P13, P29, 
+vagas (antes do if) da E29 = 0
+vagas (depois do if) da E29 = 0
+profs ideais (antes do if) da E23 = P10, 
+vagas (antes do if) da E23 = 1
+vagas (depois do if) da E23 = 1
+profs ideais (antes do if) da E14 = P40, 
+vagas (antes do if) da E14 = 2
+vagas (depois do if) da E14 = 2
+escola ideal para P29 = E29
+
+
+Avaliando possibilidades para o prof P30: 
+profs ideais (antes do if) da E30 = P11, P12, 
+vagas (antes do if) da E30 = 0
+vagas (depois do if) da E30 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+profs ideais (antes do if) da E3 = P30, 
+vagas (antes do if) da E3 = 0
+vagas (depois do if) da E3 = 0
+profs ideais (antes do if) da E31 = P82, P14, 
+vagas (antes do if) da E31 = 0
+vagas (depois do if) da E31 = 0
+profs ideais (antes do if) da E16 = P85, 
+vagas (antes do if) da E16 = 0
+vagas (depois do if) da E16 = 0
+escola ideal para P30 = E3
+
+
 Avaliando possibilidades para o prof P31: 
 profs ideais (antes do if) da E40 = P22, 
 vagas (antes do if) da E40 = 0
@@ -1489,9 +2034,9 @@ vagas (depois do if) da E40 = 0
 profs ideais (antes do if) da E50 = P32, 
 vagas (antes do if) da E50 = 0
 vagas (depois do if) da E50 = 0
-profs ideais (antes do if) da E31 = P82, 
-vagas (antes do if) da E31 = 1
-vagas (depois do if) da E31 = 1
+profs ideais (antes do if) da E31 = P82, P14, 
+vagas (antes do if) da E31 = 0
+vagas (depois do if) da E31 = 0
 profs ideais (antes do if) da E41 = P19, P60, 
 vagas (antes do if) da E41 = 0
 vagas (depois do if) da E41 = 0
@@ -1499,6 +2044,63 @@ profs ideais (antes do if) da E18 = P65,
 vagas (antes do if) da E18 = 1
 vagas (depois do if) da E18 = 1
 escola ideal para P31 = null
+
+
+Avaliando possibilidades para o prof P32: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E50 = P32, 
+vagas (antes do if) da E50 = 0
+vagas (depois do if) da E50 = 0
+profs ideais (antes do if) da E32 = P37, P69, 
+vagas (antes do if) da E32 = 0
+vagas (depois do if) da E32 = 0
+profs ideais (antes do if) da E31 = P82, P14, 
+vagas (antes do if) da E31 = 0
+vagas (depois do if) da E31 = 0
+profs ideais (antes do if) da E19 = P1, 
+vagas (antes do if) da E19 = 2
+vagas (depois do if) da E19 = 2
+escola ideal para P32 = E50
+
+
+Avaliando possibilidades para o prof P33: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E50 = P32, 
+vagas (antes do if) da E50 = 0
+vagas (depois do if) da E50 = 0
+profs ideais (antes do if) da E33 = P33, P68, 
+vagas (antes do if) da E33 = 0
+vagas (depois do if) da E33 = 0
+profs ideais (antes do if) da E31 = P82, P14, 
+vagas (antes do if) da E31 = 0
+vagas (depois do if) da E31 = 0
+profs ideais (antes do if) da E22 = null, 
+vagas (antes do if) da E22 = 1
+vagas (depois do if) da E22 = 1
+escola ideal para P33 = E33
+
+
+Avaliando possibilidades para o prof P34: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E50 = P32, 
+vagas (antes do if) da E50 = 0
+vagas (depois do if) da E50 = 0
+profs ideais (antes do if) da E34 = P34, P64, 
+vagas (antes do if) da E34 = 0
+vagas (depois do if) da E34 = 0
+profs ideais (antes do if) da E31 = P82, P14, 
+vagas (antes do if) da E31 = 0
+vagas (depois do if) da E31 = 0
+profs ideais (antes do if) da E24 = null, 
+vagas (antes do if) da E24 = 1
+vagas (depois do if) da E24 = 1
+escola ideal para P34 = E34
 
 
 Avaliando possibilidades para o prof P35: 
@@ -1511,10 +2113,70 @@ vagas (depois do if) da E50 = 0
 profs ideais (antes do if) da E35 = P8, 
 vagas (antes do if) da E35 = 0
 vagas (depois do if) da E35 = 0
-profs ideais (antes do if) da E31 = P82, 
-vagas (antes do if) da E31 = 1
-profs ideal (!null && e.V > 0 && p.H >= e.H) da E31 = P82, P35, 
-escola ideal para P35 = E31
+profs ideais (antes do if) da E31 = P82, P14, 
+vagas (antes do if) da E31 = 0
+vagas (depois do if) da E31 = 0
+profs ideais (antes do if) da E26 = P77, 
+vagas (antes do if) da E26 = 0
+vagas (depois do if) da E26 = 0
+escola ideal para P35 = null
+
+
+Avaliando possibilidades para o prof P36: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E50 = P32, 
+vagas (antes do if) da E50 = 0
+vagas (depois do if) da E50 = 0
+profs ideais (antes do if) da E36 = P36, 
+vagas (antes do if) da E36 = 0
+vagas (depois do if) da E36 = 0
+profs ideais (antes do if) da E21 = P80, 
+vagas (antes do if) da E21 = 1
+vagas (depois do if) da E21 = 1
+profs ideais (antes do if) da E28 = P73, 
+vagas (antes do if) da E28 = 0
+vagas (depois do if) da E28 = 0
+escola ideal para P36 = E36
+
+
+Avaliando possibilidades para o prof P37: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E2 = P2, 
+vagas (antes do if) da E2 = 0
+vagas (depois do if) da E2 = 0
+profs ideais (antes do if) da E37 = P7, 
+vagas (antes do if) da E37 = 0
+vagas (depois do if) da E37 = 0
+profs ideais (antes do if) da E21 = P80, 
+vagas (antes do if) da E21 = 1
+vagas (depois do if) da E21 = 1
+profs ideais (antes do if) da E32 = P37, P69, 
+vagas (antes do if) da E32 = 0
+vagas (depois do if) da E32 = 0
+escola ideal para P37 = E32
+
+
+Avaliando possibilidades para o prof P38: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E2 = P2, 
+vagas (antes do if) da E2 = 0
+vagas (depois do if) da E2 = 0
+profs ideais (antes do if) da E38 = P38, 
+vagas (antes do if) da E38 = 0
+vagas (depois do if) da E38 = 0
+profs ideais (antes do if) da E21 = P80, 
+vagas (antes do if) da E21 = 1
+vagas (depois do if) da E21 = 1
+profs ideais (antes do if) da E34 = P34, P64, 
+vagas (antes do if) da E34 = 0
+vagas (depois do if) da E34 = 0
+escola ideal para P38 = E38
 
 
 Avaliando possibilidades para o prof P39: 
@@ -1536,6 +2198,25 @@ vagas (depois do if) da E36 = 0
 escola ideal para P39 = null
 
 
+Avaliando possibilidades para o prof P40: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E2 = P2, 
+vagas (antes do if) da E2 = 0
+vagas (depois do if) da E2 = 0
+profs ideais (antes do if) da E4 = P4, 
+vagas (antes do if) da E4 = 0
+vagas (depois do if) da E4 = 0
+profs ideais (antes do if) da E11 = P90, 
+vagas (antes do if) da E11 = 0
+vagas (depois do if) da E11 = 0
+profs ideais (antes do if) da E38 = P38, 
+vagas (antes do if) da E38 = 0
+vagas (depois do if) da E38 = 0
+escola ideal para P40 = E11
+
+
 Avaliando possibilidades para o prof P41: 
 profs ideais (antes do if) da E40 = P22, 
 vagas (antes do if) da E40 = 0
@@ -1553,6 +2234,158 @@ profs ideais (antes do if) da E42 = P42, P58, P59,
 vagas (antes do if) da E42 = 0
 vagas (depois do if) da E42 = 0
 escola ideal para P41 = null
+
+
+Avaliando possibilidades para o prof P42: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E4 = P4, 
+vagas (antes do if) da E4 = 0
+vagas (depois do if) da E4 = 0
+profs ideais (antes do if) da E42 = P42, P58, P59, 
+vagas (antes do if) da E42 = 0
+vagas (depois do if) da E42 = 0
+profs ideais (antes do if) da E11 = P90, 
+vagas (antes do if) da E11 = 0
+vagas (depois do if) da E11 = 0
+profs ideais (antes do if) da E44 = P44, P56, P57, 
+vagas (antes do if) da E44 = 0
+vagas (depois do if) da E44 = 0
+escola ideal para P42 = E42
+
+
+Avaliando possibilidades para o prof P43: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E4 = P4, 
+vagas (antes do if) da E4 = 0
+vagas (depois do if) da E4 = 0
+profs ideais (antes do if) da E43 = P20, P20, 
+vagas (antes do if) da E43 = 0
+vagas (depois do if) da E43 = 0
+profs ideais (antes do if) da E11 = P90, 
+vagas (antes do if) da E11 = 0
+vagas (depois do if) da E11 = 0
+profs ideais (antes do if) da E46 = P43, P46, P55, 
+vagas (antes do if) da E46 = 0
+vagas (depois do if) da E46 = 0
+escola ideal para P43 = E46
+
+
+Avaliando possibilidades para o prof P44: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E4 = P4, 
+vagas (antes do if) da E4 = 0
+vagas (depois do if) da E4 = 0
+profs ideais (antes do if) da E44 = P44, P56, P57, 
+vagas (antes do if) da E44 = 0
+vagas (depois do if) da E44 = 0
+profs ideais (antes do if) da E11 = P90, 
+vagas (antes do if) da E11 = 0
+vagas (depois do if) da E11 = 0
+profs ideais (antes do if) da E48 = P14, P16, P17, 
+vagas (antes do if) da E48 = 0
+vagas (depois do if) da E48 = 0
+escola ideal para P44 = E44
+
+
+Avaliando possibilidades para o prof P45: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E4 = P4, 
+vagas (antes do if) da E4 = 0
+vagas (depois do if) da E4 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+profs ideais (antes do if) da E11 = P90, 
+vagas (antes do if) da E11 = 0
+vagas (depois do if) da E11 = 0
+profs ideais (antes do if) da E5 = P6, 
+vagas (antes do if) da E5 = 0
+vagas (depois do if) da E5 = 0
+escola ideal para P45 = E11
+
+
+Avaliando possibilidades para o prof P46: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E4 = P4, 
+vagas (antes do if) da E4 = 0
+vagas (depois do if) da E4 = 0
+profs ideais (antes do if) da E46 = P43, P46, P55, 
+vagas (antes do if) da E46 = 0
+vagas (depois do if) da E46 = 0
+profs ideais (antes do if) da E11 = P90, 
+vagas (antes do if) da E11 = 0
+vagas (depois do if) da E11 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+escola ideal para P46 = E46
+
+
+Avaliando possibilidades para o prof P47: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E6 = P47, 
+vagas (antes do if) da E6 = 0
+vagas (depois do if) da E6 = 0
+profs ideais (antes do if) da E47 = P53, P54, P78, 
+vagas (antes do if) da E47 = 0
+vagas (depois do if) da E47 = 0
+profs ideais (antes do if) da E1 = P48, 
+vagas (antes do if) da E1 = 0
+vagas (depois do if) da E1 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+escola ideal para P47 = E6
+
+
+Avaliando possibilidades para o prof P48: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E6 = P47, 
+vagas (antes do if) da E6 = 0
+vagas (depois do if) da E6 = 0
+profs ideais (antes do if) da E48 = P14, P16, P17, 
+vagas (antes do if) da E48 = 0
+vagas (depois do if) da E48 = 0
+profs ideais (antes do if) da E1 = P48, 
+vagas (antes do if) da E1 = 0
+vagas (depois do if) da E1 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+escola ideal para P48 = E1
+
+
+Avaliando possibilidades para o prof P49: 
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E6 = P47, 
+vagas (antes do if) da E6 = 0
+vagas (depois do if) da E6 = 0
+profs ideais (antes do if) da E49 = P49, 
+vagas (antes do if) da E49 = 0
+vagas (depois do if) da E49 = 0
+profs ideais (antes do if) da E1 = P48, 
+vagas (antes do if) da E1 = 0
+vagas (depois do if) da E1 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+escola ideal para P49 = E49
 
 
 Avaliando possibilidades para o prof P50: 
@@ -1612,13 +2445,156 @@ vagas (depois do if) da E45 = 0
 escola ideal para P52 = null
 
 
+Avaliando possibilidades para o prof P53: 
+profs ideais (antes do if) da E48 = P14, P16, P17, 
+vagas (antes do if) da E48 = 0
+vagas (depois do if) da E48 = 0
+profs ideais (antes do if) da E8 = null, 
+vagas (antes do if) da E8 = 1
+vagas (depois do if) da E8 = 1
+profs ideais (antes do if) da E47 = P53, P54, P78, 
+vagas (antes do if) da E47 = 0
+vagas (depois do if) da E47 = 0
+profs ideais (antes do if) da E1 = P48, 
+vagas (antes do if) da E1 = 0
+vagas (depois do if) da E1 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+escola ideal para P53 = E47
+
+
+Avaliando possibilidades para o prof P54: 
+profs ideais (antes do if) da E47 = P53, P54, P78, 
+vagas (antes do if) da E47 = 0
+vagas (depois do if) da E47 = 0
+profs ideais (antes do if) da E8 = null, 
+vagas (antes do if) da E8 = 1
+vagas (depois do if) da E8 = 1
+profs ideais (antes do if) da E46 = P43, P46, P55, 
+vagas (antes do if) da E46 = 0
+vagas (depois do if) da E46 = 0
+profs ideais (antes do if) da E1 = P48, 
+vagas (antes do if) da E1 = 0
+vagas (depois do if) da E1 = 0
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+escola ideal para P54 = E47
+
+
+Avaliando possibilidades para o prof P55: 
+profs ideais (antes do if) da E46 = P43, P46, P55, 
+vagas (antes do if) da E46 = 0
+vagas (depois do if) da E46 = 0
+profs ideais (antes do if) da E8 = null, 
+vagas (antes do if) da E8 = 1
+profs ideal (null && p.H == e.H) da E8 = P55, 
+escola ideal para P55 = E8
+
+
+Avaliando possibilidades para o prof P56: 
+profs ideais (antes do if) da E45 = P26, P27, P28, 
+vagas (antes do if) da E45 = 0
+vagas (depois do if) da E45 = 0
+profs ideais (antes do if) da E8 = P55, 
+vagas (antes do if) da E8 = 0
+vagas (depois do if) da E8 = 0
+profs ideais (antes do if) da E44 = P44, P56, P57, 
+vagas (antes do if) da E44 = 0
+vagas (depois do if) da E44 = 0
+profs ideais (antes do if) da E2 = P2, 
+vagas (antes do if) da E2 = 0
+vagas (depois do if) da E2 = 0
+profs ideais (antes do if) da E25 = P25, P25, 
+vagas (antes do if) da E25 = 0
+vagas (depois do if) da E25 = 0
+escola ideal para P56 = E44
+
+
+Avaliando possibilidades para o prof P57: 
+profs ideais (antes do if) da E44 = P44, P56, P57, 
+vagas (antes do if) da E44 = 0
+vagas (depois do if) da E44 = 0
+profs ideais (antes do if) da E8 = P55, 
+vagas (antes do if) da E8 = 0
+vagas (depois do if) da E8 = 0
+profs ideais (antes do if) da E43 = P20, P20, 
+vagas (antes do if) da E43 = 0
+vagas (depois do if) da E43 = 0
+profs ideais (antes do if) da E3 = P30, 
+vagas (antes do if) da E3 = 0
+vagas (depois do if) da E3 = 0
+profs ideais (antes do if) da E25 = P25, P25, 
+vagas (antes do if) da E25 = 0
+vagas (depois do if) da E25 = 0
+escola ideal para P57 = E44
+
+
+Avaliando possibilidades para o prof P58: 
+profs ideais (antes do if) da E43 = P20, P20, 
+vagas (antes do if) da E43 = 0
+vagas (depois do if) da E43 = 0
+profs ideais (antes do if) da E8 = P55, 
+vagas (antes do if) da E8 = 0
+vagas (depois do if) da E8 = 0
+profs ideais (antes do if) da E42 = P42, P58, P59, 
+vagas (antes do if) da E42 = 0
+vagas (depois do if) da E42 = 0
+profs ideais (antes do if) da E4 = P4, 
+vagas (antes do if) da E4 = 0
+vagas (depois do if) da E4 = 0
+profs ideais (antes do if) da E25 = P25, P25, 
+vagas (antes do if) da E25 = 0
+vagas (depois do if) da E25 = 0
+escola ideal para P58 = E42
+
+
+Avaliando possibilidades para o prof P59: 
+profs ideais (antes do if) da E42 = P42, P58, P59, 
+vagas (antes do if) da E42 = 0
+vagas (depois do if) da E42 = 0
+profs ideais (antes do if) da E8 = P55, 
+vagas (antes do if) da E8 = 0
+vagas (depois do if) da E8 = 0
+profs ideais (antes do if) da E41 = P19, P60, 
+vagas (antes do if) da E41 = 0
+vagas (depois do if) da E41 = 0
+profs ideais (antes do if) da E5 = P6, 
+vagas (antes do if) da E5 = 0
+vagas (depois do if) da E5 = 0
+profs ideais (antes do if) da E25 = P25, P25, 
+vagas (antes do if) da E25 = 0
+vagas (depois do if) da E25 = 0
+escola ideal para P59 = E42
+
+
+Avaliando possibilidades para o prof P60: 
+profs ideais (antes do if) da E41 = P19, P60, 
+vagas (antes do if) da E41 = 0
+vagas (depois do if) da E41 = 0
+profs ideais (antes do if) da E8 = P55, 
+vagas (antes do if) da E8 = 0
+vagas (depois do if) da E8 = 0
+profs ideais (antes do if) da E40 = P22, 
+vagas (antes do if) da E40 = 0
+vagas (depois do if) da E40 = 0
+profs ideais (antes do if) da E6 = P47, 
+vagas (antes do if) da E6 = 0
+vagas (depois do if) da E6 = 0
+profs ideais (antes do if) da E25 = P25, P25, 
+vagas (antes do if) da E25 = 0
+vagas (depois do if) da E25 = 0
+escola ideal para P60 = E41
+
+
 Avaliando possibilidades para o prof P61: 
 profs ideais (antes do if) da E40 = P22, 
 vagas (antes do if) da E40 = 0
 vagas (depois do if) da E40 = 0
-profs ideais (antes do if) da E8 = null, 
-vagas (antes do if) da E8 = 1
-vagas (depois do if) da E8 = 1
+profs ideais (antes do if) da E8 = P55, 
+vagas (antes do if) da E8 = 0
+vagas (depois do if) da E8 = 0
 profs ideais (antes do if) da E4 = P4, 
 vagas (antes do if) da E4 = 0
 vagas (depois do if) da E4 = 0
@@ -1669,13 +2645,42 @@ vagas (depois do if) da E15 = 0
 escola ideal para P63 = null
 
 
+Avaliando possibilidades para o prof P64: 
+profs ideais (antes do if) da E37 = P7, 
+vagas (antes do if) da E37 = 0
+vagas (depois do if) da E37 = 0
+profs ideais (antes do if) da E12 = P70, 
+vagas (antes do if) da E12 = 1
+vagas (depois do if) da E12 = 1
+profs ideais (antes do if) da E34 = P34, P64, 
+vagas (antes do if) da E34 = 0
+vagas (depois do if) da E34 = 0
+profs ideais (antes do if) da E11 = P90, 
+vagas (antes do if) da E11 = 0
+vagas (depois do if) da E11 = 0
+profs ideais (antes do if) da E15 = P15, 
+vagas (antes do if) da E15 = 0
+vagas (depois do if) da E15 = 0
+escola ideal para P64 = E34
+
+
+Avaliando possibilidades para o prof P65: 
+profs ideais (antes do if) da E36 = P36, 
+vagas (antes do if) da E36 = 0
+vagas (depois do if) da E36 = 0
+profs ideais (antes do if) da E12 = P70, 
+vagas (antes do if) da E12 = 1
+profs ideal (!null && e.V > 0 && p.H >= e.H) da E12 = P70, P65, 
+escola ideal para P65 = E12
+
+
 Avaliando possibilidades para o prof P66: 
 profs ideais (antes do if) da E35 = P8, 
 vagas (antes do if) da E35 = 0
 vagas (depois do if) da E35 = 0
-profs ideais (antes do if) da E12 = P70, 
-vagas (antes do if) da E12 = 1
-vagas (depois do if) da E12 = 1
+profs ideais (antes do if) da E12 = P70, P65, 
+vagas (antes do if) da E12 = 0
+vagas (depois do if) da E12 = 0
 profs ideais (antes do if) da E4 = P4, 
 vagas (antes do if) da E4 = 0
 vagas (depois do if) da E4 = 0
@@ -1692,9 +2697,9 @@ Avaliando possibilidades para o prof P67:
 profs ideais (antes do if) da E34 = P34, P64, 
 vagas (antes do if) da E34 = 0
 vagas (depois do if) da E34 = 0
-profs ideais (antes do if) da E12 = P70, 
-vagas (antes do if) da E12 = 1
-vagas (depois do if) da E12 = 1
+profs ideais (antes do if) da E12 = P70, P65, 
+vagas (antes do if) da E12 = 0
+vagas (depois do if) da E12 = 0
 profs ideais (antes do if) da E24 = null, 
 vagas (antes do if) da E24 = 1
 vagas (depois do if) da E24 = 1
@@ -1707,13 +2712,67 @@ vagas (depois do if) da E15 = 0
 escola ideal para P67 = null
 
 
+Avaliando possibilidades para o prof P68: 
+profs ideais (antes do if) da E33 = P33, P68, 
+vagas (antes do if) da E33 = 0
+vagas (depois do if) da E33 = 0
+profs ideais (antes do if) da E12 = P70, P65, 
+vagas (antes do if) da E12 = 0
+vagas (depois do if) da E12 = 0
+profs ideais (antes do if) da E34 = P34, P64, 
+vagas (antes do if) da E34 = 0
+vagas (depois do if) da E34 = 0
+profs ideais (antes do if) da E17 = P45, 
+vagas (antes do if) da E17 = 1
+vagas (depois do if) da E17 = 1
+profs ideais (antes do if) da E15 = P15, 
+vagas (antes do if) da E15 = 0
+vagas (depois do if) da E15 = 0
+escola ideal para P68 = E33
+
+
+Avaliando possibilidades para o prof P69: 
+profs ideais (antes do if) da E32 = P37, P69, 
+vagas (antes do if) da E32 = 0
+vagas (depois do if) da E32 = 0
+profs ideais (antes do if) da E12 = P70, P65, 
+vagas (antes do if) da E12 = 0
+vagas (depois do if) da E12 = 0
+profs ideais (antes do if) da E44 = P44, P56, P57, 
+vagas (antes do if) da E44 = 0
+vagas (depois do if) da E44 = 0
+profs ideais (antes do if) da E18 = P65, 
+vagas (antes do if) da E18 = 1
+vagas (depois do if) da E18 = 1
+profs ideais (antes do if) da E15 = P15, 
+vagas (antes do if) da E15 = 0
+vagas (depois do if) da E15 = 0
+escola ideal para P69 = E32
+
+
+Avaliando possibilidades para o prof P70: 
+profs ideais (antes do if) da E31 = P82, P14, 
+vagas (antes do if) da E31 = 0
+vagas (depois do if) da E31 = 0
+profs ideais (antes do if) da E12 = P70, P65, 
+vagas (antes do if) da E12 = 0
+vagas (depois do if) da E12 = 0
+profs ideais (antes do if) da E1 = P48, 
+vagas (antes do if) da E1 = 0
+vagas (depois do if) da E1 = 0
+profs ideais (antes do if) da E19 = P1, 
+vagas (antes do if) da E19 = 2
+profs ideal (!null && e.V > 0 && p.H >= e.H) da E19 = P1, P70, 
+escola ideal para P70 = E19
+
+
 Avaliando possibilidades para o prof P71: 
 profs ideais (antes do if) da E30 = P11, P12, 
 vagas (antes do if) da E30 = 0
 vagas (depois do if) da E30 = 0
-profs ideais (antes do if) da E12 = P70, 
-vagas (antes do if) da E12 = 1
-vagas (depois do if) da E12 = 1
+profs ideais (antes do if) da E12 = P70, P65, 
+vagas (antes do if) da E12 = 0
+vagas (depois do if) da E12 = 0
 profs ideais (antes do if) da E1 = P48, 
 vagas (antes do if) da E1 = 0
 vagas (depois do if) da E1 = 0
@@ -1730,9 +2789,9 @@ Avaliando possibilidades para o prof P72:
 profs ideais (antes do if) da E29 = P13, P29, 
 vagas (antes do if) da E29 = 0
 vagas (depois do if) da E29 = 0
-profs ideais (antes do if) da E12 = P70, 
-vagas (antes do if) da E12 = 1
-vagas (depois do if) da E12 = 1
+profs ideais (antes do if) da E12 = P70, P65, 
+vagas (antes do if) da E12 = 0
+vagas (depois do if) da E12 = 0
 profs ideais (antes do if) da E1 = P48, 
 vagas (antes do if) da E1 = 0
 vagas (depois do if) da E1 = 0
@@ -1745,13 +2804,61 @@ vagas (depois do if) da E35 = 0
 escola ideal para P72 = null
 
 
-Avaliando possibilidades para o prof P76: 
-profs ideais (antes do if) da E25 = P25, 
-vagas (antes do if) da E25 = 1
-vagas (depois do if) da E25 = 1
+Avaliando possibilidades para o prof P73: 
+profs ideais (antes do if) da E28 = P73, 
+vagas (antes do if) da E28 = 0
+vagas (depois do if) da E28 = 0
 profs ideais (antes do if) da E13 = P75, 
 vagas (antes do if) da E13 = 2
 vagas (depois do if) da E13 = 2
+profs ideais (antes do if) da E7 = P10, 
+vagas (antes do if) da E7 = 0
+vagas (depois do if) da E7 = 0
+profs ideais (antes do if) da E22 = null, 
+vagas (antes do if) da E22 = 1
+vagas (depois do if) da E22 = 1
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+escola ideal para P73 = E28
+
+
+Avaliando possibilidades para o prof P74: 
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+profs ideais (antes do if) da E13 = P75, 
+vagas (antes do if) da E13 = 2
+vagas (depois do if) da E13 = 2
+profs ideais (antes do if) da E7 = P10, 
+vagas (antes do if) da E7 = 0
+vagas (depois do if) da E7 = 0
+profs ideais (antes do if) da E23 = P10, 
+vagas (antes do if) da E23 = 1
+vagas (depois do if) da E23 = 1
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+escola ideal para P74 = E27
+
+
+Avaliando possibilidades para o prof P75: 
+profs ideais (antes do if) da E26 = P77, 
+vagas (antes do if) da E26 = 0
+vagas (depois do if) da E26 = 0
+profs ideais (antes do if) da E13 = P75, 
+vagas (antes do if) da E13 = 2
+profs ideal (!null && e.V > 0 && p.H >= e.H) da E13 = P75, P75, 
+escola ideal para P75 = E13
+
+
+Avaliando possibilidades para o prof P76: 
+profs ideais (antes do if) da E25 = P25, P25, 
+vagas (antes do if) da E25 = 0
+vagas (depois do if) da E25 = 0
+profs ideais (antes do if) da E13 = P75, P75, 
+vagas (antes do if) da E13 = 1
+vagas (depois do if) da E13 = 1
 profs ideais (antes do if) da E7 = P10, 
 vagas (antes do if) da E7 = 0
 vagas (depois do if) da E7 = 0
@@ -1762,6 +2869,44 @@ profs ideais (antes do if) da E35 = P8,
 vagas (antes do if) da E35 = 0
 vagas (depois do if) da E35 = 0
 escola ideal para P76 = null
+
+
+Avaliando possibilidades para o prof P77: 
+profs ideais (antes do if) da E24 = null, 
+vagas (antes do if) da E24 = 1
+vagas (depois do if) da E24 = 1
+profs ideais (antes do if) da E13 = P75, P75, 
+vagas (antes do if) da E13 = 1
+vagas (depois do if) da E13 = 1
+profs ideais (antes do if) da E7 = P10, 
+vagas (antes do if) da E7 = 0
+vagas (depois do if) da E7 = 0
+profs ideais (antes do if) da E26 = P77, 
+vagas (antes do if) da E26 = 0
+vagas (depois do if) da E26 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+escola ideal para P77 = E26
+
+
+Avaliando possibilidades para o prof P78: 
+profs ideais (antes do if) da E23 = P10, 
+vagas (antes do if) da E23 = 1
+vagas (depois do if) da E23 = 1
+profs ideais (antes do if) da E13 = P75, P75, 
+vagas (antes do if) da E13 = 1
+vagas (depois do if) da E13 = 1
+profs ideais (antes do if) da E47 = P53, P54, P78, 
+vagas (antes do if) da E47 = 0
+vagas (depois do if) da E47 = 0
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+profs ideais (antes do if) da E35 = P8, 
+vagas (antes do if) da E35 = 0
+vagas (depois do if) da E35 = 0
+escola ideal para P78 = E47
 
 
 Avaliando possibilidades para o prof P79: 
@@ -1783,6 +2928,13 @@ vagas (depois do if) da E35 = 0
 escola ideal para P79 = null
 
 
+Avaliando possibilidades para o prof P80: 
+profs ideais (antes do if) da E21 = P80, 
+vagas (antes do if) da E21 = 1
+profs ideal (!null && e.V > 0 && p.H >= e.H) da E21 = P80, P80, 
+escola ideal para P80 = E21
+
+
 Avaliando possibilidades para o prof P81: 
 profs ideais (antes do if) da E20 = P5, 
 vagas (antes do if) da E20 = 0
@@ -1800,6 +2952,25 @@ profs ideais (antes do if) da E11 = P90,
 vagas (antes do if) da E11 = 0
 vagas (depois do if) da E11 = 0
 escola ideal para P81 = null
+
+
+Avaliando possibilidades para o prof P82: 
+profs ideais (antes do if) da E19 = P1, P70, 
+vagas (antes do if) da E19 = 1
+vagas (depois do if) da E19 = 1
+profs ideais (antes do if) da E27 = P3, P74, 
+vagas (antes do if) da E27 = 0
+vagas (depois do if) da E27 = 0
+profs ideais (antes do if) da E34 = P34, P64, 
+vagas (antes do if) da E34 = 0
+vagas (depois do if) da E34 = 0
+profs ideais (antes do if) da E31 = P82, P14, 
+vagas (antes do if) da E31 = 0
+vagas (depois do if) da E31 = 0
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+escola ideal para P82 = E31
 
 
 Avaliando possibilidades para o prof P83: 
@@ -1838,6 +3009,25 @@ profs ideais (antes do if) da E20 = P5,
 vagas (antes do if) da E20 = 0
 vagas (depois do if) da E20 = 0
 escola ideal para P84 = null
+
+
+Avaliando possibilidades para o prof P85: 
+profs ideais (antes do if) da E16 = P85, 
+vagas (antes do if) da E16 = 0
+vagas (depois do if) da E16 = 0
+profs ideais (antes do if) da E44 = P44, P56, P57, 
+vagas (antes do if) da E44 = 0
+vagas (depois do if) da E44 = 0
+profs ideais (antes do if) da E3 = P30, 
+vagas (antes do if) da E3 = 0
+vagas (depois do if) da E3 = 0
+profs ideais (antes do if) da E34 = P34, P64, 
+vagas (antes do if) da E34 = 0
+vagas (depois do if) da E34 = 0
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+escola ideal para P85 = E16
 
 
 Avaliando possibilidades para o prof P86: 
@@ -1879,9 +3069,9 @@ escola ideal para P87 = null
 
 
 Avaliando possibilidades para o prof P88: 
-profs ideais (antes do if) da E13 = P75, 
-vagas (antes do if) da E13 = 2
-vagas (depois do if) da E13 = 2
+profs ideais (antes do if) da E13 = P75, P75, 
+vagas (antes do if) da E13 = 1
+vagas (depois do if) da E13 = 1
 profs ideais (antes do if) da E44 = P44, P56, P57, 
 vagas (antes do if) da E44 = 0
 vagas (depois do if) da E44 = 0
@@ -1898,9 +3088,9 @@ escola ideal para P88 = null
 
 
 Avaliando possibilidades para o prof P89: 
-profs ideais (antes do if) da E12 = P70, 
-vagas (antes do if) da E12 = 1
-vagas (depois do if) da E12 = 1
+profs ideais (antes do if) da E12 = P70, P65, 
+vagas (antes do if) da E12 = 0
+vagas (depois do if) da E12 = 0
 profs ideais (antes do if) da E44 = P44, P56, P57, 
 vagas (antes do if) da E44 = 0
 vagas (depois do if) da E44 = 0
@@ -1914,6 +3104,25 @@ profs ideais (antes do if) da E20 = P5,
 vagas (antes do if) da E20 = 0
 vagas (depois do if) da E20 = 0
 escola ideal para P89 = null
+
+
+Avaliando possibilidades para o prof P90: 
+profs ideais (antes do if) da E11 = P90, 
+vagas (antes do if) da E11 = 0
+vagas (depois do if) da E11 = 0
+profs ideais (antes do if) da E44 = P44, P56, P57, 
+vagas (antes do if) da E44 = 0
+vagas (depois do if) da E44 = 0
+profs ideais (antes do if) da E4 = P4, 
+vagas (antes do if) da E4 = 0
+vagas (depois do if) da E4 = 0
+profs ideais (antes do if) da E39 = P18, 
+vagas (antes do if) da E39 = 0
+vagas (depois do if) da E39 = 0
+profs ideais (antes do if) da E20 = P5, 
+vagas (antes do if) da E20 = 0
+vagas (depois do if) da E20 = 0
+escola ideal para P90 = E11
 
 
 Avaliando possibilidades para o prof P91: 
@@ -1955,9 +3164,9 @@ escola ideal para P92 = null
 
 
 Avaliando possibilidades para o prof P93: 
-profs ideais (antes do if) da E8 = null, 
-vagas (antes do if) da E8 = 1
-vagas (depois do if) da E8 = 1
+profs ideais (antes do if) da E8 = P55, 
+vagas (antes do if) da E8 = 0
+vagas (depois do if) da E8 = 0
 profs ideais (antes do if) da E47 = P53, P54, P78, 
 vagas (antes do if) da E47 = 0
 vagas (depois do if) da E47 = 0
@@ -1983,9 +3192,9 @@ vagas (depois do if) da E47 = 0
 profs ideais (antes do if) da E4 = P4, 
 vagas (antes do if) da E4 = 0
 vagas (depois do if) da E4 = 0
-profs ideais (antes do if) da E43 = P20, 
-vagas (antes do if) da E43 = 1
-vagas (depois do if) da E43 = 1
+profs ideais (antes do if) da E43 = P20, P20, 
+vagas (antes do if) da E43 = 0
+vagas (depois do if) da E43 = 0
 profs ideais (antes do if) da E1 = P48, 
 vagas (antes do if) da E1 = 0
 vagas (depois do if) da E1 = 0
