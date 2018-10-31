@@ -33,7 +33,6 @@ void Parser::lerProfessores(Graph& grafo) {
                         }
                         es.push_back(this->lerEscola(s, "ListaDasEscolas.txt"));
                     }
-                    // reverse(es.begin(), es.end());
                     p.setEscolasDeInteresse(es);
                     grafo.addProfessor(p);
                 }
@@ -68,15 +67,23 @@ Escola Parser::lerEscola(string escolaBuscada, string arquivoDasEscolas) {
                     if (s == escolaBuscada) {
                         nomeDaEscola = s;
 
-                        while(file >> s && s != "habilidades_Requeridas");
-                        file >> habilidadesRequeridas;
-
                         while(file >> s && s != "vagas");
                         file >> vagas;
 
+                        while(file >> s && s != "habilidades_Requeridas");
+                        vector<int> habilidades;
+
+                        for (int i = 0; i < vagas; i++) {
+                            file >> s;
+                            if (i < vagas - 1) {
+                                s.erase(s.size() - 1);
+                            }
+                            habilidadesRequeridas = stoi(s);
+                            habilidades.push_back(habilidadesRequeridas);
+                        }
                         file.close();
 
-                        return Escola(nomeDaEscola, habilidadesRequeridas, vagas);
+                        return Escola(nomeDaEscola, habilidades, vagas);
                     }
                 }
             }

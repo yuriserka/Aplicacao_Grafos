@@ -1,175 +1,150 @@
-E1 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P48 com 2 hab
+E1 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
 }
-E10 possui 0 vagas e quer hab = 1 e tem os profIdeais = {
-	P21 com 1 hab
-	P23 com 2 hab
+E10 possui 2 vagas e quer hab = 1,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E11 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P90 com 3 hab
+E11 possui 2 vagas e quer hab = 3,3, e tem os profIdeais = {
+	null com -1 hab
 }
-E12 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P65 com 3 hab
+E12 possui 2 vagas e quer hab = 3,3, e tem os profIdeais = {
+	null com -1 hab
 }
-E13 possui 1 vagas e quer hab = 3 e tem os profIdeais = {
-	P75 com 3 hab
+E13 possui 2 vagas e quer hab = 3,3, e tem os profIdeais = {
+	null com -1 hab
 }
-E14 possui 2 vagas e quer hab = 3 e tem os profIdeais = {
-	P40 com 3 hab
+E14 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E15 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P15 com 3 hab
+E15 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E16 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P85 com 3 hab
+E16 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E17 possui 1 vagas e quer hab = 3 e tem os profIdeais = {
-	P45 com 3 hab
+E17 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E18 possui 1 vagas e quer hab = 3 e tem os profIdeais = {
-	P65 com 3 hab
+E18 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E19 possui 1 vagas e quer hab = 3 e tem os profIdeais = {
-	P1 com 3 hab
-	P70 com 3 hab
+E19 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E2 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P2 com 2 hab
+E2 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
 }
-E20 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P5 com 3 hab
+E20 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E21 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P80 com 3 hab
-	P80 com 3 hab
+E21 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E22 possui 1 vagas e quer hab = 3 e tem os profIdeais = {
-	P70 com 3 hab
+E22 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E23 possui 1 vagas e quer hab = 3 e tem os profIdeais = {
-	P10 com 3 hab
+E23 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E24 possui 1 vagas e quer hab = 3 e tem os profIdeais = {
-	P75 com 3 hab
+E24 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E25 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P25 com 3 hab
-	P25 com 3 hab
+E25 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E26 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P77 com 2 hab
+E26 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E27 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P3 com 2 hab
-	P74 com 2 hab
+E27 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E28 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P73 com 2 hab
+E28 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E29 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P13 com 2 hab
-	P29 com 2 hab
+E29 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E3 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P30 com 3 hab
+E3 possui 1 vagas e quer hab = 3, e tem os profIdeais = {
+	null com -1 hab
 }
-E30 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P11 com 2 hab
-	P12 com 2 hab
+E30 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E31 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P82 com 2 hab
-	P14 com 2 hab
+E31 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E32 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P37 com 2 hab
-	P69 com 2 hab
+E32 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E33 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P33 com 2 hab
-	P68 com 2 hab
+E33 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E34 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P34 com 2 hab
-	P64 com 2 hab
+E34 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E35 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P8 com 2 hab
+E35 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E36 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P36 com 2 hab
+E36 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E37 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P7 com 2 hab
+E37 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E38 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P38 com 2 hab
+E38 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E39 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P18 com 2 hab
+E39 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E4 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P4 com 2 hab
+E4 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
 }
-E40 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P22 com 2 hab
+E40 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E41 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P19 com 2 hab
-	P60 com 3 hab
+E41 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E42 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P42 com 2 hab
-	P58 com 2 hab
-	P59 com 2 hab
+E42 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
 }
-E43 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P20 com 3 hab
-	P20 com 3 hab
+E43 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
 }
-E44 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P44 com 2 hab
-	P56 com 2 hab
-	P57 com 2 hab
+E44 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
 }
-E45 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P26 com 2 hab
-	P27 com 2 hab
-	P28 com 2 hab
+E45 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
 }
-E46 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P43 com 2 hab
-	P46 com 2 hab
-	P55 com 3 hab
+E46 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
 }
-E47 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P53 com 2 hab
-	P54 com 2 hab
-	P78 com 2 hab
+E47 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
 }
-E48 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P14 com 2 hab
-	P16 com 2 hab
-	P17 com 2 hab
+E48 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
 }
-E49 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P49 com 2 hab
+E49 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E5 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P6 com 2 hab
+E5 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
 }
-E50 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P32 com 2 hab
+E50 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
 }
-E6 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P47 com 2 hab
+E6 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
 }
-E7 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P10 com 3 hab
+E7 possui 1 vagas e quer hab = 3, e tem os profIdeais = {
+	null com -1 hab
 }
-E8 possui 0 vagas e quer hab = 3 e tem os profIdeais = {
-	P55 com 3 hab
+E8 possui 1 vagas e quer hab = 3, e tem os profIdeais = {
+	null com -1 hab
 }
-E9 possui 0 vagas e quer hab = 2 e tem os profIdeais = {
-	P9 com 2 hab
+E9 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
 }

@@ -22,8 +22,6 @@ class Graph {
         list<Professor> grafo;
         vector<Escola> escolas;
         void galeShapley(Escola& escolaNula);
-        // list<Professor> professores;
-        // list<Escola> escolas;
 };
 
 #endif // Graph_h_

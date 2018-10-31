@@ -10,7 +10,8 @@ class Professor;
 
 class Professor {
     public:
-        Professor() = default;
+        Professor() : nome("null"), habilitacoes(-1) {
+        };
 
         Professor(string nome, int habilitacoes) {
             this->setNome(nome);
@@ -45,12 +46,20 @@ class Professor {
             return this->escolas;
         }
 
-        Escola* getEscolaIdeal() const {
+        Escola* getEscolaIdeal() {
             return this->escolaIdeal;
+        }
+
+        bool operator>(const Professor& lhs) const {
+            return this->getHabilitacoes() > lhs.getHabilitacoes();
         }
 
         bool operator==(const Professor& lhs) const {
             return this->nome == lhs.getNome();
+        }
+
+        bool operator<(const Professor& lhs) const {
+            return this->habilitacoes < lhs.getHabilitacoes();
         }
     private:
         string nome;
@@ -61,9 +70,10 @@ class Professor {
 
 class Escola {
     public:
-        Escola() = default;
+        Escola() : nome("null"), vagas(-1) {
+        };
 
-        Escola(string nome, int habilidadesPedidas, int vagas) {
+        Escola(string nome, vector<int> habilidadesPedidas, int vagas) {
             this->setNome(nome);
             this->setHabilidades(habilidadesPedidas);
             this->setVagas(vagas);
@@ -77,7 +87,7 @@ class Escola {
             this->vagas = vagas;
         }
 
-        void setHabilidades(int habilidadeRequeridas) {
+        void setHabilidades(vector<int> habilidadeRequeridas) {
             this->habilidadeRequeridas = habilidadeRequeridas;
         }
 
@@ -86,18 +96,23 @@ class Escola {
         }
 
         void removeProfessorIdeal(Professor& professorRemovido) {
-            this->professoresIdeais.erase(find(this->professoresIdeais.begin(), this->professoresIdeais.end(), professorRemovido));
+            this->professoresIdeais.erase(find(this->professoresIdeais.begin(),
+                this->professoresIdeais.end(), professorRemovido));
         }
         
         void diminuiVagas() {
             this->vagas -= 1;
         }
 
+        void aumentaVagas() {
+            this->vagas += 1;
+        }
+
         string getNome() const {
             return this->nome;
         }
 
-        int getHabilidades() const {
+        vector<int> getHabilidades() {
             return this->habilidadeRequeridas;
         }
 
@@ -119,7 +134,7 @@ class Escola {
     private:
         string nome;
         int vagas;
-        int habilidadeRequeridas;
+        vector<int> habilidadeRequeridas;
         list<Professor> professoresIdeais;
 };
 
