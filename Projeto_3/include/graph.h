@@ -13,12 +13,7 @@ class Graph {
 
         void escreveProfs();
         
-        void escreveEscs();
-
-        void printEscs();
-
-        void printProfs();
-             
+        void escreveEscs();       
     private:
         list<Professor> professores;
         list<Escola> escolas;

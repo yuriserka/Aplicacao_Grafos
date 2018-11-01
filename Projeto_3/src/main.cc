@@ -2,21 +2,18 @@
 #include "../include/parser.h"
 
 int main() {
-    Graph *grafo = new Graph();
+    Graph grafo = Graph();
 
     Parser *parser = new Parser();
     parser->setNomeDoArquivo("ListaDosProfessores.txt");
-    parser->lerProfessores(*grafo);
+    parser->lerProfessores(grafo);
 
     parser->setNomeDoArquivo("ListaDasEscolas.txt");
-    parser->lerEscolas(*grafo);
+    parser->lerEscolas(grafo);
 
-    grafo->escreveProfs();
-    grafo->escreveEscs();
-
-    grafo->printProfs();
+    grafo.escreveProfs();
+    grafo.escreveEscs();
 
     delete parser;
-    delete grafo;
     return 0;
 }
