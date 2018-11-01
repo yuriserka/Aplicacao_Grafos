@@ -22,34 +22,34 @@ void Parser::lerProfessores(Graph& grafo) {
                     while(file >> s && s != "habilitacoes");
                     file >> habilitacoesDoProfessor;
 
-                    while(file >> s && s != "interesse");
-                    getline(file, interesses);
-                    interesses.erase(interesses.begin());
-                    interesses.erase(std::remove(interesses.begin(), interesses.end(), ','), interesses.end());
+                    Professor p(nomeDoProfessor, habilitacoesDoProfessor);
 
-                    string escola;
-                    for (std::size_t i = 0; i <= interesses.size(); i++) {
-                        if (i == interesses.size()) {
-                            escolas.push_back(escola);
-                            escola.clear();
+                    while(file >> s && s != "interesse");
+                    vector<Escola> es;
+                    for (int i = 0; i < 5; i++) {
+                        file >> s;
+                        if (i < 4) {
+                            s.erase(s.size() - 1);
                         }
-                        if (interesses[i] != ' ') {
-                            escola += interesses[i];
-                        } else {
-                            escolas.push_back(escola);
-                            escola.clear();
-                        }
+                        es.push_back(this->lerEscola(s, "ListaDasEscolas.txt"));
                     }
-                    grafo.addProfessor(nomeDoProfessor, habilitacoesDoProfessor, escolas);
-                    escolas.clear();
+                    p.setEscolasDeInteresse(es);
+                    grafo.addProfessor(p);
                 }
             }
         }
     }
 }
 
-void Parser::lerEscolas(Graph& grafo) {
+Escola Parser::lerEscola(string escolaBuscada, string arquivoDasEscolas) {
     string s;
+    fstream file;
+    file.open(arquivoDasEscolas);
+    if (!file.is_open()) {
+        cout << "O arquivo " << arquivoDasEscolas << " nao foi aberto\n";
+        exit(-1);
+    }
+    
     while (file >> s) {
         if (s.find("//") != string::npos) {
             getline(file, s);
@@ -63,17 +63,32 @@ void Parser::lerEscolas(Graph& grafo) {
             while (file >> s && s != "]fim") {
                 if (s == "vertice") {
                     while(file >> s && s != "nome");
-                    file >> nomeDaEscola;
+                    file >> s;
+                    if (s == escolaBuscada) {
+                        nomeDaEscola = s;
 
-                    while(file >> s && s != "habilidades_Requeridas");
-                    file >> habilidadesRequeridas;
+                        while(file >> s && s != "vagas");
+                        file >> vagas;
 
-                    while(file >> s && s != "vagas");
-                    file >> vagas;
+                        while(file >> s && s != "habilidades_Requeridas");
+                        vector<int> habilidades;
 
-                    grafo.addEscola(nomeDaEscola, habilidadesRequeridas, vagas);
+                        for (int i = 0; i < vagas; i++) {
+                            file >> s;
+                            if (i < vagas - 1) {
+                                s.erase(s.size() - 1);
+                            }
+                            habilidadesRequeridas = stoi(s);
+                            habilidades.push_back(habilidadesRequeridas);
+                        }
+                        file.close();
+
+                        return Escola(nomeDaEscola, habilidades, vagas);
+                    }
                 }
             }
         }
     }
+    file.close();
+    return Escola();
 }

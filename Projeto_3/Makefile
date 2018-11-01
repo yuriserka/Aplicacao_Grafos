@@ -20,8 +20,7 @@ $(EXE): $(OBJ)
 	$(CXX) $^ $(INC_PATH) $(LIB_PATH) $(CPPFLAGS) $(CFLAGS) $(LINK_FLAGS) -o $@
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cc
-	@mkdir -p $(OBJ_DIR)
 	$(CXX) -c $< $(INC_PATH) $(LIB_PATH) $(CPPFLAGS) $(CFLAGS) $(LINK_FLAGS) -o $@
 
 clean:
-	$(RM) *~ $(OBJ)
+	rm $(OBJ_DIR)/*.o $(EXE)

@@ -8,11 +8,10 @@ int main() {
     parser->setNomeDoArquivo("ListaDosProfessores.txt");
     parser->lerProfessores(grafo);
 
-    parser->setNomeDoArquivo("ListaDasEscolas.txt");
-    parser->lerEscolas(grafo);
-
     grafo.escreveProfs();
     grafo.escreveEscs();
+
+    grafo.Emparelhamentos();
 
     delete parser;
     return 0;

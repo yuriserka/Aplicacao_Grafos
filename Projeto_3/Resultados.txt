@@ -1,0 +1,150 @@
+E1 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
+}
+E10 possui 2 vagas e quer hab = 1,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E11 possui 2 vagas e quer hab = 3,3, e tem os profIdeais = {
+	null com -1 hab
+}
+E12 possui 2 vagas e quer hab = 3,3, e tem os profIdeais = {
+	null com -1 hab
+}
+E13 possui 2 vagas e quer hab = 3,3, e tem os profIdeais = {
+	null com -1 hab
+}
+E14 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E15 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E16 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E17 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E18 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E19 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E2 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
+}
+E20 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E21 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E22 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E23 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E24 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E25 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E26 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E27 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E28 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E29 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E3 possui 1 vagas e quer hab = 3, e tem os profIdeais = {
+	null com -1 hab
+}
+E30 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E31 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E32 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E33 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E34 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E35 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E36 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E37 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E38 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E39 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E4 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
+}
+E40 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E41 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E42 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
+}
+E43 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
+	null com -1 hab
+}
+E44 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
+}
+E45 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
+}
+E46 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
+}
+E47 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
+}
+E48 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
+	null com -1 hab
+}
+E49 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E5 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
+}
+E50 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
+	null com -1 hab
+}
+E6 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
+}
+E7 possui 1 vagas e quer hab = 3, e tem os profIdeais = {
+	null com -1 hab
+}
+E8 possui 1 vagas e quer hab = 3, e tem os profIdeais = {
+	null com -1 hab
+}
+E9 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
+	null com -1 hab
+}

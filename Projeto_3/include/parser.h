@@ -61,7 +61,7 @@ class Parser {
          * 
          * @param grafo 
          */
-        void lerEscolas(Graph& grafo);
+        Escola lerEscola(string escolaBuscada, string arquivoDasEscolas);
     private:
         fstream file;
 };
