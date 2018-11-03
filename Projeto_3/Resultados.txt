@@ -1,150 +1,300 @@
-E1 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
-	null com -1 hab
+P1 tem 3 habs e possui escola ideal = {
+	null
 }
-E10 possui 2 vagas e quer hab = 1,2, e tem os profIdeais = {
-	null com -1 hab
+P2 tem 2 habs e possui escola ideal = {
+	null
 }
-E11 possui 2 vagas e quer hab = 3,3, e tem os profIdeais = {
-	null com -1 hab
+P3 tem 2 habs e possui escola ideal = {
+	E10
 }
-E12 possui 2 vagas e quer hab = 3,3, e tem os profIdeais = {
-	null com -1 hab
+P4 tem 2 habs e possui escola ideal = {
+	null
 }
-E13 possui 2 vagas e quer hab = 3,3, e tem os profIdeais = {
-	null com -1 hab
+P5 tem 3 habs e possui escola ideal = {
+	null
 }
-E14 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
-	null com -1 hab
+P6 tem 2 habs e possui escola ideal = {
+	null
 }
-E15 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
-	null com -1 hab
+P7 tem 2 habs e possui escola ideal = {
+	E37
 }
-E16 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
-	null com -1 hab
+P8 tem 2 habs e possui escola ideal = {
+	null
 }
-E17 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
-	null com -1 hab
+P9 tem 2 habs e possui escola ideal = {
+	null
 }
-E18 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
-	null com -1 hab
+P10 tem 3 habs e possui escola ideal = {
+	E7
 }
-E19 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
-	null com -1 hab
+P11 tem 2 habs e possui escola ideal = {
+	E20
 }
-E2 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
-	null com -1 hab
+P12 tem 2 habs e possui escola ideal = {
+	null
 }
-E20 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
-	null com -1 hab
+P13 tem 2 habs e possui escola ideal = {
+	null
 }
-E21 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
-	null com -1 hab
+P14 tem 2 habs e possui escola ideal = {
+	E14
 }
-E22 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
-	null com -1 hab
+P15 tem 3 habs e possui escola ideal = {
+	E20
 }
-E23 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
-	null com -1 hab
+P16 tem 2 habs e possui escola ideal = {
+	null
 }
-E24 possui 2 vagas e quer hab = 3,1, e tem os profIdeais = {
-	null com -1 hab
+P17 tem 2 habs e possui escola ideal = {
+	E35
 }
-E25 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
-	null com -1 hab
+P18 tem 2 habs e possui escola ideal = {
+	null
 }
-E26 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
-	null com -1 hab
+P19 tem 2 habs e possui escola ideal = {
+	E19
 }
-E27 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
-	null com -1 hab
+P20 tem 3 habs e possui escola ideal = {
+	E43
 }
-E28 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
-	null com -1 hab
+P21 tem 1 habs e possui escola ideal = {
+	null
 }
-E29 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
-	null com -1 hab
+P22 tem 2 habs e possui escola ideal = {
+	E30
 }
-E3 possui 1 vagas e quer hab = 3, e tem os profIdeais = {
-	null com -1 hab
+P23 tem 2 habs e possui escola ideal = {
+	E30
 }
-E30 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
-	null com -1 hab
+P24 tem 2 habs e possui escola ideal = {
+	null
 }
-E31 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
-	null com -1 hab
+P25 tem 3 habs e possui escola ideal = {
+	E25
 }
-E32 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
-	null com -1 hab
+P26 tem 2 habs e possui escola ideal = {
+	null
 }
-E33 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
-	null com -1 hab
+P27 tem 2 habs e possui escola ideal = {
+	E45
 }
-E34 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
-	null com -1 hab
+P28 tem 2 habs e possui escola ideal = {
+	E28
 }
-E35 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
-	null com -1 hab
+P29 tem 2 habs e possui escola ideal = {
+	E29
 }
-E36 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
-	null com -1 hab
+P30 tem 3 habs e possui escola ideal = {
+	E3
 }
-E37 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
-	null com -1 hab
+P31 tem 1 habs e possui escola ideal = {
+	E40
 }
-E38 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
-	null com -1 hab
+P32 tem 2 habs e possui escola ideal = {
+	E40
 }
-E39 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
-	null com -1 hab
+P33 tem 2 habs e possui escola ideal = {
+	E50
 }
-E4 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
-	null com -1 hab
+P34 tem 2 habs e possui escola ideal = {
+	E50
 }
-E40 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
-	null com -1 hab
+P35 tem 3 habs e possui escola ideal = {
+	null
 }
-E41 possui 2 vagas e quer hab = 2,2, e tem os profIdeais = {
-	null com -1 hab
+P36 tem 2 habs e possui escola ideal = {
+	E36
 }
-E42 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
-	null com -1 hab
+P37 tem 2 habs e possui escola ideal = {
+	null
 }
-E43 possui 2 vagas e quer hab = 3,2, e tem os profIdeais = {
-	null com -1 hab
+P38 tem 2 habs e possui escola ideal = {
+	E38
 }
-E44 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
-	null com -1 hab
+P39 tem 2 habs e possui escola ideal = {
+	E39
 }
-E45 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
-	null com -1 hab
+P40 tem 3 habs e possui escola ideal = {
+	null
 }
-E46 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
-	null com -1 hab
+P41 tem 1 habs e possui escola ideal = {
+	null
 }
-E47 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
-	null com -1 hab
+P42 tem 2 habs e possui escola ideal = {
+	null
 }
-E48 possui 2 vagas e quer hab = 2,3, e tem os profIdeais = {
-	null com -1 hab
+P43 tem 2 habs e possui escola ideal = {
+	null
 }
-E49 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
-	null com -1 hab
+P44 tem 2 habs e possui escola ideal = {
+	null
 }
-E5 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
-	null com -1 hab
+P45 tem 3 habs e possui escola ideal = {
+	E11
 }
-E50 possui 2 vagas e quer hab = 2,1, e tem os profIdeais = {
-	null com -1 hab
+P46 tem 2 habs e possui escola ideal = {
+	E46
 }
-E6 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
-	null com -1 hab
+P47 tem 2 habs e possui escola ideal = {
+	E6
 }
-E7 possui 1 vagas e quer hab = 3, e tem os profIdeais = {
-	null com -1 hab
+P48 tem 2 habs e possui escola ideal = {
+	E48
 }
-E8 possui 1 vagas e quer hab = 3, e tem os profIdeais = {
-	null com -1 hab
+P49 tem 2 habs e possui escola ideal = {
+	null
 }
-E9 possui 1 vagas e quer hab = 2, e tem os profIdeais = {
-	null com -1 hab
+P50 tem 3 habs e possui escola ideal = {
+	null
+}
+P51 tem 1 habs e possui escola ideal = {
+	E49
+}
+P52 tem 2 habs e possui escola ideal = {
+	E49
+}
+P53 tem 2 habs e possui escola ideal = {
+	E48
+}
+P54 tem 2 habs e possui escola ideal = {
+	E47
+}
+P55 tem 3 habs e possui escola ideal = {
+	E46
+}
+P56 tem 2 habs e possui escola ideal = {
+	E45
+}
+P57 tem 2 habs e possui escola ideal = {
+	E44
+}
+P58 tem 2 habs e possui escola ideal = {
+	E43
+}
+P59 tem 2 habs e possui escola ideal = {
+	E42
+}
+P60 tem 3 habs e possui escola ideal = {
+	E8
+}
+P61 tem 1 habs e possui escola ideal = {
+	E15
+}
+P62 tem 2 habs e possui escola ideal = {
+	E39
+}
+P63 tem 2 habs e possui escola ideal = {
+	E38
+}
+P64 tem 2 habs e possui escola ideal = {
+	E37
+}
+P65 tem 3 habs e possui escola ideal = {
+	E12
+}
+P66 tem 2 habs e possui escola ideal = {
+	E35
+}
+P67 tem 2 habs e possui escola ideal = {
+	E34
+}
+P68 tem 2 habs e possui escola ideal = {
+	E33
+}
+P69 tem 2 habs e possui escola ideal = {
+	E32
+}
+P70 tem 3 habs e possui escola ideal = {
+	E12
+}
+P71 tem 1 habs e possui escola ideal = {
+	null
+}
+P72 tem 2 habs e possui escola ideal = {
+	E29
+}
+P73 tem 2 habs e possui escola ideal = {
+	E28
+}
+P74 tem 2 habs e possui escola ideal = {
+	E27
+}
+P75 tem 3 habs e possui escola ideal = {
+	E13
+}
+P76 tem 2 habs e possui escola ideal = {
+	E25
+}
+P77 tem 2 habs e possui escola ideal = {
+	E26
+}
+P78 tem 2 habs e possui escola ideal = {
+	E23
+}
+P79 tem 2 habs e possui escola ideal = {
+	E27
+}
+P80 tem 3 habs e possui escola ideal = {
+	E21
+}
+P81 tem 1 habs e possui escola ideal = {
+	null
+}
+P82 tem 2 habs e possui escola ideal = {
+	E19
+}
+P83 tem 2 habs e possui escola ideal = {
+	E32
+}
+P84 tem 2 habs e possui escola ideal = {
+	E44
+}
+P85 tem 3 habs e possui escola ideal = {
+	E16
+}
+P86 tem 2 habs e possui escola ideal = {
+	null
+}
+P87 tem 2 habs e possui escola ideal = {
+	E14
+}
+P88 tem 2 habs e possui escola ideal = {
+	null
+}
+P89 tem 2 habs e possui escola ideal = {
+	null
+}
+P90 tem 3 habs e possui escola ideal = {
+	E11
+}
+P91 tem 1 habs e possui escola ideal = {
+	E10
+}
+P92 tem 2 habs e possui escola ideal = {
+	E9
+}
+P93 tem 2 habs e possui escola ideal = {
+	E47
+}
+P94 tem 2 habs e possui escola ideal = {
+	E1
+}
+P95 tem 3 habs e possui escola ideal = {
+	null
+}
+P96 tem 2 habs e possui escola ideal = {
+	E5
+}
+P97 tem 2 habs e possui escola ideal = {
+	E4
+}
+P98 tem 2 habs e possui escola ideal = {
+	null
+}
+P99 tem 2 habs e possui escola ideal = {
+	E2
+}
+P100 tem 3 habs e possui escola ideal = {
+	null
 }

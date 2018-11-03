@@ -1,0 +1,1584 @@
+Analisando professor P1:
+profs ideias da escola: E10 = null, 
+E20 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,2,
+setando escola ideal do P1 para E20
+profs ideias da escola: E20 = P1, 
+
+
+Analisando professor P2:
+E10 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 1,2,
+setando escola ideal do P2 para E10
+profs ideias da escola: E10 = P2, 
+
+
+Analisando professor P3:
+E10 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 1,2,
+setando escola ideal do P3 para E10
+profs ideias da escola: E10 = P2, P3, 
+
+
+Analisando professor P4:
+E10 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 1,2,
+E10 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P2
+5 eh a prioridade da escola E10 que ele quer entrar
+5 eh a prioridade da escola E10 do prof P2
+P4 possui >= hab que o P2
+	olhando para os professor ideal: P3
+5 eh a prioridade da escola E10 que ele quer entrar
+5 eh a prioridade da escola E10 do prof P3
+P4 possui >= hab que o P3
+profs ideias da escola: E10 = P2, P3, 
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+setando escola ideal do P4 para E20
+profs ideias da escola: E20 = P1, P4, 
+
+
+Analisando professor P5:
+profs ideias da escola: E10 = P2, P3, 
+E20 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P1
+4 eh a prioridade da escola E20 que ele quer entrar
+4 eh a prioridade da escola E20 do prof P1
+P5 possui >= hab que o P1
+	olhando para os professor ideal: P4
+4 eh a prioridade da escola E20 que ele quer entrar
+4 eh a prioridade da escola E20 do prof P4
+P5 possui >= hab que o P4
+profs ideias da escola: E20 = P1, P4, 
+profs ideias da escola: E5 = null, 
+profs ideias da escola: E27 = null, 
+E11 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,3,
+setando escola ideal do P5 para E11
+profs ideias da escola: E11 = P5, 
+
+
+Analisando professor P6:
+E10 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 1,2,
+E10 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P2
+5 eh a prioridade da escola E10 que ele quer entrar
+5 eh a prioridade da escola E10 do prof P2
+P6 possui >= hab que o P2
+	olhando para os professor ideal: P3
+5 eh a prioridade da escola E10 que ele quer entrar
+5 eh a prioridade da escola E10 do prof P3
+P6 possui >= hab que o P3
+profs ideias da escola: E10 = P2, P3, 
+E5 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+setando escola ideal do P6 para E5
+profs ideias da escola: E5 = P6, 
+
+
+Analisando professor P7:
+E10 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 1,2,
+E10 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P2
+5 eh a prioridade da escola E10 que ele quer entrar
+5 eh a prioridade da escola E10 do prof P2
+P7 possui >= hab que o P2
+	olhando para os professor ideal: P3
+5 eh a prioridade da escola E10 que ele quer entrar
+5 eh a prioridade da escola E10 do prof P3
+P7 possui >= hab que o P3
+profs ideias da escola: E10 = P2, P3, 
+E5 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E5 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P6
+4 eh a prioridade da escola E5 que ele quer entrar
+4 eh a prioridade da escola E5 do prof P6
+P7 possui >= hab que o P6
+profs ideias da escola: E5 = P6, 
+profs ideias da escola: E7 = null, 
+E37 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P7 para E37
+profs ideias da escola: E37 = P7, 
+
+
+Analisando professor P8:
+E10 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 1,2,
+E10 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P2
+5 eh a prioridade da escola E10 que ele quer entrar
+5 eh a prioridade da escola E10 do prof P2
+P8 possui >= hab que o P2
+	olhando para os professor ideal: P3
+5 eh a prioridade da escola E10 que ele quer entrar
+5 eh a prioridade da escola E10 do prof P3
+P8 possui >= hab que o P3
+profs ideias da escola: E10 = P2, P3, 
+E5 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E5 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P6
+4 eh a prioridade da escola E5 que ele quer entrar
+4 eh a prioridade da escola E5 do prof P6
+P8 possui >= hab que o P6
+profs ideias da escola: E5 = P6, 
+profs ideias da escola: E8 = null, 
+E35 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P8 para E35
+profs ideias da escola: E35 = P8, 
+
+
+Analisando professor P9:
+E10 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 1,2,
+E10 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P2
+5 eh a prioridade da escola E10 que ele quer entrar
+5 eh a prioridade da escola E10 do prof P2
+P9 possui >= hab que o P2
+	olhando para os professor ideal: P3
+5 eh a prioridade da escola E10 que ele quer entrar
+5 eh a prioridade da escola E10 do prof P3
+P9 possui >= hab que o P3
+profs ideias da escola: E10 = P2, P3, 
+E5 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E5 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P6
+4 eh a prioridade da escola E5 que ele quer entrar
+4 eh a prioridade da escola E5 do prof P6
+P9 possui >= hab que o P6
+profs ideias da escola: E5 = P6, 
+E9 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+setando escola ideal do P9 para E9
+profs ideias da escola: E9 = P9, 
+
+
+Analisando professor P10:
+profs ideias da escola: E10 = P2, P3, 
+profs ideias da escola: E5 = P6, 
+E7 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,
+setando escola ideal do P10 para E7
+profs ideias da escola: E7 = P10, 
+
+
+Analisando professor P11:
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P1
+	olhando para os professor ideal: P4
+5 eh a prioridade da escola E20 que ele quer entrar
+4 eh a prioridade da escola E20 do prof P4
+P11 possui >= hab que o P4
+o prof tem mais preferencia pela escola E20 do que o P4
+setando escola ideal do P11 para E20
+portanto agora o prof P4 esta com a escola ideal = null
+profs ideias da escola: E20 = P1, P11, 
+
+
+Analisando professor P12:
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P1
+	olhando para os professor ideal: P11
+5 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P12 possui >= hab que o P11
+profs ideias da escola: E20 = P1, P11, 
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+setando escola ideal do P12 para E30
+profs ideias da escola: E30 = P12, 
+
+
+Analisando professor P13:
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P1
+	olhando para os professor ideal: P11
+5 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P13 possui >= hab que o P11
+profs ideias da escola: E20 = P1, P11, 
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+setando escola ideal do P13 para E30
+profs ideias da escola: E30 = P12, P13, 
+
+
+Analisando professor P14:
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P1
+	olhando para os professor ideal: P11
+5 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P14 possui >= hab que o P11
+profs ideias da escola: E20 = P1, P11, 
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P12
+4 eh a prioridade da escola E30 que ele quer entrar
+4 eh a prioridade da escola E30 do prof P12
+P14 possui >= hab que o P12
+	olhando para os professor ideal: P13
+4 eh a prioridade da escola E30 que ele quer entrar
+4 eh a prioridade da escola E30 do prof P13
+P14 possui >= hab que o P13
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P12
+4 eh a prioridade da escola E30 que ele quer entrar
+4 eh a prioridade da escola E30 do prof P12
+P14 possui >= hab que o P12
+	olhando para os professor ideal: P13
+4 eh a prioridade da escola E30 que ele quer entrar
+4 eh a prioridade da escola E30 do prof P13
+P14 possui >= hab que o P13
+profs ideias da escola: E30 = P12, P13, 
+E14 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+setando escola ideal do P14 para E14
+profs ideias da escola: E14 = P14, 
+
+
+Analisando professor P15:
+E20 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P1
+5 eh a prioridade da escola E20 que ele quer entrar
+4 eh a prioridade da escola E20 do prof P1
+P15 possui >= hab que o P1
+o prof tem mais preferencia pela escola E20 do que o P1
+setando escola ideal do P15 para E20
+portanto agora o prof P1 esta com a escola ideal = null
+profs ideias da escola: E20 = P11, P15, 
+
+
+Analisando professor P16:
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P11
+5 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P16 possui >= hab que o P11
+	olhando para os professor ideal: P15
+profs ideias da escola: E20 = P11, P15, 
+E35 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P16 para E35
+profs ideias da escola: E35 = P8, P16, 
+
+
+Analisando professor P17:
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P11
+5 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P17 possui >= hab que o P11
+	olhando para os professor ideal: P15
+profs ideias da escola: E20 = P11, P15, 
+E35 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E35 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P8
+4 eh a prioridade da escola E35 que ele quer entrar
+2 eh a prioridade da escola E35 do prof P8
+P17 possui >= hab que o P8
+o prof tem mais preferencia pela escola E35 do que o P8
+setando escola ideal do P17 para E35
+portanto agora o prof P8 esta com a escola ideal = null
+profs ideias da escola: E35 = P16, P17, 
+
+
+Analisando professor P18:
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P11
+5 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P18 possui >= hab que o P11
+	olhando para os professor ideal: P15
+profs ideias da escola: E20 = P11, P15, 
+E35 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E35 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P16
+4 eh a prioridade da escola E35 que ele quer entrar
+4 eh a prioridade da escola E35 do prof P16
+P18 possui >= hab que o P16
+	olhando para os professor ideal: P17
+4 eh a prioridade da escola E35 que ele quer entrar
+4 eh a prioridade da escola E35 do prof P17
+P18 possui >= hab que o P17
+profs ideias da escola: E35 = P16, P17, 
+profs ideias da escola: E18 = null, 
+E48 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+setando escola ideal do P18 para E48
+profs ideias da escola: E48 = P18, 
+
+
+Analisando professor P19:
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P11
+5 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P19 possui >= hab que o P11
+	olhando para os professor ideal: P15
+profs ideias da escola: E20 = P11, P15, 
+E35 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E35 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P16
+4 eh a prioridade da escola E35 que ele quer entrar
+4 eh a prioridade da escola E35 do prof P16
+P19 possui >= hab que o P16
+	olhando para os professor ideal: P17
+4 eh a prioridade da escola E35 que ele quer entrar
+4 eh a prioridade da escola E35 do prof P17
+P19 possui >= hab que o P17
+profs ideias da escola: E35 = P16, P17, 
+E19 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+setando escola ideal do P19 para E19
+profs ideias da escola: E19 = P19, 
+
+
+Analisando professor P20:
+E20 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P11
+5 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P20 possui >= hab que o P11
+	olhando para os professor ideal: P15
+5 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P15
+P20 possui >= hab que o P15
+profs ideias da escola: E20 = P11, P15, 
+profs ideias da escola: E35 = P16, P17, 
+profs ideias da escola: E30 = P12, P13, 
+profs ideias da escola: E10 = P2, P3, 
+E43 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,2,
+setando escola ideal do P20 para E43
+profs ideias da escola: E43 = P20, 
+
+
+Analisando professor P21:
+profs ideias da escola: E30 = P12, P13, 
+E40 pode recebe-lo, pois o professor tem hab = 1 dentre as disponiveis: 2,1,
+setando escola ideal do P21 para E40
+profs ideias da escola: E40 = P21, 
+
+
+Analisando professor P22:
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P12
+5 eh a prioridade da escola E30 que ele quer entrar
+4 eh a prioridade da escola E30 do prof P12
+P22 possui >= hab que o P12
+o prof tem mais preferencia pela escola E30 do que o P12
+setando escola ideal do P22 para E30
+portanto agora o prof P12 esta com a escola ideal = null
+profs ideias da escola: E30 = P13, P22, 
+
+
+Analisando professor P23:
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P13
+5 eh a prioridade da escola E30 que ele quer entrar
+4 eh a prioridade da escola E30 do prof P13
+P23 possui >= hab que o P13
+o prof tem mais preferencia pela escola E30 do que o P13
+setando escola ideal do P23 para E30
+portanto agora o prof P13 esta com a escola ideal = null
+profs ideias da escola: E30 = P22, P23, 
+
+
+Analisando professor P24:
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P22
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P22
+P24 possui >= hab que o P22
+	olhando para os professor ideal: P23
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P23
+P24 possui >= hab que o P23
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P22
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P22
+P24 possui >= hab que o P22
+	olhando para os professor ideal: P23
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P23
+P24 possui >= hab que o P23
+profs ideias da escola: E30 = P22, P23, 
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P24 para E40
+profs ideias da escola: E40 = P21, P24, 
+
+
+Analisando professor P25:
+profs ideias da escola: E30 = P22, P23, 
+profs ideias da escola: E40 = P21, P24, 
+E25 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,2,
+setando escola ideal do P25 para E25
+profs ideias da escola: E25 = P25, 
+
+
+Analisando professor P26:
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P22
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P22
+P26 possui >= hab que o P22
+	olhando para os professor ideal: P23
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P23
+P26 possui >= hab que o P23
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P22
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P22
+P26 possui >= hab que o P22
+	olhando para os professor ideal: P23
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P23
+P26 possui >= hab que o P23
+profs ideias da escola: E30 = P22, P23, 
+E45 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+setando escola ideal do P26 para E45
+profs ideias da escola: E45 = P26, 
+
+
+Analisando professor P27:
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P22
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P22
+P27 possui >= hab que o P22
+	olhando para os professor ideal: P23
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P23
+P27 possui >= hab que o P23
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P22
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P22
+P27 possui >= hab que o P22
+	olhando para os professor ideal: P23
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P23
+P27 possui >= hab que o P23
+profs ideias da escola: E30 = P22, P23, 
+E45 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+setando escola ideal do P27 para E45
+profs ideias da escola: E45 = P26, P27, 
+
+
+Analisando professor P28:
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P22
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P22
+P28 possui >= hab que o P22
+	olhando para os professor ideal: P23
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P23
+P28 possui >= hab que o P23
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P22
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P22
+P28 possui >= hab que o P22
+	olhando para os professor ideal: P23
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P23
+P28 possui >= hab que o P23
+profs ideias da escola: E30 = P22, P23, 
+E45 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E45 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P26
+4 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P26
+P28 possui >= hab que o P26
+	olhando para os professor ideal: P27
+4 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P27
+P28 possui >= hab que o P27
+profs ideias da escola: E45 = P26, P27, 
+E28 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P28 para E28
+profs ideias da escola: E28 = P28, 
+
+
+Analisando professor P29:
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P22
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P22
+P29 possui >= hab que o P22
+	olhando para os professor ideal: P23
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P23
+P29 possui >= hab que o P23
+E30 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E30 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P22
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P22
+P29 possui >= hab que o P22
+	olhando para os professor ideal: P23
+5 eh a prioridade da escola E30 que ele quer entrar
+5 eh a prioridade da escola E30 do prof P23
+P29 possui >= hab que o P23
+profs ideias da escola: E30 = P22, P23, 
+E45 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E45 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P26
+4 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P26
+P29 possui >= hab que o P26
+	olhando para os professor ideal: P27
+4 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P27
+P29 possui >= hab que o P27
+profs ideias da escola: E45 = P26, P27, 
+E29 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+setando escola ideal do P29 para E29
+profs ideias da escola: E29 = P29, 
+
+
+Analisando professor P30:
+profs ideias da escola: E30 = P22, P23, 
+E45 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 2,3,
+E45 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P26
+4 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P26
+P30 possui >= hab que o P26
+	olhando para os professor ideal: P27
+4 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P27
+P30 possui >= hab que o P27
+profs ideias da escola: E45 = P26, P27, 
+E3 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,
+setando escola ideal do P30 para E3
+profs ideias da escola: E3 = P30, 
+
+
+Analisando professor P31:
+E40 pode recebe-lo, pois o professor tem hab = 1 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P21
+5 eh a prioridade da escola E40 que ele quer entrar
+4 eh a prioridade da escola E40 do prof P21
+P31 possui >= hab que o P21
+o prof tem mais preferencia pela escola E40 do que o P21
+setando escola ideal do P31 para E40
+portanto agora o prof P21 esta com a escola ideal = null
+profs ideias da escola: E40 = P24, P31, 
+
+
+Analisando professor P32:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P24
+5 eh a prioridade da escola E40 que ele quer entrar
+4 eh a prioridade da escola E40 do prof P24
+P32 possui >= hab que o P24
+o prof tem mais preferencia pela escola E40 do que o P24
+setando escola ideal do P32 para E40
+portanto agora o prof P24 esta com a escola ideal = null
+profs ideias da escola: E40 = P31, P32, 
+
+
+Analisando professor P33:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P33 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P33 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E50 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P33 para E50
+profs ideias da escola: E50 = P33, 
+
+
+Analisando professor P34:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P34 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P34 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E50 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P34 para E50
+profs ideias da escola: E50 = P33, P34, 
+
+
+Analisando professor P35:
+profs ideias da escola: E40 = P31, P32, 
+profs ideias da escola: E50 = P33, P34, 
+profs ideias da escola: E35 = P16, P17, 
+profs ideias da escola: E31 = null, 
+profs ideias da escola: E26 = null, 
+
+
+Analisando professor P36:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P36 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P36 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E50 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E50 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P33
+4 eh a prioridade da escola E50 que ele quer entrar
+4 eh a prioridade da escola E50 do prof P33
+P36 possui >= hab que o P33
+	olhando para os professor ideal: P34
+4 eh a prioridade da escola E50 que ele quer entrar
+4 eh a prioridade da escola E50 do prof P34
+P36 possui >= hab que o P34
+profs ideias da escola: E50 = P33, P34, 
+E36 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P36 para E36
+profs ideias da escola: E36 = P36, 
+
+
+Analisando professor P37:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P37 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P37 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E2 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+setando escola ideal do P37 para E2
+profs ideias da escola: E2 = P37, 
+
+
+Analisando professor P38:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P38 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P38 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E2 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E2 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P37
+4 eh a prioridade da escola E2 que ele quer entrar
+4 eh a prioridade da escola E2 do prof P37
+P38 possui >= hab que o P37
+profs ideias da escola: E2 = P37, 
+E38 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P38 para E38
+profs ideias da escola: E38 = P38, 
+
+
+Analisando professor P39:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P39 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P39 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E2 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E2 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P37
+4 eh a prioridade da escola E2 que ele quer entrar
+4 eh a prioridade da escola E2 do prof P37
+P39 possui >= hab que o P37
+profs ideias da escola: E2 = P37, 
+E39 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P39 para E39
+profs ideias da escola: E39 = P39, 
+
+
+Analisando professor P40:
+profs ideias da escola: E40 = P31, P32, 
+profs ideias da escola: E2 = P37, 
+profs ideias da escola: E4 = null, 
+E11 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,3,
+setando escola ideal do P40 para E11
+profs ideias da escola: E11 = P5, P40, 
+
+
+Analisando professor P41:
+E40 pode recebe-lo, pois o professor tem hab = 1 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P41 possui >= hab que o P31
+	olhando para os professor ideal: P32
+profs ideias da escola: E40 = P31, P32, 
+profs ideias da escola: E2 = P37, 
+profs ideias da escola: E41 = null, 
+profs ideias da escola: E11 = P5, P40, 
+profs ideias da escola: E42 = null, 
+
+
+Analisando professor P42:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P42 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P42 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E4 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+setando escola ideal do P42 para E4
+profs ideias da escola: E4 = P42, 
+
+
+Analisando professor P43:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P43 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P43 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E4 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E4 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P42
+4 eh a prioridade da escola E4 que ele quer entrar
+4 eh a prioridade da escola E4 do prof P42
+P43 possui >= hab que o P42
+profs ideias da escola: E4 = P42, 
+E43 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+setando escola ideal do P43 para E43
+profs ideias da escola: E43 = P20, P43, 
+
+
+Analisando professor P44:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P44 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P44 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E4 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E4 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P42
+4 eh a prioridade da escola E4 que ele quer entrar
+4 eh a prioridade da escola E4 do prof P42
+P44 possui >= hab que o P42
+profs ideias da escola: E4 = P42, 
+E44 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+setando escola ideal do P44 para E44
+profs ideias da escola: E44 = P44, 
+
+
+Analisando professor P45:
+profs ideias da escola: E40 = P31, P32, 
+profs ideias da escola: E4 = P42, 
+E45 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 2,3,
+E45 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P26
+3 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P26
+P45 possui >= hab que o P26
+	olhando para os professor ideal: P27
+3 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P27
+P45 possui >= hab que o P27
+profs ideias da escola: E45 = P26, P27, 
+E11 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,3,
+E11 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P5
+2 eh a prioridade da escola E11 que ele quer entrar
+1 eh a prioridade da escola E11 do prof P5
+P45 possui >= hab que o P5
+o prof tem mais preferencia pela escola E11 do que o P5
+setando escola ideal do P45 para E11
+portanto agora o prof P5 esta com a escola ideal = null
+profs ideias da escola: E11 = P40, P45, 
+
+
+Analisando professor P46:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P46 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P46 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E4 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E4 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P42
+4 eh a prioridade da escola E4 que ele quer entrar
+4 eh a prioridade da escola E4 do prof P42
+P46 possui >= hab que o P42
+profs ideias da escola: E4 = P42, 
+E46 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+setando escola ideal do P46 para E46
+profs ideias da escola: E46 = P46, 
+
+
+Analisando professor P47:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P47 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P47 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E6 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+setando escola ideal do P47 para E6
+profs ideias da escola: E6 = P47, 
+
+
+Analisando professor P48:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P48 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P48 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E6 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E6 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P47
+4 eh a prioridade da escola E6 que ele quer entrar
+4 eh a prioridade da escola E6 do prof P47
+P48 possui >= hab que o P47
+profs ideias da escola: E6 = P47, 
+E48 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+setando escola ideal do P48 para E48
+profs ideias da escola: E48 = P18, P48, 
+
+
+Analisando professor P49:
+E40 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P49 possui >= hab que o P31
+	olhando para os professor ideal: P32
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P32
+P49 possui >= hab que o P32
+profs ideias da escola: E40 = P31, P32, 
+E6 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E6 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P47
+4 eh a prioridade da escola E6 que ele quer entrar
+4 eh a prioridade da escola E6 do prof P47
+P49 possui >= hab que o P47
+profs ideias da escola: E6 = P47, 
+E49 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P49 para E49
+profs ideias da escola: E49 = P49, 
+
+
+Analisando professor P50:
+profs ideias da escola: E40 = P31, P32, 
+profs ideias da escola: E6 = P47, 
+profs ideias da escola: E50 = P33, P34, 
+profs ideias da escola: E1 = null, 
+E45 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 2,3,
+E45 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P26
+1 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P26
+P50 possui >= hab que o P26
+	olhando para os professor ideal: P27
+1 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P27
+P50 possui >= hab que o P27
+profs ideias da escola: E45 = P26, P27, 
+
+
+Analisando professor P51:
+E50 pode recebe-lo, pois o professor tem hab = 1 dentre as disponiveis: 2,1,
+E50 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P33
+	olhando para os professor ideal: P34
+profs ideias da escola: E50 = P33, P34, 
+profs ideias da escola: E6 = P47, 
+E49 pode recebe-lo, pois o professor tem hab = 1 dentre as disponiveis: 2,1,
+setando escola ideal do P51 para E49
+profs ideias da escola: E49 = P49, P51, 
+
+
+Analisando professor P52:
+E49 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E49 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P49
+5 eh a prioridade da escola E49 que ele quer entrar
+3 eh a prioridade da escola E49 do prof P49
+P52 possui >= hab que o P49
+o prof tem mais preferencia pela escola E49 do que o P49
+setando escola ideal do P52 para E49
+portanto agora o prof P49 esta com a escola ideal = null
+profs ideias da escola: E49 = P51, P52, 
+
+
+Analisando professor P53:
+E48 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E48 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P18
+5 eh a prioridade da escola E48 que ele quer entrar
+2 eh a prioridade da escola E48 do prof P18
+P53 possui >= hab que o P18
+o prof tem mais preferencia pela escola E48 do que o P18
+setando escola ideal do P53 para E48
+portanto agora o prof P18 esta com a escola ideal = null
+profs ideias da escola: E48 = P48, P53, 
+
+
+Analisando professor P54:
+E47 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+setando escola ideal do P54 para E47
+profs ideias da escola: E47 = P54, 
+
+
+Analisando professor P55:
+E46 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 2,3,
+setando escola ideal do P55 para E46
+profs ideias da escola: E46 = P46, P55, 
+
+
+Analisando professor P56:
+E45 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E45 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P26
+5 eh a prioridade da escola E45 que ele quer entrar
+4 eh a prioridade da escola E45 do prof P26
+P56 possui >= hab que o P26
+o prof tem mais preferencia pela escola E45 do que o P26
+setando escola ideal do P56 para E45
+portanto agora o prof P26 esta com a escola ideal = null
+profs ideias da escola: E45 = P27, P56, 
+
+
+Analisando professor P57:
+E44 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+setando escola ideal do P57 para E44
+profs ideias da escola: E44 = P44, P57, 
+
+
+Analisando professor P58:
+E43 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E43 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P20
+	olhando para os professor ideal: P43
+5 eh a prioridade da escola E43 que ele quer entrar
+3 eh a prioridade da escola E43 do prof P43
+P58 possui >= hab que o P43
+o prof tem mais preferencia pela escola E43 do que o P43
+setando escola ideal do P58 para E43
+portanto agora o prof P43 esta com a escola ideal = null
+profs ideias da escola: E43 = P20, P58, 
+
+
+Analisando professor P59:
+E42 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+setando escola ideal do P59 para E42
+profs ideias da escola: E42 = P59, 
+
+
+Analisando professor P60:
+profs ideias da escola: E41 = null, 
+E8 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,
+setando escola ideal do P60 para E8
+profs ideias da escola: E8 = P60, 
+
+
+Analisando professor P61:
+E40 pode recebe-lo, pois o professor tem hab = 1 dentre as disponiveis: 2,1,
+E40 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P31
+5 eh a prioridade da escola E40 que ele quer entrar
+5 eh a prioridade da escola E40 do prof P31
+P61 possui >= hab que o P31
+	olhando para os professor ideal: P32
+profs ideias da escola: E40 = P31, P32, 
+profs ideias da escola: E8 = P60, 
+profs ideias da escola: E4 = P42, 
+profs ideias da escola: E7 = P10, 
+E15 pode recebe-lo, pois o professor tem hab = 1 dentre as disponiveis: 3,1,
+setando escola ideal do P61 para E15
+profs ideias da escola: E15 = P61, 
+
+
+Analisando professor P62:
+E39 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P62 para E39
+profs ideias da escola: E39 = P39, P62, 
+
+
+Analisando professor P63:
+E38 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P63 para E38
+profs ideias da escola: E38 = P38, P63, 
+
+
+Analisando professor P64:
+E37 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P64 para E37
+profs ideias da escola: E37 = P7, P64, 
+
+
+Analisando professor P65:
+profs ideias da escola: E36 = P36, 
+E12 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,3,
+setando escola ideal do P65 para E12
+profs ideias da escola: E12 = P65, 
+
+
+Analisando professor P66:
+E35 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E35 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P16
+5 eh a prioridade da escola E35 que ele quer entrar
+4 eh a prioridade da escola E35 do prof P16
+P66 possui >= hab que o P16
+o prof tem mais preferencia pela escola E35 do que o P16
+setando escola ideal do P66 para E35
+portanto agora o prof P16 esta com a escola ideal = null
+profs ideias da escola: E35 = P17, P66, 
+
+
+Analisando professor P67:
+E34 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+setando escola ideal do P67 para E34
+profs ideias da escola: E34 = P67, 
+
+
+Analisando professor P68:
+E33 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+setando escola ideal do P68 para E33
+profs ideias da escola: E33 = P68, 
+
+
+Analisando professor P69:
+E32 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+setando escola ideal do P69 para E32
+profs ideias da escola: E32 = P69, 
+
+
+Analisando professor P70:
+profs ideias da escola: E31 = null, 
+E12 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,3,
+setando escola ideal do P70 para E12
+profs ideias da escola: E12 = P65, P70, 
+
+
+Analisando professor P71:
+profs ideias da escola: E30 = P22, P23, 
+profs ideias da escola: E12 = P65, P70, 
+profs ideias da escola: E1 = null, 
+profs ideias da escola: E20 = P11, P15, 
+E35 pode recebe-lo, pois o professor tem hab = 1 dentre as disponiveis: 2,1,
+E35 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P17
+	olhando para os professor ideal: P66
+profs ideias da escola: E35 = P17, P66, 
+
+
+Analisando professor P72:
+E29 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+setando escola ideal do P72 para E29
+profs ideias da escola: E29 = P29, P72, 
+
+
+Analisando professor P73:
+E28 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P73 para E28
+profs ideias da escola: E28 = P28, P73, 
+
+
+Analisando professor P74:
+E27 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+setando escola ideal do P74 para E27
+profs ideias da escola: E27 = P74, 
+
+
+Analisando professor P75:
+profs ideias da escola: E26 = null, 
+E13 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,3,
+setando escola ideal do P75 para E13
+profs ideias da escola: E13 = P75, 
+
+
+Analisando professor P76:
+E25 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+setando escola ideal do P76 para E25
+profs ideias da escola: E25 = P25, P76, 
+
+
+Analisando professor P77:
+profs ideias da escola: E24 = null, 
+profs ideias da escola: E13 = P75, 
+profs ideias da escola: E7 = P10, 
+E26 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+setando escola ideal do P77 para E26
+profs ideias da escola: E26 = P77, 
+
+
+Analisando professor P78:
+E23 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+setando escola ideal do P78 para E23
+profs ideias da escola: E23 = P78, 
+
+
+Analisando professor P79:
+profs ideias da escola: E22 = null, 
+E27 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+setando escola ideal do P79 para E27
+profs ideias da escola: E27 = P74, P79, 
+
+
+Analisando professor P80:
+E21 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,2,
+setando escola ideal do P80 para E21
+profs ideias da escola: E21 = P80, 
+
+
+Analisando professor P81:
+profs ideias da escola: E20 = P11, P15, 
+profs ideias da escola: E27 = P74, P79, 
+profs ideias da escola: E34 = P67, 
+profs ideias da escola: E30 = P22, P23, 
+profs ideias da escola: E11 = P40, P45, 
+
+
+Analisando professor P82:
+E19 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+setando escola ideal do P82 para E19
+profs ideias da escola: E19 = P19, P82, 
+
+
+Analisando professor P83:
+profs ideias da escola: E18 = null, 
+E27 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E27 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P74
+4 eh a prioridade da escola E27 que ele quer entrar
+5 eh a prioridade da escola E27 do prof P74
+P83 possui >= hab que o P74
+	olhando para os professor ideal: P79
+4 eh a prioridade da escola E27 que ele quer entrar
+4 eh a prioridade da escola E27 do prof P79
+P83 possui >= hab que o P79
+E27 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+E27 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P74
+4 eh a prioridade da escola E27 que ele quer entrar
+5 eh a prioridade da escola E27 do prof P74
+P83 possui >= hab que o P74
+	olhando para os professor ideal: P79
+4 eh a prioridade da escola E27 que ele quer entrar
+4 eh a prioridade da escola E27 do prof P79
+P83 possui >= hab que o P79
+profs ideias da escola: E27 = P74, P79, 
+profs ideias da escola: E3 = P30, 
+E32 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,2,
+setando escola ideal do P83 para E32
+profs ideias da escola: E32 = P69, P83, 
+
+
+Analisando professor P84:
+profs ideias da escola: E17 = null, 
+E44 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E44 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P44
+4 eh a prioridade da escola E44 que ele quer entrar
+3 eh a prioridade da escola E44 do prof P44
+P84 possui >= hab que o P44
+o prof tem mais preferencia pela escola E44 do que o P44
+setando escola ideal do P84 para E44
+portanto agora o prof P44 esta com a escola ideal = null
+profs ideias da escola: E44 = P57, P84, 
+
+
+Analisando professor P85:
+E16 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,1,
+setando escola ideal do P85 para E16
+profs ideias da escola: E16 = P85, 
+
+
+Analisando professor P86:
+profs ideias da escola: E15 = P61, 
+E44 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E44 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P57
+4 eh a prioridade da escola E44 que ele quer entrar
+5 eh a prioridade da escola E44 do prof P57
+P86 possui >= hab que o P57
+	olhando para os professor ideal: P84
+4 eh a prioridade da escola E44 que ele quer entrar
+4 eh a prioridade da escola E44 do prof P84
+P86 possui >= hab que o P84
+profs ideias da escola: E44 = P57, P84, 
+profs ideias da escola: E3 = P30, 
+E35 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E35 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P17
+2 eh a prioridade da escola E35 que ele quer entrar
+4 eh a prioridade da escola E35 do prof P17
+P86 possui >= hab que o P17
+	olhando para os professor ideal: P66
+2 eh a prioridade da escola E35 que ele quer entrar
+5 eh a prioridade da escola E35 do prof P66
+P86 possui >= hab que o P66
+profs ideias da escola: E35 = P17, P66, 
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P11
+1 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P86 possui >= hab que o P11
+	olhando para os professor ideal: P15
+profs ideias da escola: E20 = P11, P15, 
+
+
+Analisando professor P87:
+E14 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+setando escola ideal do P87 para E14
+profs ideias da escola: E14 = P14, P87, 
+
+
+Analisando professor P88:
+profs ideias da escola: E13 = P75, 
+E44 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E44 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P57
+4 eh a prioridade da escola E44 que ele quer entrar
+5 eh a prioridade da escola E44 do prof P57
+P88 possui >= hab que o P57
+	olhando para os professor ideal: P84
+4 eh a prioridade da escola E44 que ele quer entrar
+4 eh a prioridade da escola E44 do prof P84
+P88 possui >= hab que o P84
+profs ideias da escola: E44 = P57, P84, 
+E4 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E4 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P42
+3 eh a prioridade da escola E4 que ele quer entrar
+4 eh a prioridade da escola E4 do prof P42
+P88 possui >= hab que o P42
+profs ideias da escola: E4 = P42, 
+E37 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E37 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P7
+2 eh a prioridade da escola E37 que ele quer entrar
+2 eh a prioridade da escola E37 do prof P7
+P88 possui >= hab que o P7
+	olhando para os professor ideal: P64
+2 eh a prioridade da escola E37 que ele quer entrar
+5 eh a prioridade da escola E37 do prof P64
+P88 possui >= hab que o P64
+profs ideias da escola: E37 = P7, P64, 
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P11
+1 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P88 possui >= hab que o P11
+	olhando para os professor ideal: P15
+profs ideias da escola: E20 = P11, P15, 
+
+
+Analisando professor P89:
+profs ideias da escola: E12 = P65, P70, 
+E44 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E44 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P57
+4 eh a prioridade da escola E44 que ele quer entrar
+5 eh a prioridade da escola E44 do prof P57
+P89 possui >= hab que o P57
+	olhando para os professor ideal: P84
+4 eh a prioridade da escola E44 que ele quer entrar
+4 eh a prioridade da escola E44 do prof P84
+P89 possui >= hab que o P84
+profs ideias da escola: E44 = P57, P84, 
+E4 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E4 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P42
+3 eh a prioridade da escola E4 que ele quer entrar
+4 eh a prioridade da escola E4 do prof P42
+P89 possui >= hab que o P42
+profs ideias da escola: E4 = P42, 
+E38 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,1,
+E38 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P38
+2 eh a prioridade da escola E38 que ele quer entrar
+3 eh a prioridade da escola E38 do prof P38
+P89 possui >= hab que o P38
+	olhando para os professor ideal: P63
+2 eh a prioridade da escola E38 que ele quer entrar
+5 eh a prioridade da escola E38 do prof P63
+P89 possui >= hab que o P63
+profs ideias da escola: E38 = P38, P63, 
+E20 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E20 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P11
+1 eh a prioridade da escola E20 que ele quer entrar
+5 eh a prioridade da escola E20 do prof P11
+P89 possui >= hab que o P11
+	olhando para os professor ideal: P15
+profs ideias da escola: E20 = P11, P15, 
+
+
+Analisando professor P90:
+E11 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 3,3,
+E11 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P40
+5 eh a prioridade da escola E11 que ele quer entrar
+2 eh a prioridade da escola E11 do prof P40
+P90 possui >= hab que o P40
+o prof tem mais preferencia pela escola E11 do que o P40
+setando escola ideal do P90 para E11
+portanto agora o prof P40 esta com a escola ideal = null
+profs ideias da escola: E11 = P45, P90, 
+
+
+Analisando professor P91:
+E10 pode recebe-lo, pois o professor tem hab = 1 dentre as disponiveis: 1,2,
+E10 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P2
+a escola prefere mais P91 do que o P2
+setando escola ideal do P91 para E10
+portanto agora o prof P2 esta com a escola ideal = null
+profs ideias da escola: E10 = P3, P91, 
+
+
+Analisando professor P92:
+E9 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E9 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P9
+5 eh a prioridade da escola E9 que ele quer entrar
+3 eh a prioridade da escola E9 do prof P9
+P92 possui >= hab que o P9
+o prof tem mais preferencia pela escola E9 do que o P9
+setando escola ideal do P92 para E9
+portanto agora o prof P9 esta com a escola ideal = null
+profs ideias da escola: E9 = P92, 
+
+
+Analisando professor P93:
+profs ideias da escola: E8 = P60, 
+E47 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+setando escola ideal do P93 para E47
+profs ideias da escola: E47 = P54, P93, 
+
+
+Analisando professor P94:
+profs ideias da escola: E7 = P10, 
+E47 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E47 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P54
+4 eh a prioridade da escola E47 que ele quer entrar
+5 eh a prioridade da escola E47 do prof P54
+P94 possui >= hab que o P54
+	olhando para os professor ideal: P93
+4 eh a prioridade da escola E47 que ele quer entrar
+4 eh a prioridade da escola E47 do prof P93
+P94 possui >= hab que o P93
+profs ideias da escola: E47 = P54, P93, 
+E4 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E4 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P42
+3 eh a prioridade da escola E4 que ele quer entrar
+4 eh a prioridade da escola E4 do prof P42
+P94 possui >= hab que o P42
+profs ideias da escola: E4 = P42, 
+E43 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 3,2,
+E43 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P20
+	olhando para os professor ideal: P58
+2 eh a prioridade da escola E43 que ele quer entrar
+5 eh a prioridade da escola E43 do prof P58
+P94 possui >= hab que o P58
+profs ideias da escola: E43 = P20, P58, 
+E1 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+setando escola ideal do P94 para E1
+profs ideias da escola: E1 = P94, 
+
+
+Analisando professor P95:
+profs ideias da escola: E6 = P47, 
+E47 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 2,3,
+E47 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P54
+4 eh a prioridade da escola E47 que ele quer entrar
+5 eh a prioridade da escola E47 do prof P54
+P95 possui >= hab que o P54
+	olhando para os professor ideal: P93
+4 eh a prioridade da escola E47 que ele quer entrar
+4 eh a prioridade da escola E47 do prof P93
+P95 possui >= hab que o P93
+profs ideias da escola: E47 = P54, P93, 
+profs ideias da escola: E4 = P42, 
+E44 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 2,3,
+E44 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P57
+2 eh a prioridade da escola E44 que ele quer entrar
+5 eh a prioridade da escola E44 do prof P57
+P95 possui >= hab que o P57
+	olhando para os professor ideal: P84
+2 eh a prioridade da escola E44 que ele quer entrar
+4 eh a prioridade da escola E44 do prof P84
+P95 possui >= hab que o P84
+profs ideias da escola: E44 = P57, P84, 
+profs ideias da escola: E1 = P94, 
+
+
+Analisando professor P96:
+E5 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E5 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P6
+5 eh a prioridade da escola E5 que ele quer entrar
+4 eh a prioridade da escola E5 do prof P6
+P96 possui >= hab que o P6
+o prof tem mais preferencia pela escola E5 do que o P6
+setando escola ideal do P96 para E5
+portanto agora o prof P6 esta com a escola ideal = null
+profs ideias da escola: E5 = P96, 
+
+
+Analisando professor P97:
+E4 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E4 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P42
+5 eh a prioridade da escola E4 que ele quer entrar
+4 eh a prioridade da escola E4 do prof P42
+P97 possui >= hab que o P42
+o prof tem mais preferencia pela escola E4 do que o P42
+setando escola ideal do P97 para E4
+portanto agora o prof P42 esta com a escola ideal = null
+profs ideias da escola: E4 = P97, 
+
+
+Analisando professor P98:
+profs ideias da escola: E3 = P30, 
+E47 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E47 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P54
+4 eh a prioridade da escola E47 que ele quer entrar
+5 eh a prioridade da escola E47 do prof P54
+P98 possui >= hab que o P54
+	olhando para os professor ideal: P93
+4 eh a prioridade da escola E47 que ele quer entrar
+4 eh a prioridade da escola E47 do prof P93
+P98 possui >= hab que o P93
+profs ideias da escola: E47 = P54, P93, 
+E4 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E4 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P97
+3 eh a prioridade da escola E4 que ele quer entrar
+5 eh a prioridade da escola E4 do prof P97
+P98 possui >= hab que o P97
+profs ideias da escola: E4 = P97, 
+E48 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,3,
+E48 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P48
+2 eh a prioridade da escola E48 que ele quer entrar
+3 eh a prioridade da escola E48 do prof P48
+P98 possui >= hab que o P48
+	olhando para os professor ideal: P53
+2 eh a prioridade da escola E48 que ele quer entrar
+5 eh a prioridade da escola E48 do prof P53
+P98 possui >= hab que o P53
+profs ideias da escola: E48 = P48, P53, 
+E1 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E1 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P94
+1 eh a prioridade da escola E1 que ele quer entrar
+1 eh a prioridade da escola E1 do prof P94
+P98 possui >= hab que o P94
+profs ideias da escola: E1 = P94, 
+
+
+Analisando professor P99:
+E2 pode recebe-lo, pois o professor tem hab = 2 dentre as disponiveis: 2,
+E2 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P37
+5 eh a prioridade da escola E2 que ele quer entrar
+4 eh a prioridade da escola E2 do prof P37
+P99 possui >= hab que o P37
+o prof tem mais preferencia pela escola E2 do que o P37
+setando escola ideal do P99 para E2
+portanto agora o prof P37 esta com a escola ideal = null
+profs ideias da escola: E2 = P99, 
+
+
+Analisando professor P100:
+profs ideias da escola: E1 = P94, 
+E47 pode recebe-lo, pois o professor tem hab = 3 dentre as disponiveis: 2,3,
+E47 nao possui mais vagas, logo: 
+	olhando para os professor ideal: P54
+4 eh a prioridade da escola E47 que ele quer entrar
+5 eh a prioridade da escola E47 do prof P54
+P100 possui >= hab que o P54
+	olhando para os professor ideal: P93
+4 eh a prioridade da escola E47 que ele quer entrar
+4 eh a prioridade da escola E47 do prof P93
+P100 possui >= hab que o P93
+profs ideias da escola: E47 = P54, P93, 
+profs ideias da escola: E4 = P97, 
+profs ideias da escola: E50 = P33, P34, 
+profs ideias da escola: E10 = P3, P91, 
+
+

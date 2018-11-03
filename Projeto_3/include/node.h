@@ -73,7 +73,7 @@ class Escola {
         Escola() : nome("null"), vagas(-1) {
         };
 
-        Escola(string nome, vector<int> habilidadesPedidas, int vagas) {
+        Escola(string nome, vector<int> habilidadesPedidas, int vagas) : marcadores(vagas) {
             this->setNome(nome);
             this->setHabilidades(habilidadesPedidas);
             this->setVagas(vagas);
@@ -89,23 +89,49 @@ class Escola {
 
         void setHabilidades(vector<int> habilidadeRequeridas) {
             this->habilidadeRequeridas = habilidadeRequeridas;
+            this->setMarcadores();
         }
 
         void addProfessorIdeal(Professor& professorIdeal) {
             this->professoresIdeais.push_back(professorIdeal);
+            this->diminuiVagas();
+            // size_t i = 0;
+            // cout << "olhando escola " << this->getNome() << ", marcadores:\n";
+            // for (auto m : marcadores) {
+            //     cout << "hab = " << m.first << " marcada: " << m.second << "\n";
+            // }
+            // if (professorIdeal.getNome() == "null") {
+            //     this->professoresIdeais.push_back(professorIdeal);
+            // } else {
+            //     for (i = 0; i < this->marcadores.size(); i++) {
+            //         if (professorIdeal.getHabilitacoes() == this->marcadores[i].first
+            //                 && this->marcadores[i].second == false) {
+            //             this->marcadores[i].second = true;
+            //             this->professoresIdeais.push_back(professorIdeal);
+            //             this->diminuiVagas();
+            //             return;
+            //         } 
+            //     }
+            //     if (i == this->marcadores.size()) {
+            //         cout << "ja existe alguem com esta habilidade adicionado, desculpe prof" 
+            //             << professorIdeal.getNome() << "\n";
+            //     }
+            // }
+        }
+
+        void addHabilidade(int habRecuperada) {
+            this->habilidadeRequeridas.push_back(habRecuperada);
         }
 
         void removeProfessorIdeal(Professor& professorRemovido) {
             this->professoresIdeais.erase(find(this->professoresIdeais.begin(),
                 this->professoresIdeais.end(), professorRemovido));
-        }
-        
-        void diminuiVagas() {
-            this->vagas -= 1;
+            this->aumentaVagas();
         }
 
-        void aumentaVagas() {
-            this->vagas += 1;
+        void removeHabilidade(int habilidadeRemovida) {
+            this->habilidadeRequeridas.erase(find(this->habilidadeRequeridas.begin(),
+                this->habilidadeRequeridas.end(), habilidadeRemovida));
         }
 
         string getNome() const {
@@ -128,14 +154,33 @@ class Escola {
             return this->nome == lhs.getNome();
         }
 
+        bool operator==(const Escola* lhs) const {
+            return this->nome == lhs->getNome();
+        }
+
         bool operator<(const Escola& lhs) const {
             return lexicographical_compare(this->nome.begin(), this->nome.end(), lhs.getNome().begin(), lhs.getNome().end());
         }
     private:
+        void diminuiVagas() {
+            this->vagas -= 1;
+        }
+
+        void aumentaVagas() {
+            this->vagas += 1;
+        }
+
+        void setMarcadores() {
+            for (size_t i = 0; i < this->habilidadeRequeridas.size(); i++) {
+                this->marcadores[i].first = this->habilidadeRequeridas[i];
+                this->marcadores[i].second = false;
+            }
+        }
         string nome;
         int vagas;
         vector<int> habilidadeRequeridas;
         list<Professor> professoresIdeais;
+        vector<pair<int, bool>> marcadores;
 };
 
 #endif //Node_h_
