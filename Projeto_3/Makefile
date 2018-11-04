@@ -23,4 +23,4 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cc
 	$(CXX) -c $< $(INC_PATH) $(LIB_PATH) $(CPPFLAGS) $(CFLAGS) $(LINK_FLAGS) -o $@
 
 clean:
-	rm $(OBJ_DIR)/*.o $(EXE)
+	rm $(OBJ_DIR)/*.o

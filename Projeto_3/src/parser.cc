@@ -1,8 +1,11 @@
 #include "../include/parser.h"
 
-void Parser::lerProfessores(Graph& grafo) {
+void Parser::lerArquivos(Graph& grafo) {
+
+    this->setNomeDoArquivo(this->nomeDoArquivoDosProfessores);
+
     string s;
-    while (file >> s) {
+    while (this->file >> s) {
         if (s.find("//") != string::npos) {
             getline(file, s);
             continue;
@@ -14,81 +17,64 @@ void Parser::lerProfessores(Graph& grafo) {
             vector<string> escolas;
             int habilitacoesDoProfessor;
 
-            while (file >> s && s != "]fim") {
+            while (this->file >> s && s != "]fim") {
                 if (s == "vertice") {
-                    while(file >> s && s != "nome");
+                    while(this->file >> s && s != "nome");
                     file >> nomeDoProfessor;
 
-                    while(file >> s && s != "habilitacoes");
+                    while(this->file >> s && s != "habilitacoes");
                     file >> habilitacoesDoProfessor;
 
-                    Professor p(nomeDoProfessor, habilitacoesDoProfessor);
-
-                    while(file >> s && s != "interesse");
-                    vector<Escola> es;
+                    while(this->file >> s && s != "interesse");
+                    vector<string> es;
                     for (int i = 0; i < 5; i++) {
                         file >> s;
                         if (i < 4) {
                             s.erase(s.size() - 1);
                         }
-                        es.push_back(this->lerEscola(s, "ListaDasEscolas.txt"));
+
+                        es.push_back(s);
                     }
-                    p.setEscolasDeInteresse(es);
+                    Professor* p = new Professor(nomeDoProfessor, habilitacoesDoProfessor, es);
                     grafo.addProfessor(p);
                 }
             }
         }
     }
-}
 
-Escola Parser::lerEscola(string escolaBuscada, string arquivoDasEscolas) {
-    string s;
-    fstream file;
-    file.open(arquivoDasEscolas);
-    if (!file.is_open()) {
-        cout << "O arquivo " << arquivoDasEscolas << " nao foi aberto\n";
-        exit(-1);
-    }
-    
-    while (file >> s) {
+    this->setNomeDoArquivo(this->nomeDosArquivoDasEscolas);
+
+    while (this->file >> s) {
         if (s.find("//") != string::npos) {
-            getline(file, s);
+            getline(this->file, s);
             continue;
         }
         if (s == "ESCOLAS") {
-            string nomeDaEscola;
-            int habilidadesRequeridas;
-            int vagas;
-
-            while (file >> s && s != "]fim") {
+            while (this->file >> s && s != "]fim") {
                 if (s == "vertice") {
-                    while(file >> s && s != "nome");
-                    file >> s;
-                    if (s == escolaBuscada) {
-                        nomeDaEscola = s;
+                    string nomeDaEscola;
+                    while(this->file >> s && s != "nome");
+                    this->file >> nomeDaEscola;
 
-                        while(file >> s && s != "vagas");
-                        file >> vagas;
+                    int vagas;
+                    while(this->file >> s && s != "vagas");
+                    this->file >> vagas;
 
-                        while(file >> s && s != "habilidades_Requeridas");
-                        vector<int> habilidades;
-
-                        for (int i = 0; i < vagas; i++) {
-                            file >> s;
-                            if (i < vagas - 1) {
-                                s.erase(s.size() - 1);
-                            }
-                            habilidadesRequeridas = stoi(s);
-                            habilidades.push_back(habilidadesRequeridas);
+                    while(this->file >> s && s != "habilidades_Requeridas");
+                    vector<int> habilidades;
+                    int habilidadesRequeridas;
+                    for (int i = 0; i < vagas; i++) {
+                        this->file >> s;
+                        if (i < vagas - 1) {
+                            s.erase(s.size() - 1);
                         }
-                        file.close();
-
-                        return Escola(nomeDaEscola, habilidades, vagas);
+                        habilidadesRequeridas = stoi(s);
+                        habilidades.push_back(habilidadesRequeridas);
                     }
+                    Escola* escola = new Escola(nomeDaEscola, habilidades, vagas);
+                    grafo.addEscola(escola);
                 }
             }
         }
     }
-    file.close();
-    return Escola();
 }

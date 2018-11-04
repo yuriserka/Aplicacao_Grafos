@@ -5,8 +5,7 @@ int main() {
     Graph grafo = Graph();
 
     Parser *parser = new Parser();
-    parser->setNomeDoArquivo("ListaDosProfessores.txt");
-    parser->lerProfessores(grafo);
+    parser->lerArquivos(grafo);
 
     grafo.escreveProfs();
     grafo.escreveEscs();

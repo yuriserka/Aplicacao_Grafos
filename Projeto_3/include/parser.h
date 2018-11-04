@@ -17,31 +17,6 @@ class Parser {
         Parser() = default;
 
         /**
-         * @brief Construtor da classe Parser, onde a partir do nome do arquivo, o arquivo é aberto.
-         * 
-         * @param nomeDoArquivo 
-         */
-        Parser(string nomeDoArquivo) {
-            this->setNomeDoArquivo(nomeDoArquivo);
-        }
-
-        /**
-         * @brief Set the Nome Do Arquivo object
-         * 
-         * @param nomeDoArquivo 
-         */
-        void setNomeDoArquivo(string nomeDoArquivo) {
-            if (file.is_open()) {
-                this->file.close();
-            }
-            this->file.open(nomeDoArquivo);
-            if (!file.is_open()) {
-                cout << "O arquivo " << nomeDoArquivo << " nao foi aberto\n";
-                exit(-1);
-            }
-        }
-
-        /**
          * @brief Destrutor da classe Parser, no qual o arquivo é fechado antes do objeto ser destruído.
          * 
          */
@@ -54,16 +29,22 @@ class Parser {
          * 
          * @param grafo 
          */
-        void lerProfessores(Graph& grafo);
+        void lerArquivos(Graph& grafo);
 
-        /**
-         * @brief 
-         * 
-         * @param grafo 
-         */
-        Escola lerEscola(string escolaBuscada, string arquivoDasEscolas);
     private:
+        void setNomeDoArquivo(string nomeDoArquivo) {
+            if (file.is_open()) {
+                this->file.close();
+            }
+            this->file.open(nomeDoArquivo);
+            if (!file.is_open()) {
+                cout << "O arquivo " << nomeDoArquivo << " nao foi aberto\n";
+                exit(-1);
+            }
+        }
         fstream file;
+        string nomeDoArquivoDosProfessores = "ListaDosProfessores.txt";
+        string nomeDosArquivoDasEscolas = "ListaDasEscolas.txt";
 };
 
 #endif // Parser_h_

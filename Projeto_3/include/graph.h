@@ -1,27 +1,25 @@
 #ifndef Graph_h_
 #define Graph_h_
 
-#include "node.h"
+#include "escola.h"
+#include "professor.h"
 
 class Graph {
     public:
         Graph() = default;
 
-        void addAresta(Professor& p, Escola& e);
-
-        void addProfessor(Professor& p);
-
-        // void addEscola(string nome, int habilitacoes, int vagas);
+        void addProfessor(Professor* p);
+        void addEscola(Escola *e);
 
         void escreveProfs();
-        
         void escreveEscs();
 
         void Emparelhamentos();       
     private:
-        list<Professor> grafo;
-        vector<Escola> escolas;
-        void galeShapley(Escola& escolaNula);
+        void addArestas();
+        list<Professor*> professores;
+        list<Escola*> escolas;
+        void galeShapley();
 };
 
 #endif // Graph_h_
