@@ -55,9 +55,9 @@ void Graph::escreveEscs() {
 }
 
 void Graph::addArestas() {
-    for (auto professor : this->professores) {
+    for (auto& professor : this->professores) {
         for (auto escolaDeInteresse : professor->getCodigoDasEscolasDeInteresse()) {
-            for (auto e : this->escolas) {
+            for (auto& e : this->escolas) {
                 if (e->getNome() == escolaDeInteresse) {
                     professor->addEscolaDeInteresse(e);
                     break;
@@ -65,24 +65,57 @@ void Graph::addArestas() {
             }
         }
     }
+
+    // for (auto p : this->professores) {
+    //     cout << p->getNome() << " tem interesse = ";
+    //     for (auto e : p->getEscolasDeInteresse()) {
+    //         cout << e->getNome() << "; ";
+    //     }
+    //     cout << "\n";
+    // }
 }
 
 void Graph::Emparelhamentos() {
     this->addArestas();
+    Escola ei = Escola();
+    Professor pi = Professor();
+
+    for (auto& e : this->escolas) {
+        e->addProfessorIdeal(pi.getNome());
+        // cout << "escola " << e->getNome() << " tem profs ideais = ";
+        // for (auto p : e->getProfessoresIdeais()) {
+        //     cout << p << ", ";
+        // }
+        // cout << "\n";
+    }
+
+    for (auto& p : this->professores) {
+        p->setEscolaIdeal(ei.getNome());
+        // cout << "prof " << p->getNome() << " tem escola ideal = " << p->getEscolaIdeal() << "\n";
+    }
+
     this->galeShapley();
 
     // printar resultados
 
 }
 
-// void Graph::galeShapley() {
+void Graph::galeShapley() {
     
-//     while () {
-//         for (auto e : escolas)
-//     }
+    // acho q agora ta pronto pra começar
 
+    while (true) {
+        for (auto& e : this->escolas) {
+            if (e->getVagas() > 0) {
+                
+            }
+        }
 
-// }
+    }
+
+    return;
+
+}
 
 
 //     if (escolas.empty()) {

@@ -29,7 +29,7 @@ class Parser {
          * 
          * @param grafo 
          */
-        void lerArquivos(Graph& grafo);
+        void lerArquivos(Graph* grafo);
 
     private:
         void setNomeDoArquivo(string nomeDoArquivo) {

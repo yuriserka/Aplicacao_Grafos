@@ -1,28 +1,28 @@
 #ifndef Professor_h_
 #define Professor_h_
 
-class Professor;
-class Escola;
-
+// class Professor;
 #include "escola.h"
 
 class Professor {
     public:
 
-        Professor() : nome("null"), habilidade(-1) {}
+        Professor() {
+            this->nome = "null";
+            this->habilidade = -1;
+        }
 
         Professor(string nome, int habilidade, vector<string> escolas) {
             this->nome = nome;
             this->habilidade = habilidade;
             this->codigosDasEscolas = escolas;
-            this->escolaIdeal = nullptr;
         }
 
         void addEscolaDeInteresse(Escola* escola) {
             this->escolasDeInteresse.push_back(escola);
         }
 
-        void setEscolaIdeal(Escola* escolaIDeal) {
+        void setEscolaIdeal(string escolaIdeal) {
             this->escolaIdeal = escolaIdeal;
         }
 
@@ -30,7 +30,7 @@ class Professor {
             this->escolaIdeal = nullptr;
         }
 
-        Escola* getEscolaIdeal() {
+        string getEscolaIdeal() {
             return this->escolaIdeal;
         }
 
@@ -55,7 +55,7 @@ class Professor {
         vector<string> codigosDasEscolas;
         int habilidade;
         list<Escola*> escolasDeInteresse;
-        Escola* escolaIdeal;
+        string escolaIdeal;
 };
 
 #endif // Professor_h_

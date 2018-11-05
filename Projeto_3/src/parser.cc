@@ -1,6 +1,6 @@
 #include "../include/parser.h"
 
-void Parser::lerArquivos(Graph& grafo) {
+void Parser::lerArquivos(Graph* grafo) {
 
     this->setNomeDoArquivo(this->nomeDoArquivoDosProfessores);
 
@@ -36,7 +36,7 @@ void Parser::lerArquivos(Graph& grafo) {
                         es.push_back(s);
                     }
                     Professor* p = new Professor(nomeDoProfessor, habilitacoesDoProfessor, es);
-                    grafo.addProfessor(p);
+                    grafo->addProfessor(p);
                 }
             }
         }
@@ -72,7 +72,7 @@ void Parser::lerArquivos(Graph& grafo) {
                         habilidades.push_back(habilidadesRequeridas);
                     }
                     Escola* escola = new Escola(nomeDaEscola, habilidades, vagas);
-                    grafo.addEscola(escola);
+                    grafo->addEscola(escola);
                 }
             }
         }

@@ -1,7 +1,7 @@
 #ifndef Graph_h_
 #define Graph_h_
 
-#include "escola.h"
+// #include "escola.h"
 #include "professor.h"
 
 class Graph {
