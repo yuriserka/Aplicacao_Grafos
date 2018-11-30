@@ -2,13 +2,16 @@
 
 void Parser::inserirNoGrafo(Grafo& grafo) {
     string line;
-    while (file >> line) {
+    while (getline(this->file, line)) {
         if (line.find("//") != string::npos) {
             continue;
+        } else {
+            int src, dest;
+            stringstream formated(line);
+            formated >> src >> dest;
+            Vertice origem = Vertice(src);
+            Vertice destino = Vertice(dest);
+            grafo.addAresta(origem, destino);
         }
-        int src, dest;
-        file >> src;
-        file >> dest;
-        grafo.addAresta(src, dest);
     }
 }

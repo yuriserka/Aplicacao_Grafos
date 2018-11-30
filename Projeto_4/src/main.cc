@@ -3,11 +3,12 @@
 
 int main() {
     Parser* parser = new Parser("email-Eu-core.txt");
-    Grafo grafo = Grafo(1005);
+    Grafo grafo = Grafo();
 
     parser->inserirNoGrafo(grafo);
 
-    grafo.imprimeGrafo();
+    // grafo.imprimeGrafo();
+    grafo.mostraComunidades();
     
     delete parser;
     return 0;

@@ -31,7 +31,7 @@ class Parser {
         Parser(string fileName) {
             this->file.open(fileName);
             if (!file.is_open()) {
-                cout << "O arquivo nao foi aberto\n";
+                cout << "O arquivo \"" + fileName "\" nao foi aberto\n";
                 exit(EXIT_FAILURE);
             }
         }

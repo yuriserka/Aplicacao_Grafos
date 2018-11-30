@@ -1,19 +1,20 @@
 #ifndef Grafo_h_
 #define Grafo_h_
 
-#include <bits/stdc++.h>
-
-using namespace std;
+#include "vertice.h"
 
 class Grafo {
     public:
         Grafo() = default;
-        Grafo(int quantidadeDeNohs) : grafo(quantidadeDeNohs) {}
 
-        void addAresta(int origem, int destino);
+        void addAresta(Vertice& origem, Vertice& destino);
         void imprimeGrafo();
+        void mostraComunidades();
     private:
-        vector<vector<int>> grafo;
+        void computaComunidades();
+        vector<Vertice> grafo;
+        vector<vector<int>> comunidades;
+        map<Vertice, double> intermediacoes;
 };
 
 #endif // Grafo_h_
