@@ -64,12 +64,15 @@ void Grafo::mostraComunidades() {
 
 map<int, double> Grafo::betweenness() {
     map<int, double> Cb;
-
+    
+    for (size_t i = 0; i < this->grafo.size(); ++i) {
+        Cb[this->grafo[i].getId()] = 0.0;
+    }
+    
     for (auto s : this->grafo) {
         stack<int> S;
         map<int, int> d, sig;
         map<int, vector<int>> P;
-        
         for (size_t i = 0; i < this->grafo.size(); ++i) {
             d[this->grafo[i].getId()] = -1.0;
             sig[this->grafo[i].getId()] = 0.0;
@@ -78,10 +81,11 @@ map<int, double> Grafo::betweenness() {
         d[s.getId()] = 0;
         sig[s.getId()] = 1;
 
-        for (size_t i = 0; i < this->grafo.size(); ++i) {
-            cout << "[" << this->grafo[i].getId() << "]: d = " << d[this->grafo[i].getId()] << ", sig = "
-                << sig[this->grafo[i].getId()] << "\n";
-        }
+        // for (size_t i = 0; i < this->grafo.size(); ++i) {
+        //     cout << "[" << this->grafo[i].getId() << "]: d = " << d[this->grafo[i].getId()] << ", sig = "
+        //         << sig[this->grafo[i].getId()] << "\n";
+        // }
+        // cout << "fim dessa it\n\n";
 
         queue<Vertice> Q;
 
@@ -94,7 +98,7 @@ map<int, double> Grafo::betweenness() {
             for (auto w : v.getAdjacentes()) {
                 if (d[w.getId()] < 0) {
                     Q.push(w);
-                    d[w.getId()] += 1;
+                    d[w.getId()] = d[v.getId()] + 1;
                 }
                 if (d[w.getId()] == d[v.getId()] + 1) {
                     sig[w.getId()] += sig[v.getId()];
@@ -103,20 +107,28 @@ map<int, double> Grafo::betweenness() {
             }
         }
 
-        map<Vertice, int> sigmao;
+        map<int, int> sigmao;
         for (size_t i = 0; i < this->grafo.size(); ++i) {
-            sigmao[this->grafo[i]] = 0;
+            sigmao[this->grafo[i].getId()] = 0;
         }
+
+        // aqui é de fato o algorimo mais otimizado para calcular o betweeness
+        // sig[v] é na vdd o caminho entre (s, v) e sig[w] é (s, w).
         while (!S.empty()) {
             auto w = S.top();
             S.pop();
             for (auto v : P[w]) {
-                sigmao[v] += (sig[v] / sig[w]) * (1 + sigmao[w]);
+                sigmao[v] += ((sig[v] / sig[w]) * (1 + sigmao[w]));
             }
             if (w != s.getId()) {
                 Cb[w] += sigmao[w];
             }
         }
+
+        for (size_t i = 0; i < Cb.size(); ++i) {
+            cout << Cb[i] << ", ";
+        }
+        cout << "fim da impressao do cb\n\n";
     }
 
     return Cb;

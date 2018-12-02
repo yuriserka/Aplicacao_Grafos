@@ -29,7 +29,10 @@ class Grafo {
          * 
          * 
          * Esse algoritmo é baseado do pseudo-código
-         * deste pdf: http://wiki.icmc.usp.br/images/9/90/GrafoT4.pdf
+         * deste artigo: http://www.algo.uni-konstanz.de/publications/b-fabc-01.pdf
+         * 
+         * no link abaixo há um exemplo para que possamos verificar em um grafo menor:
+         * http://wiki.icmc.usp.br/images/9/90/GrafoT4.pdf
          * 
          * @return map<Vertice, int> 
          */
