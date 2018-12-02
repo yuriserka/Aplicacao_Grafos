@@ -28,6 +28,9 @@ class Vertice {
         bool operator==(const Vertice& rhs) const {
             return this->id == rhs.getId();
         }
+        bool operator!=(const Vertice& rhs) const {
+            return this->id != rhs.getId();
+        }
         bool operator>(const Vertice& rhs) const {
             return this->id >= rhs.getId();
         }
