@@ -1,4 +1,13 @@
 {
 	"comunidades": [
+		{
+			"tamanho": 4, 
+			"elementos": [
+				1,
+				156,
+				10,
+				4
+			]
+		}
 	]
 }

@@ -1,7 +1,7 @@
 #ifndef Grafo_h_
 #define Grafo_h_
 
-#include "vertice.h"
+#include "comunidade.h"
 
 class Grafo {
     public:
@@ -48,11 +48,9 @@ class Grafo {
          */
         double betweenness(Vertice& vertice);
 
-        /**
-         * @brief talvez valha a pena tentar entender esse daqui tambem...
-         * 
-         */
-        void algoritmoDeBrandes();
+        void addComunidade(Comunidade& comunidade) {
+            this->comunidades.push_back(comunidade);
+        }
     private:
         /**
          * @brief aqui ta o link do artigo que descreve o algoritmo para achar comunidades.
@@ -60,7 +58,7 @@ class Grafo {
          */
         void computaComunidades();
         vector<Vertice> grafo;
-        vector<vector<int>> comunidades;
+        vector<Comunidade> comunidades;
         map<Vertice, double> intermediacoes;
 };
 

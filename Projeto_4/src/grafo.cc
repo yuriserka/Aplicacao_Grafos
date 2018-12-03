@@ -40,11 +40,11 @@ void Grafo::mostraComunidades() {
     for (size_t k = 0; k < this->comunidades.size(); ++k) {
         auto comunidade = this->comunidades[k];
         output << "\t\t{\n";
-        output << "\t\t\t\"tamanho\": " << comunidade.size() << ", \n";
+        output << "\t\t\t\"tamanho\": " << comunidade.getVertices().size() << ", \n";
         output << "\t\t\t\"elementos\": [\n";
-        for (size_t i = 0; i < comunidade.size(); ++i) {
-            output << "\t\t\t\t" << comunidade[i];
-            if (i < (comunidade.size() - 1)) {
+        for (size_t i = 0; i < comunidade.getVertices().size(); ++i) {
+            output << "\t\t\t\t" << comunidade.getVertices()[i].getId();
+            if (i < (comunidade.getVertices().size() - 1)) {
                 output << ",";
             }
             output << "\n";
@@ -107,7 +107,7 @@ map<int, double> Grafo::betweenness() {
             }
         }
 
-        map<int, int> sigmao;
+        map<int, double> sigmao;
         for (size_t i = 0; i < this->grafo.size(); ++i) {
             sigmao[this->grafo[i].getId()] = 0;
         }

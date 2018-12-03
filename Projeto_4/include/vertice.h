@@ -21,6 +21,14 @@ class Vertice {
             return this->adjacentes;
         }
 
+        void setComunidade(string IdDaComunidade) {
+            this->comunidade = IdDaComunidade;
+        }
+
+        string getComunidade() {
+            return this->comunidade;
+        }
+
         int getId() const {
             return this->id;
         }
@@ -32,14 +40,15 @@ class Vertice {
             return this->id != rhs.getId();
         }
         bool operator>(const Vertice& rhs) const {
-            return this->id >= rhs.getId();
+            return this->id > rhs.getId();
         }
         bool operator<(const Vertice& rhs) const {
-            return this->id <= rhs.getId();
+            return this->id < rhs.getId();
         }
     private:
         int id;
         vector<Vertice> adjacentes;
+        string comunidade = "null";
 };
 
 #endif // Vertice_h_
