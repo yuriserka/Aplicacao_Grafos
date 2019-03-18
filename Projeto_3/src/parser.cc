@@ -1,10 +1,11 @@
 #include "../include/parser.h"
 
-void Parser::lerArquivos(Graph* grafo) {
+using namespace std;
 
+void Parser::lerArquivos(Grafo* grafo) {
     this->setNomeDoArquivo(this->nomeDoArquivoDosProfessores);
-
     string s;
+
     while (this->file >> s) {
         if (s.find("//") != string::npos) {
             getline(file, s);
@@ -35,7 +36,8 @@ void Parser::lerArquivos(Graph* grafo) {
 
                         es.push_back(s);
                     }
-                    Professor* p = new Professor(nomeDoProfessor, habilitacoesDoProfessor, es);
+                    auto p = Professor(nomeDoProfessor, habilitacoesDoProfessor,
+                                       es);
                     grafo->addProfessor(p);
                 }
             }
@@ -71,7 +73,7 @@ void Parser::lerArquivos(Graph* grafo) {
                         habilidadesRequeridas = stoi(s);
                         habilidades.push_back(habilidadesRequeridas);
                     }
-                    Escola* escola = new Escola(nomeDaEscola, habilidades, vagas);
+                    auto escola = Escola(nomeDaEscola, vagas, habilidades);
                     grafo->addEscola(escola);
                 }
             }

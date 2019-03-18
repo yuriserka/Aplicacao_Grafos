@@ -1,61 +1,20 @@
 #ifndef Professor_h_
 #define Professor_h_
 
-// class Professor;
-#include "escola.h"
+#include <string>
+#include <vector>
 
-class Professor {
-    public:
+struct Professor {
+    std::string nome_;
+    int habilidade_;
+    std::vector<std::string> escolas_de_interesse_;
 
-        Professor() {
-            this->nome = "null";
-            this->habilidade = -1;
-        }
-
-        Professor(string nome, int habilidade, vector<string> escolas) {
-            this->nome = nome;
-            this->habilidade = habilidade;
-            this->codigosDasEscolas = escolas;
-        }
-
-        void addEscolaDeInteresse(Escola* escola) {
-            this->escolasDeInteresse.push_back(escola);
-        }
-
-        void setEscolaIdeal(string escolaIdeal) {
-            this->escolaIdeal = escolaIdeal;
-        }
-
-        void removeEscolaIdeal() {
-            this->escolaIdeal = nullptr;
-        }
-
-        string getEscolaIdeal() {
-            return this->escolaIdeal;
-        }
-
-        vector<string> getCodigoDasEscolasDeInteresse() {
-            return this->codigosDasEscolas;
-        }
-
-        list<Escola*> getEscolasDeInteresse() {
-            return this->escolasDeInteresse;
-        }
-
-        string getNome() {
-            return this->nome;
-        }
-
-        int getHabilidade() {
-            return this->habilidade;
-        }
-
-    private:
-        string nome;
-        vector<string> codigosDasEscolas;
-        int habilidade;
-        list<Escola*> escolasDeInteresse;
-        string escolaIdeal;
+    Professor(const std::string &nome, const int &habilidade, 
+              const std::vector<std::string> &escolas_de_interesse) {
+        this->nome_ = nome;
+        this->habilidade_ = habilidade;
+        this->escolas_de_interesse_ = escolas_de_interesse;
+    }
 };
 
-#endif // Professor_h_
+#endif

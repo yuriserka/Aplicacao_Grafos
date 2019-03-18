@@ -1,18 +1,17 @@
-#include "../include/graph.h"
+#include "../include/grafo.h"
 #include "../include/parser.h"
 
 int main() {
-    Graph* grafo = new Graph();
+    auto grafo = new Grafo();
+    auto parser = new Parser();
 
-    Parser *parser = new Parser();
     parser->lerArquivos(grafo);
-
-    grafo->escreveProfs();
-    grafo->escreveEscs();
     
-    grafo->Emparelhamentos();
+    grafo->galeShapley();
+    grafo->print();
 
     delete parser;
     delete grafo;
+
     return 0;
 }

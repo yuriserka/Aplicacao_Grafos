@@ -1,99 +1,29 @@
 #ifndef Escola_h_
 #define Escola_h_
 
-#include <bits/stdc++.h>
-using namespace std;
+#include <string>
+#include <vector>
+#include <iostream>
 
-// #include "professor.h"
+struct Escola {
+    std::string nome_;
+    int quantidade_de_vagas_;
+    std::vector<int> habilidades_requerida_;
+    std::vector<std::string> professores_;
 
-class Escola {
-    public:
+    Escola(const std::string &nome, const int &quantidade_de_vagas,
+           const std::vector<int> &habilidades_requerida) {
+        this->nome_ = nome;
+        this->quantidade_de_vagas_ = quantidade_de_vagas;
+        this->habilidades_requerida_ = habilidades_requerida;
 
-        Escola() {
-            this->nome = "null";
-            this->vagas = -1;
-        }
+        this->professores_.resize(quantidade_de_vagas);
+    }
 
-        Escola(string nome, vector<int> habs, int vagas) {
-            this->nome = nome;
-            this->habilidadesRequeridas = habs;
-            this->vagas = vagas;
-        }
-
-        void addProfessorIdeal(string professorIdeal) {
-            this->professoresIdeais.push_back(professorIdeal);
-            this->vagas--;
-            
-            // if (this->habilidadesRequeridas.size() > 1) {
-            //     if (this->habilidadesRequeridas[0] == this->habilidadesRequeridas[1]) {
-            //         if (this->habilidadesRequeridas[0] == false) {
-            //             this->marcador[0].second = true;
-            //             this->marcador[0].first = professor->getHabilidade();
-            //         } else {
-            //             this->marcador[1].second = true;
-            //             this->marcador[1].first = professor->getHabilidade();
-            //         }
-            //     } else {
-            //         for (size_t i = 0; i < this->habilidadesRequeridas.size(); i++) {
-            //             if (professor->getHabilidade() >= this->habilidadesRequeridas[i]) {
-            //                 this->marcador[i].first = professor->getHabilidade();
-            //                 this->marcador[i].second = true;
-            //             }
-            //         }
-            //     }
-            // } else {
-            //     this->marcador.front().second = true;
-            //     this->marcador.front().first = professor->getHabilidade();
-            // }
-        }
-
-        void removerProfessorIdeal(string professorRemovido) {
-            this->professoresIdeais.erase(find(this->professoresIdeais.begin(),
-                this->professoresIdeais.end(), professorRemovido));
-            this->vagas++;
-
-            // if (this->habilidadesRequeridas.size() > 1) {
-            //     if (this->habilidadesRequeridas[0] == this->habilidadesRequeridas[1]) {
-            //         if (this->habilidadesRequeridas[0] == true) {
-            //             this->marcador[0].second = false;
-            //         } else {
-            //             this->marcador[1].second = false;
-            //         }
-            //     } else {
-            //         for (size_t i = 0; i < this->habilidadesRequeridas.size(); i++) {
-            //             if (professor->getHabilidade() == this->habilidadesRequeridas[i]) {
-            //                 this->marcador[i].second = true;
-            //             }
-            //         }
-            //     }
-            // } else {
-            //     this->marcador.front().second = false;
-            //     this->marcador.front().first = 0;
-            // }
-        }
-
-        int getVagas() const {
-            return this->vagas;
-        }
-
-        string getNome() const {
-            return this->nome;
-        }
-
-        vector<int> getHabilidadesRequeridas() const {
-            return this->habilidadesRequeridas;
-        }
-
-        vector<string> getProfessoresIdeais() {
-            return this->professoresIdeais;
-        }
-
-    private:
-        vector<string> professoresIdeais;
-        string nome;
-        int vagas;
-        vector<int> habilidadesRequeridas;
-        // vector<pair<int, bool>> marcador;
+    void addProfessorOfPreference(const std::string &professor,
+                                  const int &pref_pos) {
+        this->professores_[pref_pos] = professor;
+    }
 };
 
-#endif // Escola_h_
+#endif

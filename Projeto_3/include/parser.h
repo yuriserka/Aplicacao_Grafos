@@ -1,7 +1,11 @@
 #ifndef Parser_h_
 #define Parser_h_
 
-#include "graph.h"
+#include <fstream>
+#include <string>
+#include <iostream>
+
+#include "grafo.h"
 
 /**
  * @brief esta classe é responsável por tratar o arquivo que irá conter o fluxo do curso, ou seja, fará a conversão do 
@@ -29,22 +33,22 @@ class Parser {
          * 
          * @param grafo 
          */
-        void lerArquivos(Graph* grafo);
+        void lerArquivos(Grafo* grafo);
 
     private:
-        void setNomeDoArquivo(string nomeDoArquivo) {
+        void setNomeDoArquivo(const std::string &nomeDoArquivo) {
             if (file.is_open()) {
                 this->file.close();
             }
             this->file.open(nomeDoArquivo);
             if (!file.is_open()) {
-                cout << "O arquivo " << nomeDoArquivo << " nao foi aberto\n";
+                std::cout << "O arquivo " + nomeDoArquivo + " nao foi aberto\n";
                 exit(-1);
             }
         }
-        fstream file;
-        string nomeDoArquivoDosProfessores = "ListaDosProfessores.txt";
-        string nomeDosArquivoDasEscolas = "ListaDasEscolas.txt";
+        std::fstream file;
+        const std::string nomeDoArquivoDosProfessores = "ListaDosProfessores.txt";
+        const std::string nomeDosArquivoDasEscolas = "ListaDasEscolas.txt";
 };
 
 #endif // Parser_h_
